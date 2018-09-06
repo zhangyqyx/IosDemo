@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
+		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
+		F76489882140116A0020F56C /* UIColor+ZYQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F76489872140116A0020F56C /* UIColor+ZYQColor.m */; };
+		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
+		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
+		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
+		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
+		F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2232212F040700881809 /* LaunchScreen.storyboard */; };
+		F7DC2237212F040700881809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2236212F040700881809 /* main.m */; };
+		F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2243212F071500881809 /* ZYQBaseController.m */; };
+		F7DC224C212F082F00881809 /* ZYQHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC224B212F082F00881809 /* ZYQHomeController.m */; };
+		F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC224E212F084800881809 /* ZYQHomeModel.m */; };
+		F7DC2253212F094000881809 /* ZYQNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2252212F094000881809 /* ZYQNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		F764898321400F6B0020F56C /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		F764898421400F760020F56C /* ZYQGlobalColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQGlobalColor.h; sourceTree = "<group>"; };
+		F76489862140116A0020F56C /* UIColor+ZYQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYQColor.h"; sourceTree = "<group>"; };
+		F76489872140116A0020F56C /* UIColor+ZYQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQColor.m"; sourceTree = "<group>"; };
+		F764898A214019FA0020F56C /* ZYQCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryViewController.h; sourceTree = "<group>"; };
+		F764898B214019FA0020F56C /* ZYQCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryViewController.m; sourceTree = "<group>"; };
+		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7DC222E212F040600881809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7DC2230212F040700881809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DC2233212F040700881809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7DC2235212F040700881809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DC2236212F040700881809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7DC2242212F071500881809 /* ZYQBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBaseController.h; sourceTree = "<group>"; };
+		F7DC2243212F071500881809 /* ZYQBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBaseController.m; sourceTree = "<group>"; };
+		F7DC224A212F082F00881809 /* ZYQHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeController.h; sourceTree = "<group>"; };
+		F7DC224B212F082F00881809 /* ZYQHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeController.m; sourceTree = "<group>"; };
+		F7DC224D212F084800881809 /* ZYQHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeModel.h; sourceTree = "<group>"; };
+		F7DC224E212F084800881809 /* ZYQHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeModel.m; sourceTree = "<group>"; };
+		F7DC2251212F094000881809 /* ZYQNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQNavController.h; sourceTree = "<group>"; };
+		F7DC2252212F094000881809 /* ZYQNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQNavController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7DC2221212F040500881809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F764897B214009160020F56C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */,
+				F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */,
+				F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F764898121400EE50020F56C /* macro */ = {
+			isa = PBXGroup;
+			children = (
+				F764898421400F760020F56C /* ZYQGlobalColor.h */,
+				F764898321400F6B0020F56C /* MacroDefinition.h */,
+			);
+			path = macro;
+			sourceTree = "<group>";
+		};
+		F764898221400F040020F56C /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				F76489852140116A0020F56C /* Color */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		F76489852140116A0020F56C /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F76489862140116A0020F56C /* UIColor+ZYQColor.h */,
+				F76489872140116A0020F56C /* UIColor+ZYQColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		F7648989214019D30020F56C /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F764898E21401A190020F56C /* controller */,
+				F764898D214019FF0020F56C /* model */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F764898D214019FF0020F56C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F764898E21401A190020F56C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F764898A214019FA0020F56C /* ZYQCategoryViewController.h */,
+				F764898B214019FA0020F56C /* ZYQCategoryViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7DC221B212F040500881809 = {
+			isa = PBXGroup;
+			children = (
+				F7DC2226212F040600881809 /* Demo */,
+				F7DC2225212F040600881809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7DC2225212F040600881809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2224212F040600881809 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7DC2226212F040600881809 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F764898221400F040020F56C /* categories */,
+				F764898121400EE50020F56C /* macro */,
+				F7DC2246212F079300881809 /* module */,
+				F7DC2245212F076F00881809 /* resources */,
+				F7DC2240212F06BE00881809 /* general */,
+				F7DC223F212F069B00881809 /* libs */,
+				F7DC223D212F061900881809 /* other */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F7DC223D212F061900881809 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2227212F040600881809 /* AppDelegate.h */,
+				F7DC2228212F040600881809 /* AppDelegate.m */,
+				F7DC222D212F040600881809 /* Main.storyboard */,
+				F7DC2230212F040700881809 /* Assets.xcassets */,
+				F7DC2232212F040700881809 /* LaunchScreen.storyboard */,
+				F7DC2235212F040700881809 /* Info.plist */,
+				F7DC2236212F040700881809 /* main.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		F7DC223F212F069B00881809 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F7DC2240212F06BE00881809 /* general */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2250212F091D00881809 /* nav */,
+				F7DC2241212F06DA00881809 /* base */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
+		F7DC2241212F06DA00881809 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2242212F071500881809 /* ZYQBaseController.h */,
+				F7DC2243212F071500881809 /* ZYQBaseController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		F7DC2245212F076F00881809 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F7DC2246212F079300881809 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				F7648989214019D30020F56C /* category */,
+				F7DC2247212F07B400881809 /* home */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		F7DC2247212F07B400881809 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				F764897B214009160020F56C /* view */,
+				F7DC2249212F07CB00881809 /* model */,
+				F7DC2248212F07C200881809 /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		F7DC2248212F07C200881809 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC224A212F082F00881809 /* ZYQHomeController.h */,
+				F7DC224B212F082F00881809 /* ZYQHomeController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7DC2249212F07CB00881809 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC224D212F084800881809 /* ZYQHomeModel.h */,
+				F7DC224E212F084800881809 /* ZYQHomeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7DC2250212F091D00881809 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2251212F094000881809 /* ZYQNavController.h */,
+				F7DC2252212F094000881809 /* ZYQNavController.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7DC2223212F040500881809 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DC223A212F040700881809 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				F7DC2220212F040500881809 /* Sources */,
+				F7DC2221212F040500881809 /* Frameworks */,
+				F7DC2222212F040500881809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = F7DC2224212F040600881809 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7DC221C212F040500881809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYQ;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "༺ོ࿆强ོ࿆ ༻";
+				TargetAttributes = {
+					F7DC2223212F040500881809 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F7DC221F212F040500881809 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7DC221B212F040500881809;
+			productRefGroup = F7DC2225212F040600881809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7DC2223212F040500881809 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7DC2222212F040500881809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
+				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
+				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
+				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7DC2220212F040500881809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DC224C212F082F00881809 /* ZYQHomeController.m in Sources */,
+				F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */,
+				F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */,
+				F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */,
+				F7DC2237212F040700881809 /* main.m in Sources */,
+				F76489882140116A0020F56C /* UIColor+ZYQColor.m in Sources */,
+				F7DC2253212F094000881809 /* ZYQNavController.m in Sources */,
+				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
+				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7DC222D212F040600881809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DC222E212F040600881809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7DC2232212F040700881809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DC2233212F040700881809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7DC2238212F040700881809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7DC2239212F040700881809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7DC223B212F040700881809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TF.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F7DC223C212F040700881809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48J8UJB93W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TF.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7DC221F212F040500881809 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DC2238212F040700881809 /* Debug */,
+				F7DC2239212F040700881809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DC223A212F040700881809 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DC223B212F040700881809 /* Debug */,
+				F7DC223C212F040700881809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7DC221C212F040500881809 /* Project object */;
+}
