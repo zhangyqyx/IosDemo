@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYQImageViewController">
+            <connections>
+                <outlet property="showImageView" destination="auq-zm-B6E" id="OeA-TZ-de2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXC-1E-it8">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="auq-zm-B6E">
+                            <rect key="frame" x="0.0" y="367" width="375" height="300"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="4KH-64-eDM"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-D7-WeO">
+                            <rect key="frame" x="10" y="5" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="D2b-hj-r9k"/>
+                            </constraints>
+                            <state key="normal" title="获取一个点的色值">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getColor:" destination="-1" eventType="touchUpInside" id="RrP-Tl-OI0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjI-q6-vca">
+                            <rect key="frame" x="10" y="40" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="yhm-YI-LAp"/>
+                            </constraints>
+                            <state key="normal" title="生成指定颜色的图片">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="colorConvertImage:" destination="-1" eventType="touchUpInside" id="mA1-JK-yQa"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM3-XN-gZK">
+                            <rect key="frame" x="10" y="75" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Aqm-Vd-nAx"/>
+                            </constraints>
+                            <state key="normal" title="获得一张水印图片">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getWaterImage:" destination="-1" eventType="touchUpInside" id="ygd-O1-8uQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSk-0J-zoP">
+                            <rect key="frame" x="10" y="110" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="tI9-l5-rbt"/>
+                            </constraints>
+                            <state key="normal" title="裁剪为圆形图片">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cutRoundImage:" destination="-1" eventType="touchUpInside" id="xf5-Jl-L1N"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXb-3i-JOT">
+                            <rect key="frame" x="10" y="145" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="umr-hK-G4g"/>
+                            </constraints>
+                            <state key="normal" title="将一张图片变模糊">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="blurImage:" destination="-1" eventType="touchUpInside" id="SQc-xB-xVg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfL-UP-Hmw">
+                            <rect key="frame" x="10" y="215" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Tho-mb-5UJ"/>
+                            </constraints>
+                            <state key="normal" title="裁剪图片">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cutImage:" destination="-1" eventType="touchUpInside" id="jZO-rX-PlB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKb-Rn-KGE">
+                            <rect key="frame" x="10" y="180" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="vrS-sY-xOm"/>
+                            </constraints>
+                            <state key="normal" title="添加毛玻璃效果">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="addBlurVisualEffect:" destination="-1" eventType="touchUpInside" id="vn7-Zs-in4"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.00075468510660000004" green="0.26578292939999998" blue="0.001170962657" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PM3-XN-gZK" secondAttribute="trailing" constant="10" id="0L1-J8-27c"/>
+                        <constraint firstItem="DfL-UP-Hmw" firstAttribute="top" secondItem="RKb-Rn-KGE" secondAttribute="bottom" constant="5" id="3mG-zy-45M"/>
+                        <constraint firstItem="xSk-0J-zoP" firstAttribute="top" secondItem="PM3-XN-gZK" secondAttribute="bottom" constant="5" id="7df-5Y-Uwi"/>
+                        <constraint firstAttribute="bottom" secondItem="auq-zm-B6E" secondAttribute="bottom" id="A4b-PW-IOY"/>
+                        <constraint firstItem="wjI-q6-vca" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="ACU-Vz-bce"/>
+                        <constraint firstAttribute="trailing" secondItem="LXb-3i-JOT" secondAttribute="trailing" constant="10" id="AX6-48-xUI"/>
+                        <constraint firstItem="PM3-XN-gZK" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="BWb-qf-asC"/>
+                        <constraint firstItem="wjI-q6-vca" firstAttribute="top" secondItem="1Ij-D7-WeO" secondAttribute="bottom" constant="5" id="IKK-cf-gqA"/>
+                        <constraint firstItem="RKb-Rn-KGE" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="KWH-LQ-Wci"/>
+                        <constraint firstAttribute="trailing" secondItem="DfL-UP-Hmw" secondAttribute="trailing" constant="10" id="PHT-cY-OyI"/>
+                        <constraint firstAttribute="trailing" secondItem="RKb-Rn-KGE" secondAttribute="trailing" constant="10" id="QcI-be-869"/>
+                        <constraint firstItem="1Ij-D7-WeO" firstAttribute="top" secondItem="kXC-1E-it8" secondAttribute="top" constant="5" id="SVx-bm-jHG"/>
+                        <constraint firstAttribute="trailing" secondItem="xSk-0J-zoP" secondAttribute="trailing" constant="10" id="Sn2-Yl-d1K"/>
+                        <constraint firstItem="1Ij-D7-WeO" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="UFh-uz-6D8"/>
+                        <constraint firstItem="LXb-3i-JOT" firstAttribute="top" secondItem="xSk-0J-zoP" secondAttribute="bottom" constant="5" id="aeF-pX-Dnx"/>
+                        <constraint firstAttribute="trailing" secondItem="wjI-q6-vca" secondAttribute="trailing" constant="10" id="dlR-RB-B1n"/>
+                        <constraint firstItem="DfL-UP-Hmw" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="h4o-k3-Wh3"/>
+                        <constraint firstItem="auq-zm-B6E" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" id="lsC-a0-X6G"/>
+                        <constraint firstItem="PM3-XN-gZK" firstAttribute="top" secondItem="wjI-q6-vca" secondAttribute="bottom" constant="5" id="nCu-Ww-ed2"/>
+                        <constraint firstItem="RKb-Rn-KGE" firstAttribute="top" secondItem="LXb-3i-JOT" secondAttribute="bottom" constant="5" id="nZH-7Q-Utz"/>
+                        <constraint firstAttribute="trailing" secondItem="1Ij-D7-WeO" secondAttribute="trailing" constant="10" id="sTl-WH-vke"/>
+                        <constraint firstAttribute="trailing" secondItem="auq-zm-B6E" secondAttribute="trailing" id="vlA-n6-a0G"/>
+                        <constraint firstItem="LXb-3i-JOT" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="wUI-iL-5lO"/>
+                        <constraint firstItem="xSk-0J-zoP" firstAttribute="leading" secondItem="kXC-1E-it8" secondAttribute="leading" constant="10" id="yOx-IG-Xif"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kXC-1E-it8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6De-Cl-pT2"/>
+                <constraint firstAttribute="bottom" secondItem="kXC-1E-it8" secondAttribute="bottom" id="LQo-3S-ZCr"/>
+                <constraint firstItem="kXC-1E-it8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ukc-8K-BNh"/>
+                <constraint firstAttribute="trailing" secondItem="kXC-1E-it8" secondAttribute="trailing" id="eiB-Nc-WIm"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="410" height="300"/>
+    </resources>
+</document>

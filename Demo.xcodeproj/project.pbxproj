@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F735457F2146B3AE006A3136 /* ZYQCategoryModel.m */; };
+		F73545852146B68E006A3136 /* ZYQCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F73545832146B68E006A3136 /* ZYQCategoryCell.m */; };
+		F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73545842146B68E006A3136 /* ZYQCategoryCell.xib */; };
+		F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73545882146BC3D006A3136 /* ZYQImageViewController.m */; };
+		F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73545892146BC3D006A3136 /* ZYQImageViewController.xib */; };
+		F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = F735458F2146BC70006A3136 /* UIImage+ZYQFunction.m */; };
+		F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */; };
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F76489882140116A0020F56C /* UIColor+ZYQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F76489872140116A0020F56C /* UIColor+ZYQColor.m */; };
@@ -23,6 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F735457E2146B3AE006A3136 /* ZYQCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryModel.h; sourceTree = "<group>"; };
+		F735457F2146B3AE006A3136 /* ZYQCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryModel.m; sourceTree = "<group>"; };
+		F73545822146B68E006A3136 /* ZYQCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryCell.h; sourceTree = "<group>"; };
+		F73545832146B68E006A3136 /* ZYQCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryCell.m; sourceTree = "<group>"; };
+		F73545842146B68E006A3136 /* ZYQCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQCategoryCell.xib; sourceTree = "<group>"; };
+		F73545882146BC3D006A3136 /* ZYQImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQImageViewController.m; sourceTree = "<group>"; };
+		F73545892146BC3D006A3136 /* ZYQImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQImageViewController.xib; sourceTree = "<group>"; };
+		F735458A2146BC3D006A3136 /* ZYQImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQImageViewController.h; sourceTree = "<group>"; };
+		F735458E2146BC6F006A3136 /* UIImage+ZYQFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYQFunction.h"; sourceTree = "<group>"; };
+		F735458F2146BC70006A3136 /* UIImage+ZYQFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYQFunction.m"; sourceTree = "<group>"; };
+		F73545922146BE49006A3136 /* UIView+ZYQSetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYQSetSize.h"; sourceTree = "<group>"; };
+		F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYQSetSize.m"; sourceTree = "<group>"; };
 		F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQHomeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -61,6 +80,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F735457C2146B298006A3136 /* packaging */ = {
+			isa = PBXGroup;
+			children = (
+				F735457D2146B2AC006A3136 /* categories */,
+			);
+			path = packaging;
+			sourceTree = "<group>";
+		};
+		F735457D2146B2AC006A3136 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				F73545912146BE49006A3136 /* view */,
+				F735458D2146BC49006A3136 /* image */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		F73545812146B4D6006A3136 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F73545822146B68E006A3136 /* ZYQCategoryCell.h */,
+				F73545832146B68E006A3136 /* ZYQCategoryCell.m */,
+				F73545842146B68E006A3136 /* ZYQCategoryCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F73545872146BC22006A3136 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F735458A2146BC3D006A3136 /* ZYQImageViewController.h */,
+				F73545882146BC3D006A3136 /* ZYQImageViewController.m */,
+				F73545892146BC3D006A3136 /* ZYQImageViewController.xib */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F735458D2146BC49006A3136 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F735458E2146BC6F006A3136 /* UIImage+ZYQFunction.h */,
+				F735458F2146BC70006A3136 /* UIImage+ZYQFunction.m */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F73545912146BE49006A3136 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F73545922146BE49006A3136 /* UIView+ZYQSetSize.h */,
+				F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		F764897B214009160020F56C /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				F764898E21401A190020F56C /* controller */,
+				F73545812146B4D6006A3136 /* view */,
 				F764898D214019FF0020F56C /* model */,
 			);
 			path = category;
@@ -109,6 +184,8 @@
 		F764898D214019FF0020F56C /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F735457E2146B3AE006A3136 /* ZYQCategoryModel.h */,
+				F735457F2146B3AE006A3136 /* ZYQCategoryModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -116,6 +193,7 @@
 		F764898E21401A190020F56C /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F73545872146BC22006A3136 /* image */,
 				F764898A214019FA0020F56C /* ZYQCategoryViewController.h */,
 				F764898B214019FA0020F56C /* ZYQCategoryViewController.m */,
 			);
@@ -169,6 +247,7 @@
 		F7DC223F212F069B00881809 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				F735457C2146B298006A3136 /* packaging */,
 			);
 			path = libs;
 			sourceTree = "<group>";
@@ -304,6 +383,8 @@
 			files = (
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
+				F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */,
+				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
 			);
@@ -316,15 +397,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */,
 				F7DC224C212F082F00881809 /* ZYQHomeController.m in Sources */,
 				F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */,
 				F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */,
 				F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */,
+				F73545852146B68E006A3136 /* ZYQCategoryCell.m in Sources */,
+				F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */,
 				F7DC2237212F040700881809 /* main.m in Sources */,
 				F76489882140116A0020F56C /* UIColor+ZYQColor.m in Sources */,
 				F7DC2253212F094000881809 /* ZYQNavController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
+				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
+				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
