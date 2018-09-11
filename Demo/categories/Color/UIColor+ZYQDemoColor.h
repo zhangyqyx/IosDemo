@@ -1,5 +1,5 @@
 //
-//  UIColor+ZYQColor.h
+//  UIColor+ZYQDemoColor.h
 //  Demo
 //
 //  Created by ༺ོ࿆强ོ࿆ ༻ on 2018/9/5.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (ZYQColor)
+@interface UIColor (ZYQDemoColor)
 /**
  十六进制的颜色
  @param hex 十六进制的颜色值

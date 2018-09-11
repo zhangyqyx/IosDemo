@@ -58,6 +58,7 @@
     UIView *backgroundViews = [[UIView alloc]initWithFrame:cell.frame];
     backgroundViews.backgroundColor = [UIColor ZYQ_randomColor];
     [cell setSelectedBackgroundView:backgroundViews];
+    cell.backgroundColor = kNavColor;
     ZYQCategoryModel *model = self.dataSource[indexPath.row];
     cell.titleLabel.text = model.titleName;
     cell.introductionLabel.text = model.introduction;

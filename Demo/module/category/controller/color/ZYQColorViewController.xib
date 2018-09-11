@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYQColorViewController">
+            <connections>
+                <outlet property="showColorView" destination="fdr-Ti-SYH" id="N8G-WJ-tiZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N37-Az-EVk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qah-4u-dtZ">
+                            <rect key="frame" x="10" y="5" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="rob-R0-0ww"/>
+                            </constraints>
+                            <state key="normal" title="根据16进制获取一个颜色">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getHexadecimalColor:" destination="-1" eventType="touchUpInside" id="QuB-CA-LL1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MaW-tc-s6J">
+                            <rect key="frame" x="10" y="40" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="NCy-b2-e9m"/>
+                            </constraints>
+                            <state key="normal" title="快速rgb获取颜色">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getRGBColor:" destination="-1" eventType="touchUpInside" id="o3T-Ds-Nw6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RF3-ln-74R">
+                            <rect key="frame" x="10" y="75" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="NmO-HN-eR5"/>
+                            </constraints>
+                            <state key="normal" title="获取一个渐变颜色">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getGradientColor:" destination="-1" eventType="touchUpInside" id="FtN-Wx-flC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIx-8V-J7m">
+                            <rect key="frame" x="10" y="110" width="355" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="7ZN-84-Z5H"/>
+                            </constraints>
+                            <state key="normal" title="获取当前颜色值">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="getCurrentColor:" destination="-1" eventType="touchUpInside" id="dOs-kK-aBV"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-Ti-SYH">
+                            <rect key="frame" x="0.0" y="367" width="375" height="300"/>
+                            <color key="backgroundColor" red="0.34509803919999998" green="0.57647058819999997" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="4xR-bq-vSE"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="oIx-8V-J7m" firstAttribute="top" secondItem="RF3-ln-74R" secondAttribute="bottom" constant="5" id="FcB-kH-egY"/>
+                        <constraint firstItem="Qah-4u-dtZ" firstAttribute="leading" secondItem="N37-Az-EVk" secondAttribute="leading" constant="10" id="LZP-1W-crL"/>
+                        <constraint firstAttribute="trailing" secondItem="Qah-4u-dtZ" secondAttribute="trailing" constant="10" id="Lcq-wD-VG1"/>
+                        <constraint firstAttribute="trailing" secondItem="RF3-ln-74R" secondAttribute="trailing" constant="10" id="Man-Ke-EPp"/>
+                        <constraint firstItem="MaW-tc-s6J" firstAttribute="top" secondItem="Qah-4u-dtZ" secondAttribute="bottom" constant="5" id="PCg-eK-3Kc"/>
+                        <constraint firstItem="fdr-Ti-SYH" firstAttribute="leading" secondItem="N37-Az-EVk" secondAttribute="leading" id="RRY-sP-Oau"/>
+                        <constraint firstItem="Qah-4u-dtZ" firstAttribute="top" secondItem="N37-Az-EVk" secondAttribute="top" constant="5" id="SUM-f7-F9X"/>
+                        <constraint firstAttribute="bottom" secondItem="fdr-Ti-SYH" secondAttribute="bottom" id="YhS-IA-gtC"/>
+                        <constraint firstItem="MaW-tc-s6J" firstAttribute="leading" secondItem="N37-Az-EVk" secondAttribute="leading" constant="10" id="eIq-He-QAi"/>
+                        <constraint firstAttribute="trailing" secondItem="MaW-tc-s6J" secondAttribute="trailing" constant="10" id="gRL-dD-PL5"/>
+                        <constraint firstItem="RF3-ln-74R" firstAttribute="top" secondItem="MaW-tc-s6J" secondAttribute="bottom" constant="5" id="mST-Yv-P9L"/>
+                        <constraint firstItem="oIx-8V-J7m" firstAttribute="leading" secondItem="N37-Az-EVk" secondAttribute="leading" constant="10" id="rfP-ge-tMZ"/>
+                        <constraint firstAttribute="trailing" secondItem="oIx-8V-J7m" secondAttribute="trailing" constant="10" id="x0j-fB-dhd"/>
+                        <constraint firstAttribute="trailing" secondItem="fdr-Ti-SYH" secondAttribute="trailing" id="z7Q-SE-9jr"/>
+                        <constraint firstItem="RF3-ln-74R" firstAttribute="leading" secondItem="N37-Az-EVk" secondAttribute="leading" constant="10" id="z8k-pd-I2i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="N37-Az-EVk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bKL-mu-Jgr"/>
+                <constraint firstAttribute="bottom" secondItem="N37-Az-EVk" secondAttribute="bottom" id="kFl-tj-bn1"/>
+                <constraint firstItem="N37-Az-EVk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="me6-w6-nM0"/>
+                <constraint firstAttribute="trailing" secondItem="N37-Az-EVk" secondAttribute="trailing" id="zD1-fw-4a5"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

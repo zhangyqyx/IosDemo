@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title =@"图片操作";
+    self.navigationItem.title =@"UIImage";
 }
 //获取图片此点区域的色值
 - (IBAction)getColor:(id)sender {

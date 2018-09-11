@@ -107,7 +107,7 @@
 
 #pragma mark - 全局颜色
 #import "ZYQGlobalColor.h"
-#import "UIColor+ZYQColor.h"
+#import "UIColor+ZYQDemoColor.h"
 
 
 
