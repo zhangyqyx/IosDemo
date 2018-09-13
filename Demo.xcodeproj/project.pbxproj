@@ -18,6 +18,7 @@
 		F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */; };
 		F70B3AF4214817C8000F8823 /* CALayer+ZYQXibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */; };
 		F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F72F813921495558004CCE7E /* ZYQPopOver.m */; };
+		F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */ = {isa = PBXBuildFile; fileRef = F72F813C214AA445004CCE7E /* ZYQarrow.m */; };
 		F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F735457F2146B3AE006A3136 /* ZYQCategoryModel.m */; };
 		F73545852146B68E006A3136 /* ZYQCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F73545832146B68E006A3136 /* ZYQCategoryCell.m */; };
 		F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73545842146B68E006A3136 /* ZYQCategoryCell.xib */; };
@@ -57,6 +58,8 @@
 		F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZYQXibConfiguration.m"; sourceTree = "<group>"; };
 		F72F813821495558004CCE7E /* ZYQPopOver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQPopOver.h; sourceTree = "<group>"; };
 		F72F813921495558004CCE7E /* ZYQPopOver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQPopOver.m; sourceTree = "<group>"; };
+		F72F813B214AA445004CCE7E /* ZYQarrow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQarrow.h; sourceTree = "<group>"; };
+		F72F813C214AA445004CCE7E /* ZYQarrow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQarrow.m; sourceTree = "<group>"; };
 		F735457E2146B3AE006A3136 /* ZYQCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryModel.h; sourceTree = "<group>"; };
 		F735457F2146B3AE006A3136 /* ZYQCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryModel.m; sourceTree = "<group>"; };
 		F73545822146B68E006A3136 /* ZYQCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryCell.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				F70B3AED21480F2E000F8823 /* ZYQViewController.h */,
 				F70B3AEE21480F2E000F8823 /* ZYQViewController.m */,
 				F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */,
+				F72F813B214AA445004CCE7E /* ZYQarrow.h */,
+				F72F813C214AA445004CCE7E /* ZYQarrow.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -518,6 +523,7 @@
 				F70B3ADF2148043E000F8823 /* ZYQColorViewController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
+				F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
 				F70B3AE321480598000F8823 /* NSDate+ZYQDate.m in Sources */,
 				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
