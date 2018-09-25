@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZYQThreeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSp-EI-i0u">
+                        <rect key="frame" x="2" y="31" width="371" height="113"/>
+                        <string key="text">AFNetworking是一个在IOS开发中使用非常多网络开源库,适用于iOS以及Mac OS X. 它构建于(apple iOS开发文档)NSURLSection,以及其他熟悉的Foundation技术之上。它拥有良好的架构,丰富的API,以及模块化构建方式,使得使用起来非常轻松.地址:https://github.com/AFNetworking/AFNetworking</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AFNetworking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bip-xK-vZv">
+                        <rect key="frame" x="0.0" y="10" width="375" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="swL-Nz-twy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bip-xK-vZv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7Kt-Rr-WAd"/>
+                <constraint firstAttribute="trailing" secondItem="lSp-EI-i0u" secondAttribute="trailing" constant="2" id="LK7-GH-7La"/>
+                <constraint firstAttribute="bottom" secondItem="lSp-EI-i0u" secondAttribute="bottom" id="Ofn-ez-G01"/>
+                <constraint firstItem="lSp-EI-i0u" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="XFG-sx-OF8"/>
+                <constraint firstItem="bip-xK-vZv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="gdn-pF-uXE"/>
+                <constraint firstItem="lSp-EI-i0u" firstAttribute="top" secondItem="bip-xK-vZv" secondAttribute="bottom" id="ool-An-uUJ"/>
+                <constraint firstAttribute="trailing" secondItem="bip-xK-vZv" secondAttribute="trailing" id="tQp-mR-0Ee"/>
+            </constraints>
+            <size key="customSize" width="404" height="144"/>
+            <connections>
+                <outlet property="briefLabel" destination="lSp-EI-i0u" id="hlt-1k-0Dq"/>
+                <outlet property="titleLabel" destination="bip-xK-vZv" id="agC-PO-oTu"/>
+            </connections>
+            <point key="canvasLocation" x="210.5" y="101"/>
+        </collectionViewCell>
+    </objects>
+</document>
