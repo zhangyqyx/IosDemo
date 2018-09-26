@@ -1,35 +1,36 @@
 //
-//  ZYQRefreshController.m
+//  ZYQProgressHUDController.m
 //  Demo
 //
-//  Created by ༺ོ࿆强ོ࿆ ༻ on 2018/9/25.
+//  Created by ༺ོ࿆强ོ࿆ ༻ on 2018/9/26.
 //  Copyright © 2018年 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
 //
 
-#import "ZYQRefreshController.h"
-#import "ZYQRefreshModel.h"
+#import "ZYQProgressHUDController.h"
+#import "ZYQHUDProgressModel.h"
 
-@interface ZYQRefreshController ()<UITableViewDelegate , UITableViewDataSource>
-/**数据源 */
-@property (nonatomic , strong)NSArray *nextVCData;
-/**tableView */
-@property (nonatomic , strong)UITableView *tableView;
+@interface ZYQProgressHUDController ()<UITableViewDataSource,UITableViewDelegate>
+/** tableView */
+@property(nonatomic , strong)UITableView *tableView;
+
+/** 数据源 */
+@property(nonatomic , strong)NSArray *dataSource;
 
 @end
 
-@implementation ZYQRefreshController
+@implementation ZYQProgressHUDController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"MJRefresh";
     [self createUI];
     [self loadData];
+    
 }
-
-
 #pragma mark - 设置UI
 - (void)createUI {
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - ZYQ_TopH) style:UITableViewStyleGrouped];
+    self.navigationItem.title = @"加载提示框";
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-ZYQ_TopH) style:UITableViewStylePlain];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.tableFooterView = [UIView new];
@@ -37,16 +38,17 @@
 }
 #pragma mark - 加载数据
 - (void)loadData {
-    self.nextVCData = [ZYQRefreshModel loadData];
+    self.dataSource = [ZYQHUDProgressModel loadData];
+    [self.tableView reloadData];
 }
+
 
 #pragma mark - UITableViewDelegate
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return self.nextVCData.count;
+    return self.dataSource.count;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    ZYQRefreshModel *model = self.nextVCData[section];
+    ZYQHUDProgressModel *model = self.dataSource[section];
     return model.titles.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -58,17 +60,18 @@
     backgroundViews.backgroundColor = [UIColor ZYQ_randomColor];
     [cell setSelectedBackgroundView:backgroundViews];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    ZYQRefreshModel *model = self.nextVCData[indexPath.section];
     cell.backgroundColor = kNavColor;
-    cell.textLabel.text = model.titles[indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.detailTextLabel.textColor = [UIColor whiteColor];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    ZYQHUDProgressModel *model = self.dataSource[indexPath.section];
+    cell.textLabel.text = model.titles[indexPath.row];
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@", model.vcClass, model.methods[indexPath.row]];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ZYQRefreshModel *model = self.nextVCData[indexPath.section];
+    ZYQHUDProgressModel *model = self.dataSource[indexPath.section];
     UIViewController *vc = [[model.vcClass alloc] init];
     vc.title = model.titles[indexPath.row];
     [vc setValue:model.methods[indexPath.row] forKeyPath:@"method"];
@@ -77,10 +80,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 60;
 }
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    ZYQRefreshModel *model = self.nextVCData[section];
-    return model.header;
-}
+
 
 
 @end

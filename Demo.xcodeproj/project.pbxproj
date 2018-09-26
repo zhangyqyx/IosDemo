@@ -68,6 +68,19 @@
 		F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73545892146BC3D006A3136 /* ZYQImageViewController.xib */; };
 		F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = F735458F2146BC70006A3136 /* UIImage+ZYQFunction.m */; };
 		F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */; };
+		F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730A5215BBD1200E6EF9F /* ZYQRefreshModel.m */; };
+		F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730A8215BBE0800E6EF9F /* ZYQRefreshDetailController.m */; };
+		F73730AC215BC23500E6EF9F /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730AB215BC23500E6EF9F /* UIViewController+Example.m */; };
+		F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730AF215BC74000E6EF9F /* FLAnimatedImage.m */; };
+		F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B0215BC74000E6EF9F /* FLAnimatedImageView.m */; };
+		F73730C0215BC74100E6EF9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F73730B3215BC74000E6EF9F /* Info.plist */; };
+		F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B5215BC74000E6EF9F /* ZYQProgressHUD.m */; };
+		F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B9215BC74000E6EF9F /* ZYQMusicAnimation.m */; };
+		F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F73730BA215BC74000E6EF9F /* ZYQHUDProgress.bundle */; };
+		F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730BC215BC74100E6EF9F /* MBProgressHUD.m */; };
+		F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730C8215BC8C800E6EF9F /* ZYQProgressHUDController.m */; };
+		F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */; };
+		F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */; };
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
@@ -199,6 +212,30 @@
 		F735458F2146BC70006A3136 /* UIImage+ZYQFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYQFunction.m"; sourceTree = "<group>"; };
 		F73545922146BE49006A3136 /* UIView+ZYQSetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYQSetSize.h"; sourceTree = "<group>"; };
 		F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYQSetSize.m"; sourceTree = "<group>"; };
+		F73730A4215BBD1200E6EF9F /* ZYQRefreshModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQRefreshModel.h; sourceTree = "<group>"; };
+		F73730A5215BBD1200E6EF9F /* ZYQRefreshModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRefreshModel.m; sourceTree = "<group>"; };
+		F73730A7215BBE0800E6EF9F /* ZYQRefreshDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQRefreshDetailController.h; sourceTree = "<group>"; };
+		F73730A8215BBE0800E6EF9F /* ZYQRefreshDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRefreshDetailController.m; sourceTree = "<group>"; };
+		F73730AA215BC23500E6EF9F /* UIViewController+Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
+		F73730AB215BC23500E6EF9F /* UIViewController+Example.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Example.m"; sourceTree = "<group>"; };
+		F73730AF215BC74000E6EF9F /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		F73730B0215BC74000E6EF9F /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		F73730B1215BC74000E6EF9F /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		F73730B2215BC74000E6EF9F /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F73730B3215BC74000E6EF9F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73730B5215BC74000E6EF9F /* ZYQProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQProgressHUD.m; sourceTree = "<group>"; };
+		F73730B6215BC74000E6EF9F /* ZYQProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQProgressHUD.h; sourceTree = "<group>"; };
+		F73730B8215BC74000E6EF9F /* ZYQMusicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQMusicAnimation.h; sourceTree = "<group>"; };
+		F73730B9215BC74000E6EF9F /* ZYQMusicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQMusicAnimation.m; sourceTree = "<group>"; };
+		F73730BA215BC74000E6EF9F /* ZYQHUDProgress.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQHUDProgress.bundle; sourceTree = "<group>"; };
+		F73730BC215BC74100E6EF9F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F73730BD215BC74100E6EF9F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F73730C7215BC8C800E6EF9F /* ZYQProgressHUDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQProgressHUDController.h; sourceTree = "<group>"; };
+		F73730C8215BC8C800E6EF9F /* ZYQProgressHUDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQProgressHUDController.m; sourceTree = "<group>"; };
+		F73730CA215BC8EC00E6EF9F /* ZYQHUDProgressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHUDProgressModel.h; sourceTree = "<group>"; };
+		F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHUDProgressModel.m; sourceTree = "<group>"; };
+		F73730CD215BC97C00E6EF9F /* ZYQProgressHUDDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQProgressHUDDetailController.h; sourceTree = "<group>"; };
+		F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQProgressHUDDetailController.m; sourceTree = "<group>"; };
 		F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQHomeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -307,6 +344,7 @@
 		F72F813E215A66A2004CCE7E /* three */ = {
 			isa = PBXGroup;
 			children = (
+				F73730AD215BC74000E6EF9F /* HUDProgress */,
 				F72F816D215A8381004CCE7E /* MJRefresh */,
 				F72F813F215A6711004CCE7E /* AFNetworking */,
 			);
@@ -357,6 +395,7 @@
 		F72F8158215A67F1004CCE7E /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F73730C5215BC87900E6EF9F /* HUDProgress */,
 				F72F81CF215A8745004CCE7E /* MJRefresh */,
 				F72F815B215A6819004CCE7E /* AFN */,
 				F72F8162215A6B71004CCE7E /* ZYQThreeViewController.h */,
@@ -368,6 +407,8 @@
 		F72F8159215A67FA004CCE7E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F73730C6215BC88B00E6EF9F /* HUDProgress */,
+				F73730A3215BBCF500E6EF9F /* MJRefresh */,
 				F72F8165215A6CAA004CCE7E /* ZYQThreeModel.h */,
 				F72F8166215A6CAA004CCE7E /* ZYQThreeModel.m */,
 			);
@@ -543,6 +584,10 @@
 			children = (
 				F72F81D0215A8761004CCE7E /* ZYQRefreshController.h */,
 				F72F81D1215A8761004CCE7E /* ZYQRefreshController.m */,
+				F73730A7215BBE0800E6EF9F /* ZYQRefreshDetailController.h */,
+				F73730A8215BBE0800E6EF9F /* ZYQRefreshDetailController.m */,
+				F73730AA215BC23500E6EF9F /* UIViewController+Example.h */,
+				F73730AB215BC23500E6EF9F /* UIViewController+Example.m */,
 			);
 			path = MJRefresh;
 			sourceTree = "<group>";
@@ -604,6 +649,86 @@
 				F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		F73730A3215BBCF500E6EF9F /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F73730A4215BBD1200E6EF9F /* ZYQRefreshModel.h */,
+				F73730A5215BBD1200E6EF9F /* ZYQRefreshModel.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		F73730AD215BC74000E6EF9F /* HUDProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F73730AE215BC74000E6EF9F /* FLAnimatedImage */,
+				F73730B4215BC74000E6EF9F /* ZYQHUDManager */,
+				F73730B7215BC74000E6EF9F /* AnimationLoad */,
+				F73730BA215BC74000E6EF9F /* ZYQHUDProgress.bundle */,
+				F73730BB215BC74000E6EF9F /* MBProgressHUD */,
+			);
+			path = HUDProgress;
+			sourceTree = "<group>";
+		};
+		F73730AE215BC74000E6EF9F /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				F73730AF215BC74000E6EF9F /* FLAnimatedImage.m */,
+				F73730B0215BC74000E6EF9F /* FLAnimatedImageView.m */,
+				F73730B1215BC74000E6EF9F /* FLAnimatedImage.h */,
+				F73730B2215BC74000E6EF9F /* FLAnimatedImageView.h */,
+				F73730B3215BC74000E6EF9F /* Info.plist */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		F73730B4215BC74000E6EF9F /* ZYQHUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				F73730B6215BC74000E6EF9F /* ZYQProgressHUD.h */,
+				F73730B5215BC74000E6EF9F /* ZYQProgressHUD.m */,
+			);
+			path = ZYQHUDManager;
+			sourceTree = "<group>";
+		};
+		F73730B7215BC74000E6EF9F /* AnimationLoad */ = {
+			isa = PBXGroup;
+			children = (
+				F73730B8215BC74000E6EF9F /* ZYQMusicAnimation.h */,
+				F73730B9215BC74000E6EF9F /* ZYQMusicAnimation.m */,
+			);
+			path = AnimationLoad;
+			sourceTree = "<group>";
+		};
+		F73730BB215BC74000E6EF9F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F73730BC215BC74100E6EF9F /* MBProgressHUD.m */,
+				F73730BD215BC74100E6EF9F /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F73730C5215BC87900E6EF9F /* HUDProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F73730C7215BC8C800E6EF9F /* ZYQProgressHUDController.h */,
+				F73730C8215BC8C800E6EF9F /* ZYQProgressHUDController.m */,
+				F73730CD215BC97C00E6EF9F /* ZYQProgressHUDDetailController.h */,
+				F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */,
+			);
+			path = HUDProgress;
+			sourceTree = "<group>";
+		};
+		F73730C6215BC88B00E6EF9F /* HUDProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F73730CA215BC8EC00E6EF9F /* ZYQHUDProgressModel.h */,
+				F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */,
+			);
+			path = HUDProgress;
 			sourceTree = "<group>";
 		};
 		F764897B214009160020F56C /* view */ = {
@@ -866,9 +991,11 @@
 				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
+				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
 				F70B3ADE2148043E000F8823 /* ZYQColorViewController.xib in Resources */,
+				F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,8 +1007,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72F81A0215A8394004CCE7E /* UIScrollView+MJExtension.m in Sources */,
+				F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */,
 				F72F8153215A674F004CCE7E /* AFSecurityPolicy.m in Sources */,
+				F73730AC215BC23500E6EF9F /* UIViewController+Example.m in Sources */,
 				F72F81A6215A8394004CCE7E /* MJRefreshAutoStateFooter.m in Sources */,
+				F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */,
 				F72F81AD215A8394004CCE7E /* MJRefreshHeader.m in Sources */,
 				F72F81CA215A839C004CCE7E /* ZYQRefreshNormalFooter.m in Sources */,
 				F72F8150215A674F004CCE7E /* AFURLSessionManager.m in Sources */,
@@ -895,6 +1025,7 @@
 				F72F815F215A684E004CCE7E /* ZYQAFNController.m in Sources */,
 				F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */,
 				F72F81AB215A8394004CCE7E /* MJRefreshGifHeader.m in Sources */,
+				F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */,
 				F7DC224C212F082F00881809 /* ZYQHomeController.m in Sources */,
 				F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */,
 				F72F819D215A8394004CCE7E /* UIScrollView+MJRefresh.m in Sources */,
@@ -903,6 +1034,7 @@
 				F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */,
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
+				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
 				F72F81AC215A8394004CCE7E /* MJRefreshFooter.m in Sources */,
 				F72F81A2215A8394004CCE7E /* UIView+MJExtension.m in Sources */,
 				F72F81AA215A8394004CCE7E /* MJRefreshStateHeader.m in Sources */,
@@ -926,16 +1058,22 @@
 				F72F819E215A8394004CCE7E /* MJRefreshConst.m in Sources */,
 				F72F8151215A674F004CCE7E /* AFURLRequestSerialization.m in Sources */,
 				F72F81C6215A839C004CCE7E /* ZYQRefreshGifFooter.m in Sources */,
+				F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */,
 				F72F81A8215A8394004CCE7E /* MJRefreshAutoNormalFooter.m in Sources */,
+				F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */,
 				F72F8167215A6CAA004CCE7E /* ZYQThreeModel.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
 				F72F81A9215A8394004CCE7E /* MJRefreshNormalHeader.m in Sources */,
 				F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */,
 				F72F81C8215A839C004CCE7E /* ZYQRefreshCustomFooter.m in Sources */,
+				F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */,
+				F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */,
+				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
 				F72F8164215A6B71004CCE7E /* ZYQThreeViewController.m in Sources */,
 				F72F81A4215A8394004CCE7E /* MJRefreshBackStateFooter.m in Sources */,
+				F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */,
 				F72F81CD215A839C004CCE7E /* ZYQRefreshCustomHeader.m in Sources */,
 				F70B3AE321480598000F8823 /* NSDate+ZYQDate.m in Sources */,
 				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
