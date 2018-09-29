@@ -81,6 +81,7 @@
 		F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730C8215BC8C800E6EF9F /* ZYQProgressHUDController.m */; };
 		F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */; };
 		F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */; };
+		F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730D2215FC5D800E6EF9F /* ZYQAFNModel.m */; };
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
@@ -236,6 +237,8 @@
 		F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHUDProgressModel.m; sourceTree = "<group>"; };
 		F73730CD215BC97C00E6EF9F /* ZYQProgressHUDDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQProgressHUDDetailController.h; sourceTree = "<group>"; };
 		F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQProgressHUDDetailController.m; sourceTree = "<group>"; };
+		F73730D1215FC5D800E6EF9F /* ZYQAFNModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAFNModel.h; sourceTree = "<group>"; };
+		F73730D2215FC5D800E6EF9F /* ZYQAFNModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAFNModel.m; sourceTree = "<group>"; };
 		F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQHomeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -407,6 +410,7 @@
 		F72F8159215A67FA004CCE7E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F73730D0215FC5AB00E6EF9F /* AFN */,
 				F73730C6215BC88B00E6EF9F /* HUDProgress */,
 				F73730A3215BBCF500E6EF9F /* MJRefresh */,
 				F72F8165215A6CAA004CCE7E /* ZYQThreeModel.h */,
@@ -729,6 +733,15 @@
 				F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */,
 			);
 			path = HUDProgress;
+			sourceTree = "<group>";
+		};
+		F73730D0215FC5AB00E6EF9F /* AFN */ = {
+			isa = PBXGroup;
+			children = (
+				F73730D1215FC5D800E6EF9F /* ZYQAFNModel.h */,
+				F73730D2215FC5D800E6EF9F /* ZYQAFNModel.m */,
+			);
+			path = AFN;
 			sourceTree = "<group>";
 		};
 		F764897B214009160020F56C /* view */ = {
@@ -1068,6 +1081,7 @@
 				F72F81C8215A839C004CCE7E /* ZYQRefreshCustomFooter.m in Sources */,
 				F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */,
 				F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */,
+				F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */,
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
