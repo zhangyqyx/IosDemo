@@ -25,11 +25,7 @@
 + (NSArray *)createData {
     NSArray *data = @[@{@"title":@"AFNetworking",@"introduction":@" AFNetworking是一个在IOS开发中使用非常多网络开源库,适用于iOS以及Mac OS X. 它构建于(apple iOS开发文档)NSURLSection,以及其他熟悉的Foundation技术之上。它拥有良好的架构,丰富的API,以及模块化构建方式,使得使用起来非常轻松.地址:https://github.com/AFNetworking/AFNetworking", @"nextVc":@"ZYQAFNController"},
                       @{@"title":@"MJRefresh",@"introduction":@"MJRefresh我们在项目中常用的一款开发辅助工具，里面包括有下拉刷新，上拉加载更多数据，一般在tableView,UICollectionView,UIWebView上面使用，关于下拉刷新和上拉加载的样式也是有很多，我们也可以自己定义样式，使用起来方便快捷.地址:https://github.com/CoderMJLee/MJRefresh", @"nextVc":@"ZYQRefreshController"},
-                      @{@"title":@"HUDProgress",@"introduction":@"MBProgressHUD是一款第三方工具，用来增加 App 的用户体验，俗称小菊花,有关于项目汇总用到的加载框的使用", @"nextVc":@"ZYQProgressHUDController"},
-                      @{@"title":@"动画",@"introduction":@"有关一些视图等动画效果", @"nextVc":@""},
-                      @{@"title":@"文章总结",@"introduction":@"经典的文章和博客", @"nextVc":@""},
-                      @{@"title":@"其他",@"introduction":@"其他方面的",@"image":@""},
-                      @{@"title":@"完整项目",@"introduction":@"比较完整的项目", @"nextVc":@""}];
+                      @{@"title":@"HUDProgress",@"introduction":@"MBProgressHUD是一款第三方工具，用来增加 App 的用户体验，俗称小菊花,有关于项目汇总用到的加载框的使用", @"nextVc":@"ZYQProgressHUDController"}];
     return data;
 }
 @end

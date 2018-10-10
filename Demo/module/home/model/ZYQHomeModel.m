@@ -29,7 +29,7 @@
     NSArray *data = @[@{@"title":@"分类",@"introduction":@"关于项目中的分类",@"image":@"" , @"nextVc":@"ZYQCategoryViewController"},
                       @{@"title":@"三方",@"introduction":@"有关三方的封装和使用",@"image":@"", @"nextVc":@"ZYQThreeViewController"},
                       @{@"title":@"工具",@"introduction":@"项目中用到的工具类",@"image":@"", @"nextVc":@""},
-                      @{@"title":@"功能",@"introduction":@"有关功能的封装",@"image":@""},
+                      @{@"title":@"功能",@"introduction":@"有关功能的封装",@"image":@"",@"nextVc":@"ZYQFunctionController"},
                        @{@"title":@"动画",@"introduction":@"有关一些视图等动画效果",@"image":@"", @"nextVc":@""},
                       @{@"title":@"文章总结",@"introduction":@"经典的文章和博客",@"image":@"", @"nextVc":@""},
                       @{@"title":@"其他",@"introduction":@"其他方面的",@"image":@""},

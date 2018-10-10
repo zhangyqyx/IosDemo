@@ -85,6 +85,18 @@
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
+		F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */; };
+		F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */; };
+		F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06233216E3A85000302A4 /* UITabBarItem+ZYQBadge.m */; };
+		F7A06240216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06238216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m */; };
+		F7A06241216E3A85000302A4 /* UIView+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0623D216E3A85000302A4 /* UIView+ZYQBadge.m */; };
+		F7A06246216E3F21000302A4 /* ZYQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06245216E3F21000302A4 /* ZYQBaseModel.m */; };
+		F7A06249216E3FA7000302A4 /* ZYQFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06248216E3FA7000302A4 /* ZYQFunctionModel.m */; };
+		F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0624B216E41C2000302A4 /* ZYQFunctionCell.m */; };
+		F7A0624E216E41C2000302A4 /* ZYQFunctionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A0624C216E41C2000302A4 /* ZYQFunctionCell.xib */; };
+		F7A06252216E4999000302A4 /* ZYQBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06251216E4999000302A4 /* ZYQBadgeController.m */; };
+		F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06254216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m */; };
+		F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -248,6 +260,31 @@
 		F76489872140116A0020F56C /* UIColor+ZYQDemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQDemoColor.m"; sourceTree = "<group>"; };
 		F764898A214019FA0020F56C /* ZYQCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryViewController.h; sourceTree = "<group>"; };
 		F764898B214019FA0020F56C /* ZYQCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryViewController.m; sourceTree = "<group>"; };
+		F7A0622D216E3A68000302A4 /* ZYQFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFunctionController.h; sourceTree = "<group>"; };
+		F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFunctionController.m; sourceTree = "<group>"; };
+		F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZYQBadge.m"; sourceTree = "<group>"; };
+		F7A06233216E3A85000302A4 /* UITabBarItem+ZYQBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+ZYQBadge.m"; sourceTree = "<group>"; };
+		F7A06234216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZYQBadge.h"; sourceTree = "<group>"; };
+		F7A06235216E3A85000302A4 /* UITabBarItem+ZYQBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+ZYQBadge.h"; sourceTree = "<group>"; };
+		F7A06236216E3A85000302A4 /* ZYQBadgeConfi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeConfi.h; sourceTree = "<group>"; };
+		F7A06238216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+ZYQBadgeAnimation.m"; sourceTree = "<group>"; };
+		F7A06239216E3A85000302A4 /* ZYQBadgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeProtocol.h; sourceTree = "<group>"; };
+		F7A0623A216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+ZYQBadgeAnimation.h"; sourceTree = "<group>"; };
+		F7A0623C216E3A85000302A4 /* UIView+ZYQBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYQBadge.h"; sourceTree = "<group>"; };
+		F7A0623D216E3A85000302A4 /* UIView+ZYQBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYQBadge.m"; sourceTree = "<group>"; };
+		F7A06244216E3F21000302A4 /* ZYQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBaseModel.h; sourceTree = "<group>"; };
+		F7A06245216E3F21000302A4 /* ZYQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBaseModel.m; sourceTree = "<group>"; };
+		F7A06247216E3FA7000302A4 /* ZYQFunctionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFunctionModel.h; sourceTree = "<group>"; };
+		F7A06248216E3FA7000302A4 /* ZYQFunctionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFunctionModel.m; sourceTree = "<group>"; };
+		F7A0624A216E41C2000302A4 /* ZYQFunctionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFunctionCell.h; sourceTree = "<group>"; };
+		F7A0624B216E41C2000302A4 /* ZYQFunctionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFunctionCell.m; sourceTree = "<group>"; };
+		F7A0624C216E41C2000302A4 /* ZYQFunctionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQFunctionCell.xib; sourceTree = "<group>"; };
+		F7A06250216E4999000302A4 /* ZYQBadgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeController.h; sourceTree = "<group>"; };
+		F7A06251216E4999000302A4 /* ZYQBadgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBadgeController.m; sourceTree = "<group>"; };
+		F7A06253216E4B0B000302A4 /* ZYQBadgeDeatilOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeDeatilOneController.h; sourceTree = "<group>"; };
+		F7A06254216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBadgeDeatilOneController.m; sourceTree = "<group>"; };
+		F7A06256216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeDeatilTwoController.h; sourceTree = "<group>"; };
+		F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBadgeDeatilTwoController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -330,6 +367,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F7A0622C216E3A2C000302A4 /* badge */,
 				F72F813721495537004CCE7E /* view */,
 			);
 			path = function;
@@ -814,6 +852,125 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		F7A06228216E39BB000302A4 /* function */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0622B216E39E1000302A4 /* controller */,
+				F7A0622A216E39DB000302A4 /* model */,
+				F7A06229216E39D3000302A4 /* view */,
+			);
+			path = function;
+			sourceTree = "<group>";
+		};
+		F7A06229216E39D3000302A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0624A216E41C2000302A4 /* ZYQFunctionCell.h */,
+				F7A0624B216E41C2000302A4 /* ZYQFunctionCell.m */,
+				F7A0624C216E41C2000302A4 /* ZYQFunctionCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F7A0622A216E39DB000302A4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06247216E3FA7000302A4 /* ZYQFunctionModel.h */,
+				F7A06248216E3FA7000302A4 /* ZYQFunctionModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7A0622B216E39E1000302A4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0624F216E4951000302A4 /* badge */,
+				F7A0622D216E3A68000302A4 /* ZYQFunctionController.h */,
+				F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7A0622C216E3A2C000302A4 /* badge */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06230216E3A85000302A4 /* badgeManager */,
+			);
+			path = badge;
+			sourceTree = "<group>";
+		};
+		F7A06230216E3A85000302A4 /* badgeManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06231216E3A85000302A4 /* barItem */,
+				F7A06236216E3A85000302A4 /* ZYQBadgeConfi.h */,
+				F7A06237216E3A85000302A4 /* other */,
+				F7A0623B216E3A85000302A4 /* view */,
+			);
+			path = badgeManager;
+			sourceTree = "<group>";
+		};
+		F7A06231216E3A85000302A4 /* barItem */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */,
+				F7A06233216E3A85000302A4 /* UITabBarItem+ZYQBadge.m */,
+				F7A06234216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.h */,
+				F7A06235216E3A85000302A4 /* UITabBarItem+ZYQBadge.h */,
+			);
+			path = barItem;
+			sourceTree = "<group>";
+		};
+		F7A06237216E3A85000302A4 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06238216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m */,
+				F7A06239216E3A85000302A4 /* ZYQBadgeProtocol.h */,
+				F7A0623A216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.h */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		F7A0623B216E3A85000302A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0623C216E3A85000302A4 /* UIView+ZYQBadge.h */,
+				F7A0623D216E3A85000302A4 /* UIView+ZYQBadge.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F7A06242216E3EF5000302A4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC2242212F071500881809 /* ZYQBaseController.h */,
+				F7DC2243212F071500881809 /* ZYQBaseController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7A06243216E3F02000302A4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06244216E3F21000302A4 /* ZYQBaseModel.h */,
+				F7A06245216E3F21000302A4 /* ZYQBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7A0624F216E4951000302A4 /* badge */ = {
+			isa = PBXGroup;
+			children = (
+				F7A06250216E4999000302A4 /* ZYQBadgeController.h */,
+				F7A06251216E4999000302A4 /* ZYQBadgeController.m */,
+				F7A06253216E4B0B000302A4 /* ZYQBadgeDeatilOneController.h */,
+				F7A06254216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m */,
+				F7A06256216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.h */,
+				F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */,
+			);
+			path = badge;
+			sourceTree = "<group>";
+		};
 		F7DC221B212F040500881809 = {
 			isa = PBXGroup;
 			children = (
@@ -878,8 +1035,8 @@
 		F7DC2241212F06DA00881809 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				F7DC2242212F071500881809 /* ZYQBaseController.h */,
-				F7DC2243212F071500881809 /* ZYQBaseController.m */,
+				F7A06243216E3F02000302A4 /* model */,
+				F7A06242216E3EF5000302A4 /* controller */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -894,6 +1051,7 @@
 		F7DC2246212F079300881809 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				F7A06228216E39BB000302A4 /* function */,
 				F72F8157215A67E0004CCE7E /* three */,
 				F7648989214019D30020F56C /* category */,
 				F7DC2247212F07B400881809 /* home */,
@@ -1006,6 +1164,7 @@
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
 				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */,
+				F7A0624E216E41C2000302A4 /* ZYQFunctionCell.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
 				F70B3ADE2148043E000F8823 /* ZYQColorViewController.xib in Resources */,
 				F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */,
@@ -1020,14 +1179,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72F81A0215A8394004CCE7E /* UIScrollView+MJExtension.m in Sources */,
+				F7A06240216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m in Sources */,
 				F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */,
 				F72F8153215A674F004CCE7E /* AFSecurityPolicy.m in Sources */,
+				F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */,
 				F73730AC215BC23500E6EF9F /* UIViewController+Example.m in Sources */,
 				F72F81A6215A8394004CCE7E /* MJRefreshAutoStateFooter.m in Sources */,
 				F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */,
 				F72F81AD215A8394004CCE7E /* MJRefreshHeader.m in Sources */,
 				F72F81CA215A839C004CCE7E /* ZYQRefreshNormalFooter.m in Sources */,
 				F72F8150215A674F004CCE7E /* AFURLSessionManager.m in Sources */,
+				F7A06241216E3A85000302A4 /* UIView+ZYQBadge.m in Sources */,
 				F70B3AE521480768000F8823 /* UIColor+ZYQDemoColor.m in Sources */,
 				F70B3AE42148073C000F8823 /* UIColor+ZYQColor.m in Sources */,
 				F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */,
@@ -1048,7 +1210,9 @@
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
+				F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */,
 				F72F81AC215A8394004CCE7E /* MJRefreshFooter.m in Sources */,
+				F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */,
 				F72F81A2215A8394004CCE7E /* UIView+MJExtension.m in Sources */,
 				F72F81AA215A8394004CCE7E /* MJRefreshStateHeader.m in Sources */,
 				F73545852146B68E006A3136 /* ZYQCategoryCell.m in Sources */,
@@ -1056,12 +1220,15 @@
 				F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */,
 				F7DC2237212F040700881809 /* main.m in Sources */,
 				F72F81A3215A8394004CCE7E /* MJRefreshBackGifFooter.m in Sources */,
+				F7A06246216E3F21000302A4 /* ZYQBaseModel.m in Sources */,
+				F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */,
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
 				F70B3AEB2148085E000F8823 /* ZYQDateViewController.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
 				F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */,
 				F72F81A7215A8394004CCE7E /* MJRefreshAutoGifFooter.m in Sources */,
 				F7DC2253212F094000881809 /* ZYQNavController.m in Sources */,
+				F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */,
 				F72F814F215A674F004CCE7E /* AFHTTPSessionManager.m in Sources */,
 				F70B3ADF2148043E000F8823 /* ZYQColorViewController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
@@ -1073,10 +1240,13 @@
 				F72F81C6215A839C004CCE7E /* ZYQRefreshGifFooter.m in Sources */,
 				F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */,
 				F72F81A8215A8394004CCE7E /* MJRefreshAutoNormalFooter.m in Sources */,
+				F7A06252216E4999000302A4 /* ZYQBadgeController.m in Sources */,
 				F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */,
 				F72F8167215A6CAA004CCE7E /* ZYQThreeModel.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
 				F72F81A9215A8394004CCE7E /* MJRefreshNormalHeader.m in Sources */,
+				F7A06249216E3FA7000302A4 /* ZYQFunctionModel.m in Sources */,
+				F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */,
 				F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */,
 				F72F81C8215A839C004CCE7E /* ZYQRefreshCustomFooter.m in Sources */,
 				F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */,
