@@ -66,7 +66,7 @@
             [self.navigationController  pushViewController:vc animated:YES];
         }
             break;
-        case 2:    case 3:
+        case 2:  
         {
             ZYQExchangeViewController *vc = [[ZYQExchangeViewController alloc] init];
             vc.titleName = self.dataList[indexPath.row];
@@ -74,13 +74,13 @@
             [self.navigationController  pushViewController:vc animated:YES];
         }
             break;
-        case 4:
+        case 3:
         {
             ZYQDictChangeModelViewController *vc = [[ZYQDictChangeModelViewController alloc] init];
             vc.titleName = self.dataList[indexPath.row];
             [self.navigationController  pushViewController:vc animated:YES];
         }   break;
-        case 5:
+        case 4:
         {
             ZYQArchiveViewController *vc = [[ZYQArchiveViewController alloc] init];
             vc.titleName = self.dataList[indexPath.row];

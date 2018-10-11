@@ -51,10 +51,10 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="转换后的数据:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xmF-ZW-KiQ">
-                    <rect key="frame" x="16" y="382" width="343" height="235"/>
+                    <rect key="frame" x="16" y="467" width="343" height="150"/>
                     <color key="backgroundColor" red="0.16862745100000001" green="0.49019607840000001" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="235" id="JBY-e4-lKr"/>
+                        <constraint firstAttribute="height" constant="150" id="JBY-e4-lKr"/>
                     </constraints>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
