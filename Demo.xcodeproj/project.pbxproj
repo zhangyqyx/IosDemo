@@ -17,6 +17,23 @@
 		F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B3AEE21480F2E000F8823 /* ZYQViewController.m */; };
 		F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */; };
 		F70B3AF4214817C8000F8823 /* CALayer+ZYQXibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */; };
+		F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */; };
+		F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */; };
+		F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */; };
+		F72ED56A216F90F500E63F99 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72ED569216F90F500E63F99 /* HealthKit.framework */; };
+		F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED56C216F916B00E63F99 /* ZYQHealthKitDetailController.m */; };
+		F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED570216F91BD00E63F99 /* ZYQHealthKitDetailController.xib */; };
+		F72ED576216F9AC200E63F99 /* ZYQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED575216F9AC200E63F99 /* ZYQRuntimeController.m */; };
+		F72ED579216F9AD900E63F99 /* ZYQRuntimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED578216F9AD900E63F99 /* ZYQRuntimeManager.m */; };
+		F72ED586216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED57B216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.m */; };
+		F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED57C216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.xib */; };
+		F72ED588216F9BAF00E63F99 /* ZYQDictChangeModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED57D216F9BAE00E63F99 /* ZYQDictChangeModelViewController.m */; };
+		F72ED589216F9BAF00E63F99 /* ZYQArchiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED57F216F9BAE00E63F99 /* ZYQArchiveViewController.xib */; };
+		F72ED58A216F9BAF00E63F99 /* ZYQArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED580216F9BAE00E63F99 /* ZYQArchiveViewController.m */; };
+		F72ED58B216F9BAF00E63F99 /* ZYQExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED581216F9BAE00E63F99 /* ZYQExchangeViewController.m */; };
+		F72ED58C216F9BAF00E63F99 /* ZYQExchangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED582216F9BAE00E63F99 /* ZYQExchangeViewController.xib */; };
+		F72ED58D216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED584216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib */; };
+		F72ED591216F9BED00E63F99 /* ZYQChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED58F216F9BED00E63F99 /* ZYQChangeModel.m */; };
 		F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F72F813921495558004CCE7E /* ZYQPopOver.m */; };
 		F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */ = {isa = PBXBuildFile; fileRef = F72F813C214AA445004CCE7E /* ZYQarrow.m */; };
 		F72F814E215A674F004CCE7E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F72F8145215A674F004CCE7E /* AFURLResponseSerialization.m */; };
@@ -124,6 +141,35 @@
 		F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQViewController.xib; sourceTree = "<group>"; };
 		F70B3AF2214817C8000F8823 /* CALayer+ZYQXibConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZYQXibConfiguration.h"; sourceTree = "<group>"; };
 		F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZYQXibConfiguration.m"; sourceTree = "<group>"; };
+		F72ED55D216F8C6900E63F99 /* ZYQHealthKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHealthKitController.h; sourceTree = "<group>"; };
+		F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthKitController.m; sourceTree = "<group>"; };
+		F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthManager.m; sourceTree = "<group>"; };
+		F72ED561216F8C8500E63F99 /* ZYQHealthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQHealthManager.h; sourceTree = "<group>"; };
+		F72ED564216F8CE900E63F99 /* NSDate+HKDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HKDate.h"; sourceTree = "<group>"; };
+		F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HKDate.m"; sourceTree = "<group>"; };
+		F72ED567216F90F400E63F99 /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
+		F72ED569216F90F500E63F99 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F72ED56B216F916B00E63F99 /* ZYQHealthKitDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHealthKitDetailController.h; sourceTree = "<group>"; };
+		F72ED56C216F916B00E63F99 /* ZYQHealthKitDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthKitDetailController.m; sourceTree = "<group>"; };
+		F72ED570216F91BD00E63F99 /* ZYQHealthKitDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQHealthKitDetailController.xib; sourceTree = "<group>"; };
+		F72ED574216F9AC200E63F99 /* ZYQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQRuntimeController.h; sourceTree = "<group>"; };
+		F72ED575216F9AC200E63F99 /* ZYQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRuntimeController.m; sourceTree = "<group>"; };
+		F72ED577216F9AD800E63F99 /* ZYQRuntimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQRuntimeManager.h; sourceTree = "<group>"; };
+		F72ED578216F9AD900E63F99 /* ZYQRuntimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQRuntimeManager.m; sourceTree = "<group>"; };
+		F72ED57A216F9BAE00E63F99 /* ZYQExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQExchangeViewController.h; sourceTree = "<group>"; };
+		F72ED57B216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQIvarAndMethodViewController.m; sourceTree = "<group>"; };
+		F72ED57C216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQIvarAndMethodViewController.xib; sourceTree = "<group>"; };
+		F72ED57D216F9BAE00E63F99 /* ZYQDictChangeModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQDictChangeModelViewController.m; sourceTree = "<group>"; };
+		F72ED57E216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQIvarAndMethodViewController.h; sourceTree = "<group>"; };
+		F72ED57F216F9BAE00E63F99 /* ZYQArchiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQArchiveViewController.xib; sourceTree = "<group>"; };
+		F72ED580216F9BAE00E63F99 /* ZYQArchiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQArchiveViewController.m; sourceTree = "<group>"; };
+		F72ED581216F9BAE00E63F99 /* ZYQExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQExchangeViewController.m; sourceTree = "<group>"; };
+		F72ED582216F9BAE00E63F99 /* ZYQExchangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQExchangeViewController.xib; sourceTree = "<group>"; };
+		F72ED583216F9BAF00E63F99 /* ZYQArchiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQArchiveViewController.h; sourceTree = "<group>"; };
+		F72ED584216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQDictChangeModelViewController.xib; sourceTree = "<group>"; };
+		F72ED585216F9BAF00E63F99 /* ZYQDictChangeModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQDictChangeModelViewController.h; sourceTree = "<group>"; };
+		F72ED58F216F9BED00E63F99 /* ZYQChangeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQChangeModel.m; sourceTree = "<group>"; };
+		F72ED590216F9BED00E63F99 /* ZYQChangeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQChangeModel.h; sourceTree = "<group>"; };
 		F72F813821495558004CCE7E /* ZYQPopOver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQPopOver.h; sourceTree = "<group>"; };
 		F72F813921495558004CCE7E /* ZYQPopOver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQPopOver.m; sourceTree = "<group>"; };
 		F72F813B214AA445004CCE7E /* ZYQarrow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQarrow.h; sourceTree = "<group>"; };
@@ -308,6 +354,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72ED56A216F90F500E63F99 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +411,89 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		F72ED55B216F8C2200E63F99 /* healthKit */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED55D216F8C6900E63F99 /* ZYQHealthKitController.h */,
+				F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */,
+				F72ED56B216F916B00E63F99 /* ZYQHealthKitDetailController.h */,
+				F72ED56C216F916B00E63F99 /* ZYQHealthKitDetailController.m */,
+				F72ED570216F91BD00E63F99 /* ZYQHealthKitDetailController.xib */,
+			);
+			path = healthKit;
+			sourceTree = "<group>";
+		};
+		F72ED55C216F8C4B00E63F99 /* healthKit */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED563216F8CE900E63F99 /* Date */,
+				F72ED561216F8C8500E63F99 /* ZYQHealthManager.h */,
+				F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */,
+			);
+			path = healthKit;
+			sourceTree = "<group>";
+		};
+		F72ED563216F8CE900E63F99 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED564216F8CE900E63F99 /* NSDate+HKDate.h */,
+				F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		F72ED568216F90F500E63F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED569216F90F500E63F99 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F72ED572216F991800E63F99 /* runTime */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED577216F9AD800E63F99 /* ZYQRuntimeManager.h */,
+				F72ED578216F9AD900E63F99 /* ZYQRuntimeManager.m */,
+			);
+			path = runTime;
+			sourceTree = "<group>";
+		};
+		F72ED573216F9AA000E63F99 /* runTime */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED574216F9AC200E63F99 /* ZYQRuntimeController.h */,
+				F72ED575216F9AC200E63F99 /* ZYQRuntimeController.m */,
+				F72ED583216F9BAF00E63F99 /* ZYQArchiveViewController.h */,
+				F72ED580216F9BAE00E63F99 /* ZYQArchiveViewController.m */,
+				F72ED57F216F9BAE00E63F99 /* ZYQArchiveViewController.xib */,
+				F72ED585216F9BAF00E63F99 /* ZYQDictChangeModelViewController.h */,
+				F72ED57D216F9BAE00E63F99 /* ZYQDictChangeModelViewController.m */,
+				F72ED584216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib */,
+				F72ED57A216F9BAE00E63F99 /* ZYQExchangeViewController.h */,
+				F72ED581216F9BAE00E63F99 /* ZYQExchangeViewController.m */,
+				F72ED582216F9BAE00E63F99 /* ZYQExchangeViewController.xib */,
+				F72ED57E216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.h */,
+				F72ED57B216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.m */,
+				F72ED57C216F9BAE00E63F99 /* ZYQIvarAndMethodViewController.xib */,
+			);
+			path = runTime;
+			sourceTree = "<group>";
+		};
+		F72ED58E216F9BE400E63F99 /* runTime */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED590216F9BED00E63F99 /* ZYQChangeModel.h */,
+				F72ED58F216F9BED00E63F99 /* ZYQChangeModel.m */,
+			);
+			path = runTime;
+			sourceTree = "<group>";
+		};
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F72ED572216F991800E63F99 /* runTime */,
+				F72ED55C216F8C4B00E63F99 /* healthKit */,
 				F7A0622C216E3A2C000302A4 /* badge */,
 				F72F813721495537004CCE7E /* view */,
 			);
@@ -875,6 +1002,7 @@
 		F7A0622A216E39DB000302A4 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F72ED58E216F9BE400E63F99 /* runTime */,
 				F7A06247216E3FA7000302A4 /* ZYQFunctionModel.h */,
 				F7A06248216E3FA7000302A4 /* ZYQFunctionModel.m */,
 			);
@@ -884,6 +1012,8 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F72ED573216F9AA000E63F99 /* runTime */,
+				F72ED55B216F8C2200E63F99 /* healthKit */,
 				F7A0624F216E4951000302A4 /* badge */,
 				F7A0622D216E3A68000302A4 /* ZYQFunctionController.h */,
 				F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */,
@@ -976,6 +1106,7 @@
 			children = (
 				F7DC2226212F040600881809 /* Demo */,
 				F7DC2225212F040600881809 /* Products */,
+				F72ED568216F90F500E63F99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -990,6 +1121,7 @@
 		F7DC2226212F040600881809 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F72ED567216F90F400E63F99 /* Demo.entitlements */,
 				F764898221400F040020F56C /* categories */,
 				F764898121400EE50020F56C /* macro */,
 				F7DC2246212F079300881809 /* module */,
@@ -1128,6 +1260,11 @@
 				TargetAttributes = {
 					F7DC2223212F040500881809 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1157,17 +1294,22 @@
 				F70B3AEA2148085E000F8823 /* ZYQDateViewController.xib in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
+				F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */,
 				F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */,
 				F72F816C215A6F32004CCE7E /* ZYQThreeCell.xib in Resources */,
 				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
+				F72ED58C216F9BAF00E63F99 /* ZYQExchangeViewController.xib in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
 				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */,
 				F7A0624E216E41C2000302A4 /* ZYQFunctionCell.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
+				F72ED58D216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib in Resources */,
 				F70B3ADE2148043E000F8823 /* ZYQColorViewController.xib in Resources */,
+				F72ED589216F9BAF00E63F99 /* ZYQArchiveViewController.xib in Resources */,
 				F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */,
+				F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1189,10 +1331,13 @@
 				F72F81AD215A8394004CCE7E /* MJRefreshHeader.m in Sources */,
 				F72F81CA215A839C004CCE7E /* ZYQRefreshNormalFooter.m in Sources */,
 				F72F8150215A674F004CCE7E /* AFURLSessionManager.m in Sources */,
+				F72ED58A216F9BAF00E63F99 /* ZYQArchiveViewController.m in Sources */,
 				F7A06241216E3A85000302A4 /* UIView+ZYQBadge.m in Sources */,
 				F70B3AE521480768000F8823 /* UIColor+ZYQDemoColor.m in Sources */,
 				F70B3AE42148073C000F8823 /* UIColor+ZYQColor.m in Sources */,
 				F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */,
+				F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */,
+				F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */,
 				F72F81B0215A8394004CCE7E /* MJRefreshComponent.m in Sources */,
 				F72F81A1215A8394004CCE7E /* NSBundle+MJRefresh.m in Sources */,
 				F72F81CB215A839C004CCE7E /* ZYQRefreshGifHeader.m in Sources */,
@@ -1225,18 +1370,22 @@
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
 				F70B3AEB2148085E000F8823 /* ZYQDateViewController.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
+				F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */,
 				F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */,
 				F72F81A7215A8394004CCE7E /* MJRefreshAutoGifFooter.m in Sources */,
 				F7DC2253212F094000881809 /* ZYQNavController.m in Sources */,
+				F72ED586216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.m in Sources */,
 				F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */,
 				F72F814F215A674F004CCE7E /* AFHTTPSessionManager.m in Sources */,
 				F70B3ADF2148043E000F8823 /* ZYQColorViewController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
+				F72ED591216F9BED00E63F99 /* ZYQChangeModel.m in Sources */,
 				F72F8152215A674F004CCE7E /* AFNetworkReachabilityManager.m in Sources */,
 				F72F81D2215A8761004CCE7E /* ZYQRefreshController.m in Sources */,
 				F72F816B215A6F32004CCE7E /* ZYQThreeCell.m in Sources */,
 				F72F819E215A8394004CCE7E /* MJRefreshConst.m in Sources */,
 				F72F8151215A674F004CCE7E /* AFURLRequestSerialization.m in Sources */,
+				F72ED588216F9BAF00E63F99 /* ZYQDictChangeModelViewController.m in Sources */,
 				F72F81C6215A839C004CCE7E /* ZYQRefreshGifFooter.m in Sources */,
 				F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */,
 				F72F81A8215A8394004CCE7E /* MJRefreshAutoNormalFooter.m in Sources */,
@@ -1244,9 +1393,12 @@
 				F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */,
 				F72F8167215A6CAA004CCE7E /* ZYQThreeModel.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
+				F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */,
+				F72ED579216F9AD900E63F99 /* ZYQRuntimeManager.m in Sources */,
 				F72F81A9215A8394004CCE7E /* MJRefreshNormalHeader.m in Sources */,
 				F7A06249216E3FA7000302A4 /* ZYQFunctionModel.m in Sources */,
 				F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */,
+				F72ED576216F9AC200E63F99 /* ZYQRuntimeController.m in Sources */,
 				F72F813D214AA445004CCE7E /* ZYQarrow.m in Sources */,
 				F72F81C8215A839C004CCE7E /* ZYQRefreshCustomFooter.m in Sources */,
 				F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */,
@@ -1255,6 +1407,7 @@
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
+				F72ED58B216F9BAF00E63F99 /* ZYQExchangeViewController.m in Sources */,
 				F72F8164215A6B71004CCE7E /* ZYQThreeViewController.m in Sources */,
 				F72F81A4215A8394004CCE7E /* MJRefreshBackStateFooter.m in Sources */,
 				F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */,
@@ -1402,6 +1555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
@@ -1421,6 +1575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
