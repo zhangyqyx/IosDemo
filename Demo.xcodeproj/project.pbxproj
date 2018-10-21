@@ -17,6 +17,20 @@
 		F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B3AEE21480F2E000F8823 /* ZYQViewController.m */; };
 		F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */; };
 		F70B3AF4214817C8000F8823 /* CALayer+ZYQXibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */; };
+		F71BC47A217C25DE000F931C /* ZYQDES.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC46A217C25DE000F931C /* ZYQDES.m */; };
+		F71BC47B217C25DE000F931C /* ZYQHash.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC46D217C25DE000F931C /* ZYQHash.m */; };
+		F71BC47C217C25DE000F931C /* ZYQRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC470217C25DE000F931C /* ZYQRSA.m */; };
+		F71BC47D217C25DE000F931C /* ZYQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC473217C25DE000F931C /* ZYQBase64.m */; };
+		F71BC47E217C25DE000F931C /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC475217C25DE000F931C /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F71BC47F217C25DE000F931C /* ZYQAES.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC479217C25DE000F931C /* ZYQAES.m */; };
+		F71BC486217C2670000F931C /* ZYQEncryptionAndDecryptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC485217C2670000F931C /* ZYQEncryptionAndDecryptionController.m */; };
+		F71BC489217C2B2D000F931C /* ZYQHASHController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC488217C2B2D000F931C /* ZYQHASHController.m */; };
+		F71BC48C217C2DC8000F931C /* ZYQDESController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC48B217C2DC8000F931C /* ZYQDESController.m */; };
+		F71BC48F217C2F80000F931C /* ZYQAESController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC48E217C2F80000F931C /* ZYQAESController.m */; };
+		F71BC492217C3189000F931C /* ZYQBASE64Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC491217C3189000F931C /* ZYQBASE64Controller.m */; };
+		F71BC495217C322B000F931C /* ZYQRSAController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC494217C322B000F931C /* ZYQRSAController.m */; };
+		F71BC499217C3646000F931C /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F71BC498217C3646000F931C /* p.p12 */; };
+		F71BC49B217C3652000F931C /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = F71BC49A217C3652000F931C /* rsacert.der */; };
 		F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */; };
 		F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */; };
 		F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */; };
@@ -141,6 +155,33 @@
 		F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQViewController.xib; sourceTree = "<group>"; };
 		F70B3AF2214817C8000F8823 /* CALayer+ZYQXibConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZYQXibConfiguration.h"; sourceTree = "<group>"; };
 		F70B3AF3214817C8000F8823 /* CALayer+ZYQXibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZYQXibConfiguration.m"; sourceTree = "<group>"; };
+		F71BC469217C25DE000F931C /* ZYQDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQDES.h; sourceTree = "<group>"; };
+		F71BC46A217C25DE000F931C /* ZYQDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQDES.m; sourceTree = "<group>"; };
+		F71BC46C217C25DE000F931C /* ZYQHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQHash.h; sourceTree = "<group>"; };
+		F71BC46D217C25DE000F931C /* ZYQHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQHash.m; sourceTree = "<group>"; };
+		F71BC46F217C25DE000F931C /* ZYQRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQRSA.h; sourceTree = "<group>"; };
+		F71BC470217C25DE000F931C /* ZYQRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQRSA.m; sourceTree = "<group>"; };
+		F71BC472217C25DE000F931C /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F71BC473217C25DE000F931C /* ZYQBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQBase64.m; sourceTree = "<group>"; };
+		F71BC474217C25DE000F931C /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F71BC475217C25DE000F931C /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F71BC476217C25DE000F931C /* ZYQBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQBase64.h; sourceTree = "<group>"; };
+		F71BC478217C25DE000F931C /* ZYQAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAES.h; sourceTree = "<group>"; };
+		F71BC479217C25DE000F931C /* ZYQAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAES.m; sourceTree = "<group>"; };
+		F71BC484217C2670000F931C /* ZYQEncryptionAndDecryptionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQEncryptionAndDecryptionController.h; sourceTree = "<group>"; };
+		F71BC485217C2670000F931C /* ZYQEncryptionAndDecryptionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQEncryptionAndDecryptionController.m; sourceTree = "<group>"; };
+		F71BC487217C2B2D000F931C /* ZYQHASHController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHASHController.h; sourceTree = "<group>"; };
+		F71BC488217C2B2D000F931C /* ZYQHASHController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHASHController.m; sourceTree = "<group>"; };
+		F71BC48A217C2DC8000F931C /* ZYQDESController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQDESController.h; sourceTree = "<group>"; };
+		F71BC48B217C2DC8000F931C /* ZYQDESController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQDESController.m; sourceTree = "<group>"; };
+		F71BC48D217C2F80000F931C /* ZYQAESController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAESController.h; sourceTree = "<group>"; };
+		F71BC48E217C2F80000F931C /* ZYQAESController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAESController.m; sourceTree = "<group>"; };
+		F71BC490217C3189000F931C /* ZYQBASE64Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBASE64Controller.h; sourceTree = "<group>"; };
+		F71BC491217C3189000F931C /* ZYQBASE64Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBASE64Controller.m; sourceTree = "<group>"; };
+		F71BC493217C322B000F931C /* ZYQRSAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQRSAController.h; sourceTree = "<group>"; };
+		F71BC494217C322B000F931C /* ZYQRSAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRSAController.m; sourceTree = "<group>"; };
+		F71BC498217C3646000F931C /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		F71BC49A217C3652000F931C /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
 		F72ED55D216F8C6900E63F99 /* ZYQHealthKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHealthKitController.h; sourceTree = "<group>"; };
 		F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthKitController.m; sourceTree = "<group>"; };
 		F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthManager.m; sourceTree = "<group>"; };
@@ -411,6 +452,85 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		F71BC467217C25DE000F931C /* encryptionAndDecryption */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC468217C25DE000F931C /* DES */,
+				F71BC46B217C25DE000F931C /* HASH */,
+				F71BC46E217C25DE000F931C /* RSA */,
+				F71BC471217C25DE000F931C /* BASE64 */,
+				F71BC477217C25DE000F931C /* AES */,
+			);
+			path = encryptionAndDecryption;
+			sourceTree = "<group>";
+		};
+		F71BC468217C25DE000F931C /* DES */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC469217C25DE000F931C /* ZYQDES.h */,
+				F71BC46A217C25DE000F931C /* ZYQDES.m */,
+			);
+			path = DES;
+			sourceTree = "<group>";
+		};
+		F71BC46B217C25DE000F931C /* HASH */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC46C217C25DE000F931C /* ZYQHash.h */,
+				F71BC46D217C25DE000F931C /* ZYQHash.m */,
+			);
+			path = HASH;
+			sourceTree = "<group>";
+		};
+		F71BC46E217C25DE000F931C /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC46F217C25DE000F931C /* ZYQRSA.h */,
+				F71BC470217C25DE000F931C /* ZYQRSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		F71BC471217C25DE000F931C /* BASE64 */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC472217C25DE000F931C /* GTMBase64.h */,
+				F71BC473217C25DE000F931C /* ZYQBase64.m */,
+				F71BC474217C25DE000F931C /* GTMDefines.h */,
+				F71BC475217C25DE000F931C /* GTMBase64.m */,
+				F71BC476217C25DE000F931C /* ZYQBase64.h */,
+			);
+			path = BASE64;
+			sourceTree = "<group>";
+		};
+		F71BC477217C25DE000F931C /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC478217C25DE000F931C /* ZYQAES.h */,
+				F71BC479217C25DE000F931C /* ZYQAES.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		F71BC480217C2607000F931C /* encryptionAndDecryption */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC484217C2670000F931C /* ZYQEncryptionAndDecryptionController.h */,
+				F71BC485217C2670000F931C /* ZYQEncryptionAndDecryptionController.m */,
+				F71BC487217C2B2D000F931C /* ZYQHASHController.h */,
+				F71BC488217C2B2D000F931C /* ZYQHASHController.m */,
+				F71BC48A217C2DC8000F931C /* ZYQDESController.h */,
+				F71BC48B217C2DC8000F931C /* ZYQDESController.m */,
+				F71BC48D217C2F80000F931C /* ZYQAESController.h */,
+				F71BC48E217C2F80000F931C /* ZYQAESController.m */,
+				F71BC490217C3189000F931C /* ZYQBASE64Controller.h */,
+				F71BC491217C3189000F931C /* ZYQBASE64Controller.m */,
+				F71BC493217C322B000F931C /* ZYQRSAController.h */,
+				F71BC494217C322B000F931C /* ZYQRSAController.m */,
+			);
+			path = encryptionAndDecryption;
+			sourceTree = "<group>";
+		};
 		F72ED55B216F8C2200E63F99 /* healthKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +612,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F71BC467217C25DE000F931C /* encryptionAndDecryption */,
 				F72ED572216F991800E63F99 /* runTime */,
 				F72ED55C216F8C4B00E63F99 /* healthKit */,
 				F7A0622C216E3A2C000302A4 /* badge */,
@@ -1012,6 +1133,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F71BC480217C2607000F931C /* encryptionAndDecryption */,
 				F72ED573216F9AA000E63F99 /* runTime */,
 				F72ED55B216F8C2200E63F99 /* healthKit */,
 				F7A0624F216E4951000302A4 /* badge */,
@@ -1121,6 +1243,8 @@
 		F7DC2226212F040600881809 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F71BC49A217C3652000F931C /* rsacert.der */,
+				F71BC498217C3646000F931C /* p.p12 */,
 				F72ED567216F90F400E63F99 /* Demo.entitlements */,
 				F764898221400F040020F56C /* categories */,
 				F764898121400EE50020F56C /* macro */,
@@ -1292,6 +1416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70B3AEA2148085E000F8823 /* ZYQDateViewController.xib in Resources */,
+				F71BC49B217C3652000F931C /* rsacert.der in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
 				F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */,
@@ -1309,6 +1434,7 @@
 				F70B3ADE2148043E000F8823 /* ZYQColorViewController.xib in Resources */,
 				F72ED589216F9BAF00E63F99 /* ZYQArchiveViewController.xib in Resources */,
 				F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */,
+				F71BC499217C3646000F931C /* p.p12 in Resources */,
 				F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1330,6 +1456,7 @@
 				F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */,
 				F72F81AD215A8394004CCE7E /* MJRefreshHeader.m in Sources */,
 				F72F81CA215A839C004CCE7E /* ZYQRefreshNormalFooter.m in Sources */,
+				F71BC489217C2B2D000F931C /* ZYQHASHController.m in Sources */,
 				F72F8150215A674F004CCE7E /* AFURLSessionManager.m in Sources */,
 				F72ED58A216F9BAF00E63F99 /* ZYQArchiveViewController.m in Sources */,
 				F7A06241216E3A85000302A4 /* UIView+ZYQBadge.m in Sources */,
@@ -1352,6 +1479,7 @@
 				F72F81AF215A8394004CCE7E /* MJRefreshAutoFooter.m in Sources */,
 				F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */,
 				F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */,
+				F71BC47D217C25DE000F931C /* ZYQBase64.m in Sources */,
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
@@ -1365,6 +1493,7 @@
 				F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */,
 				F7DC2237212F040700881809 /* main.m in Sources */,
 				F72F81A3215A8394004CCE7E /* MJRefreshBackGifFooter.m in Sources */,
+				F71BC47C217C25DE000F931C /* ZYQRSA.m in Sources */,
 				F7A06246216E3F21000302A4 /* ZYQBaseModel.m in Sources */,
 				F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */,
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
@@ -1383,19 +1512,25 @@
 				F72F8152215A674F004CCE7E /* AFNetworkReachabilityManager.m in Sources */,
 				F72F81D2215A8761004CCE7E /* ZYQRefreshController.m in Sources */,
 				F72F816B215A6F32004CCE7E /* ZYQThreeCell.m in Sources */,
+				F71BC47A217C25DE000F931C /* ZYQDES.m in Sources */,
 				F72F819E215A8394004CCE7E /* MJRefreshConst.m in Sources */,
 				F72F8151215A674F004CCE7E /* AFURLRequestSerialization.m in Sources */,
 				F72ED588216F9BAF00E63F99 /* ZYQDictChangeModelViewController.m in Sources */,
 				F72F81C6215A839C004CCE7E /* ZYQRefreshGifFooter.m in Sources */,
 				F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */,
+				F71BC47B217C25DE000F931C /* ZYQHash.m in Sources */,
 				F72F81A8215A8394004CCE7E /* MJRefreshAutoNormalFooter.m in Sources */,
 				F7A06252216E4999000302A4 /* ZYQBadgeController.m in Sources */,
 				F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */,
 				F72F8167215A6CAA004CCE7E /* ZYQThreeModel.m in Sources */,
+				F71BC486217C2670000F931C /* ZYQEncryptionAndDecryptionController.m in Sources */,
+				F71BC48F217C2F80000F931C /* ZYQAESController.m in Sources */,
+				F71BC495217C322B000F931C /* ZYQRSAController.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
 				F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */,
 				F72ED579216F9AD900E63F99 /* ZYQRuntimeManager.m in Sources */,
 				F72F81A9215A8394004CCE7E /* MJRefreshNormalHeader.m in Sources */,
+				F71BC48C217C2DC8000F931C /* ZYQDESController.m in Sources */,
 				F7A06249216E3FA7000302A4 /* ZYQFunctionModel.m in Sources */,
 				F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */,
 				F72ED576216F9AC200E63F99 /* ZYQRuntimeController.m in Sources */,
@@ -1403,6 +1538,7 @@
 				F72F81C8215A839C004CCE7E /* ZYQRefreshCustomFooter.m in Sources */,
 				F73730C9215BC8C800E6EF9F /* ZYQProgressHUDController.m in Sources */,
 				F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */,
+				F71BC47F217C25DE000F931C /* ZYQAES.m in Sources */,
 				F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */,
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
@@ -1411,9 +1547,11 @@
 				F72F8164215A6B71004CCE7E /* ZYQThreeViewController.m in Sources */,
 				F72F81A4215A8394004CCE7E /* MJRefreshBackStateFooter.m in Sources */,
 				F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */,
+				F71BC47E217C25DE000F931C /* GTMBase64.m in Sources */,
 				F72F81CD215A839C004CCE7E /* ZYQRefreshCustomHeader.m in Sources */,
 				F70B3AE321480598000F8823 /* NSDate+ZYQDate.m in Sources */,
 				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
+				F71BC492217C3189000F931C /* ZYQBASE64Controller.m in Sources */,
 				F72F81C7215A839C004CCE7E /* ZYQRefreshCustomBackFooter.m in Sources */,
 				F72F814E215A674F004CCE7E /* AFURLResponseSerialization.m in Sources */,
 			);

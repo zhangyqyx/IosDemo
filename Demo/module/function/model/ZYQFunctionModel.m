@@ -25,7 +25,8 @@
 + (NSArray *)createData {
     NSArray *data = @[@{@"title":@"红点提醒功能",@"introduction":@"有关于项目中用到的红点操作", @"nextVc":@"ZYQBadgeController"},
                       @{@"title":@"健康数据健康",@"introduction":@"有关苹果的healthKit功能的使用", @"nextVc":@"ZYQHealthKitController"},
-                      @{@"title":@"Runtime",@"introduction":@"有关Runtime的一些使用", @"nextVc":@"ZYQRuntimeController"}];
+                      @{@"title":@"Runtime",@"introduction":@"有关Runtime的一些使用", @"nextVc":@"ZYQRuntimeController"},
+                      @{@"title":@"加密解密",@"introduction":@"有关基本的一些加密、解密技术的使用，涉及到HASH、DES、AES、BASE64 、RSA", @"nextVc":@"ZYQEncryptionAndDecryptionController"}];
     return data;
 }
 
