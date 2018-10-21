@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYQFileViewController">
+            <connections>
+                <outlet property="showView" destination="efs-Ah-Kkz" id="MI8-ty-8OC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQo-Yy-00Q">
+                    <rect key="frame" x="95" y="178" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DU-s8-mdw">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="537"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deT-2y-rv2">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="获取文件路径"/>
+                            <connections>
+                                <action selector="getPath:" destination="-1" eventType="touchUpInside" id="8dy-vh-MeK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODR-yO-noU">
+                            <rect key="frame" x="0.0" y="53.5" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="创建一个文件或文件夹"/>
+                            <connections>
+                                <action selector="creatFileOrDirectory:" destination="-1" eventType="touchUpInside" id="diG-FG-Xeq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-ck-Rfv">
+                            <rect key="frame" x="0.0" y="107" width="375" height="54.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="判断文件是否可读写"/>
+                            <connections>
+                                <action selector="fileIsReadOrWrite:" destination="-1" eventType="touchUpInside" id="Fuv-Tf-fvA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYm-wV-qiR">
+                            <rect key="frame" x="0.0" y="161.5" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="判断是否是文件夹"/>
+                            <connections>
+                                <action selector="isDirectory:" destination="-1" eventType="touchUpInside" id="bYP-We-Cfo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gra-UD-qV2">
+                            <rect key="frame" x="0.0" y="215" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="判断文件是否可删除"/>
+                            <connections>
+                                <action selector="isRemove:" destination="-1" eventType="touchUpInside" id="CX1-Ye-ZtE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGE-Np-E8B">
+                            <rect key="frame" x="0.0" y="268.5" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="删除一个文件或者文件夹"/>
+                            <connections>
+                                <action selector="deleteFile:" destination="-1" eventType="touchUpInside" id="aCB-9D-jUN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pm9-E4-128">
+                            <rect key="frame" x="0.0" y="322" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="移动或者拷贝文件"/>
+                            <connections>
+                                <action selector="copyOrMoveFile:" destination="-1" eventType="touchUpInside" id="d22-yx-MmK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ged-fW-1lD">
+                            <rect key="frame" x="0.0" y="375.5" width="375" height="54.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="获取文件夹下所有文件"/>
+                            <connections>
+                                <action selector="getAllFiles:" destination="-1" eventType="touchUpInside" id="WLX-Ie-5PU"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHz-Cv-Ubz">
+                            <rect key="frame" x="0.0" y="430" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="获取文件夹下的文件"/>
+                            <connections>
+                                <action selector="getFiles:" destination="-1" eventType="touchUpInside" id="EwX-9y-ROV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knA-3j-HRu">
+                            <rect key="frame" x="0.0" y="483.5" width="375" height="53.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="获取文件大小和文件信息"/>
+                            <connections>
+                                <action selector="geZYQileSizeAndInfo:" destination="-1" eventType="touchUpInside" id="Cen-57-JcD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="tHz-Cv-Ubz" secondAttribute="trailing" id="3d8-AG-StI"/>
+                        <constraint firstItem="lYm-wV-qiR" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="4Y3-wZ-WXt"/>
+                        <constraint firstItem="ged-fW-1lD" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" constant="1" id="500-Lu-pFK"/>
+                        <constraint firstAttribute="trailing" secondItem="xGE-Np-E8B" secondAttribute="trailing" id="5aG-oD-QUI"/>
+                        <constraint firstItem="gra-UD-qV2" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="6cl-N9-vZD"/>
+                        <constraint firstItem="deT-2y-rv2" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="8na-Uw-MOW"/>
+                        <constraint firstItem="FcY-ck-Rfv" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" constant="1" id="9YS-ca-RCM"/>
+                        <constraint firstAttribute="trailing" secondItem="ODR-yO-noU" secondAttribute="trailing" id="Bkd-Ct-71S"/>
+                        <constraint firstItem="knA-3j-HRu" firstAttribute="top" secondItem="tHz-Cv-Ubz" secondAttribute="bottom" id="DSz-nt-8z2"/>
+                        <constraint firstItem="xGE-Np-E8B" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="FA7-zB-csI"/>
+                        <constraint firstAttribute="trailing" secondItem="deT-2y-rv2" secondAttribute="trailing" id="FNw-T5-iG9"/>
+                        <constraint firstItem="xGE-Np-E8B" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="FcW-5d-g0U"/>
+                        <constraint firstItem="FcY-ck-Rfv" firstAttribute="top" secondItem="ODR-yO-noU" secondAttribute="bottom" id="HYM-Ta-Tcj"/>
+                        <constraint firstItem="xGE-Np-E8B" firstAttribute="top" secondItem="gra-UD-qV2" secondAttribute="bottom" id="JZB-TH-RQB"/>
+                        <constraint firstItem="ODR-yO-noU" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="KLM-cT-QtK"/>
+                        <constraint firstItem="gra-UD-qV2" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="KZd-P3-Doa"/>
+                        <constraint firstItem="deT-2y-rv2" firstAttribute="top" secondItem="9DU-s8-mdw" secondAttribute="top" id="NWG-dG-Ycx"/>
+                        <constraint firstItem="Pm9-E4-128" firstAttribute="top" secondItem="xGE-Np-E8B" secondAttribute="bottom" id="QEe-Sd-mpU"/>
+                        <constraint firstItem="Pm9-E4-128" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="RaD-TS-jTg"/>
+                        <constraint firstItem="tHz-Cv-Ubz" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="UEh-vw-bhI"/>
+                        <constraint firstItem="FcY-ck-Rfv" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="UWD-sV-cEu"/>
+                        <constraint firstItem="knA-3j-HRu" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="UWG-m6-BMD"/>
+                        <constraint firstAttribute="trailing" secondItem="FcY-ck-Rfv" secondAttribute="trailing" id="c8G-we-iof"/>
+                        <constraint firstItem="Pm9-E4-128" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="dOt-dN-VX6"/>
+                        <constraint firstAttribute="trailing" secondItem="Pm9-E4-128" secondAttribute="trailing" id="hNb-zZ-9uB"/>
+                        <constraint firstItem="knA-3j-HRu" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="heu-4Q-hb6"/>
+                        <constraint firstAttribute="trailing" secondItem="gra-UD-qV2" secondAttribute="trailing" id="iOa-mN-3H0"/>
+                        <constraint firstItem="tHz-Cv-Ubz" firstAttribute="top" secondItem="ged-fW-1lD" secondAttribute="bottom" id="icz-fB-YeT"/>
+                        <constraint firstItem="gra-UD-qV2" firstAttribute="top" secondItem="lYm-wV-qiR" secondAttribute="bottom" id="ihs-wd-4Kb"/>
+                        <constraint firstItem="lYm-wV-qiR" firstAttribute="top" secondItem="FcY-ck-Rfv" secondAttribute="bottom" id="jSu-94-co5"/>
+                        <constraint firstAttribute="trailing" secondItem="knA-3j-HRu" secondAttribute="trailing" id="jUa-E1-XsN"/>
+                        <constraint firstItem="tHz-Cv-Ubz" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="l72-CH-fyb"/>
+                        <constraint firstAttribute="bottom" secondItem="knA-3j-HRu" secondAttribute="bottom" id="nBB-qM-NXq"/>
+                        <constraint firstItem="ODR-yO-noU" firstAttribute="top" secondItem="deT-2y-rv2" secondAttribute="bottom" id="quc-uc-hak"/>
+                        <constraint firstAttribute="trailing" secondItem="ged-fW-1lD" secondAttribute="trailing" id="r0E-bG-FgE"/>
+                        <constraint firstItem="ODR-yO-noU" firstAttribute="height" secondItem="deT-2y-rv2" secondAttribute="height" id="sdT-53-G3l"/>
+                        <constraint firstItem="ged-fW-1lD" firstAttribute="top" secondItem="Pm9-E4-128" secondAttribute="bottom" id="tfX-TQ-n5u"/>
+                        <constraint firstAttribute="trailing" secondItem="lYm-wV-qiR" secondAttribute="trailing" id="ycj-Mh-zps"/>
+                        <constraint firstItem="lYm-wV-qiR" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="yd6-Iq-eIM"/>
+                        <constraint firstItem="ged-fW-1lD" firstAttribute="leading" secondItem="9DU-s8-mdw" secondAttribute="leading" id="z51-gl-yxP"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="显示" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="efs-Ah-Kkz">
+                    <rect key="frame" x="0.0" y="537" width="375" height="130"/>
+                    <color key="backgroundColor" red="0.16862745100000001" green="0.49019607840000001" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="dZV-5o-ite"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="efs-Ah-Kkz" firstAttribute="top" secondItem="9DU-s8-mdw" secondAttribute="bottom" id="0bj-JH-Rw4"/>
+                <constraint firstAttribute="trailing" secondItem="9DU-s8-mdw" secondAttribute="trailing" id="cEq-W0-9ru"/>
+                <constraint firstAttribute="trailing" secondItem="efs-Ah-Kkz" secondAttribute="trailing" id="gTt-um-nhh"/>
+                <constraint firstItem="9DU-s8-mdw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kwa-J9-ldO"/>
+                <constraint firstItem="9DU-s8-mdw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tCN-8l-VuE"/>
+                <constraint firstItem="efs-Ah-Kkz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tVi-Kj-ouc"/>
+                <constraint firstAttribute="bottom" secondItem="efs-Ah-Kkz" secondAttribute="bottom" id="zXl-uT-D1e"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

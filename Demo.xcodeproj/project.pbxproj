@@ -31,6 +31,9 @@
 		F71BC495217C322B000F931C /* ZYQRSAController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC494217C322B000F931C /* ZYQRSAController.m */; };
 		F71BC499217C3646000F931C /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F71BC498217C3646000F931C /* p.p12 */; };
 		F71BC49B217C3652000F931C /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = F71BC49A217C3652000F931C /* rsacert.der */; };
+		F71BC49F217C38ED000F931C /* ZYQFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC49E217C38ED000F931C /* ZYQFileManager.m */; };
+		F71BC4A6217C6D24000F931C /* ZYQFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71BC4A4217C6D24000F931C /* ZYQFileViewController.xib */; };
+		F71BC4A7217C6D24000F931C /* ZYQFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BC4A5217C6D24000F931C /* ZYQFileViewController.m */; };
 		F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */; };
 		F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */; };
 		F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */; };
@@ -182,6 +185,11 @@
 		F71BC494217C322B000F931C /* ZYQRSAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRSAController.m; sourceTree = "<group>"; };
 		F71BC498217C3646000F931C /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
 		F71BC49A217C3652000F931C /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		F71BC49D217C38ED000F931C /* ZYQFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQFileManager.h; sourceTree = "<group>"; };
+		F71BC49E217C38ED000F931C /* ZYQFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQFileManager.m; sourceTree = "<group>"; };
+		F71BC4A3217C6D24000F931C /* ZYQFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQFileViewController.h; sourceTree = "<group>"; };
+		F71BC4A4217C6D24000F931C /* ZYQFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQFileViewController.xib; sourceTree = "<group>"; };
+		F71BC4A5217C6D24000F931C /* ZYQFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQFileViewController.m; sourceTree = "<group>"; };
 		F72ED55D216F8C6900E63F99 /* ZYQHealthKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHealthKitController.h; sourceTree = "<group>"; };
 		F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthKitController.m; sourceTree = "<group>"; };
 		F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthManager.m; sourceTree = "<group>"; };
@@ -531,6 +539,25 @@
 			path = encryptionAndDecryption;
 			sourceTree = "<group>";
 		};
+		F71BC49C217C38DE000F931C /* file */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC49D217C38ED000F931C /* ZYQFileManager.h */,
+				F71BC49E217C38ED000F931C /* ZYQFileManager.m */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		F71BC4A2217C6CAA000F931C /* file */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC4A3217C6D24000F931C /* ZYQFileViewController.h */,
+				F71BC4A5217C6D24000F931C /* ZYQFileViewController.m */,
+				F71BC4A4217C6D24000F931C /* ZYQFileViewController.xib */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
 		F72ED55B216F8C2200E63F99 /* healthKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +639,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F71BC49C217C38DE000F931C /* file */,
 				F71BC467217C25DE000F931C /* encryptionAndDecryption */,
 				F72ED572216F991800E63F99 /* runTime */,
 				F72ED55C216F8C4B00E63F99 /* healthKit */,
@@ -1133,6 +1161,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F71BC4A2217C6CAA000F931C /* file */,
 				F71BC480217C2607000F931C /* encryptionAndDecryption */,
 				F72ED573216F9AA000E63F99 /* runTime */,
 				F72ED55B216F8C2200E63F99 /* healthKit */,
@@ -1419,6 +1448,7 @@
 				F71BC49B217C3652000F931C /* rsacert.der in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
+				F71BC4A6217C6D24000F931C /* ZYQFileViewController.xib in Resources */,
 				F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */,
 				F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */,
 				F72F816C215A6F32004CCE7E /* ZYQThreeCell.xib in Resources */,
@@ -1498,6 +1528,8 @@
 				F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */,
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
 				F70B3AEB2148085E000F8823 /* ZYQDateViewController.m in Sources */,
+				F71BC4A7217C6D24000F931C /* ZYQFileViewController.m in Sources */,
+				F71BC49F217C38ED000F931C /* ZYQFileManager.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
 				F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */,
 				F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */,
