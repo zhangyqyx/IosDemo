@@ -24,7 +24,7 @@
 }
 
 + (NSArray *)createData {
-    NSArray *data = @[@{@"title":@"分类",@"imageStr":@"" , @"nextVc":@"ZYQCategoryViewController"},
+    NSArray *data = @[@{@"title":@"填充图画的功能",@"imageStr":@"fill.gif" , @"nextVc":@"ZYQFillViewController"},
   @{@"title":@"分类",@"imageStr":@"" , @"nextVc":@"ZYQCategoryViewController"},
   @{@"title":@"分类",@"imageStr":@"" , @"nextVc":@"ZYQCategoryViewController"}];
     return data;

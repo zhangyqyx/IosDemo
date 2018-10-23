@@ -9,6 +9,7 @@
 #import "ZYQOtherController.h"
 #import "ZYQOtherCollectionCell.h"
 #import "ZYQOtherModel.h"
+#import "FLAnimatedImage.h"
 
 @interface ZYQOtherController ()<UICollectionViewDelegate , UICollectionViewDataSource>
 /** collectionView */
@@ -38,7 +39,7 @@
     flowLayout.minimumInteritemSpacing = kSpacing * 2;
     flowLayout.sectionInset = UIEdgeInsetsMake(0, kSpacing, 0, kSpacing);
     CGFloat width = (self.view.frame.size.width - kSpacing * (kNumber +1)) /kNumber;
-    flowLayout.itemSize = CGSizeMake(width, width * 1.2);
+    flowLayout.itemSize = CGSizeMake(width, width * 1.5);
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0,ZYQ_ScreenWidth , ZYQ_ScreenHeight - ZYQ_TopH) collectionViewLayout:flowLayout];
     collectionView.backgroundColor = kViewLightBgColor;
@@ -66,7 +67,16 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     ZYQOtherCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kOtherCell forIndexPath:indexPath];
     ZYQOtherModel *model = self.dataSource[indexPath.row];
-//    cell.model = model;
+    FLAnimatedImageView *imageView = [[FLAnimatedImageView alloc] initWithFrame:CGRectMake(0, 0, ZYQ_ScreenWidth - kSpacing * 2, (ZYQ_ScreenWidth - kSpacing * 2 )* 1.5- 25) ];
+      if (![model.imageStr isEqualToString:@""]) {
+     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:model.imageStr ofType:nil]];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        FLAnimatedImage *animatedImage = [FLAnimatedImage animatedImageWithGIFData:data];
+        imageView.animatedImage = animatedImage;
+        [cell addSubview:imageView];
+    }
+    
+    cell.titleLabel.text = model.title;
     return cell;
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {

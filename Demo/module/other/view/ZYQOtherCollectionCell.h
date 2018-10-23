@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYQOtherCollectionCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 

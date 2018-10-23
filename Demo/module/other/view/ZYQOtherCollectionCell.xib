@@ -27,24 +27,16 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6QE-Op-utn">
-                        <rect key="frame" x="0.0" y="0.0" width="183" height="203"/>
-                    </imageView>
                 </subviews>
             </view>
             <color key="backgroundColor" red="0.16862745100000001" green="0.49019607840000001" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="Ggf-KH-P6k" secondAttribute="bottom" constant="5" id="2zm-82-GqV"/>
                 <constraint firstAttribute="trailing" secondItem="Ggf-KH-P6k" secondAttribute="trailing" id="Gk9-MG-AyU"/>
-                <constraint firstItem="6QE-Op-utn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LHa-nO-gh8"/>
-                <constraint firstAttribute="trailing" secondItem="6QE-Op-utn" secondAttribute="trailing" id="Nqc-rT-Gq7"/>
                 <constraint firstItem="Ggf-KH-P6k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ciA-Q8-Nch"/>
-                <constraint firstItem="6QE-Op-utn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dVa-NW-tK0"/>
-                <constraint firstItem="Ggf-KH-P6k" firstAttribute="top" secondItem="6QE-Op-utn" secondAttribute="bottom" id="rZ5-5v-IbM"/>
             </constraints>
             <size key="customSize" width="183" height="229"/>
             <connections>
-                <outlet property="imageView" destination="6QE-Op-utn" id="KEL-0u-9FJ"/>
                 <outlet property="titleLabel" destination="Ggf-KH-P6k" id="axu-w1-9Ei"/>
             </connections>
             <point key="canvasLocation" x="100.5" y="143.5"/>
