@@ -83,6 +83,8 @@ static ZYQCodeAlbumManager *_instance;
             [alertC addAction:alertA];
             [self.currentVC presentViewController:alertC animated:YES completion:nil];
         }
+    }else{
+        NSLog(@"用户无法获取摄像头");
     }
     
     

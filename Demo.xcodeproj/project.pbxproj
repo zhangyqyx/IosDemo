@@ -156,6 +156,17 @@
 		F7A06252216E4999000302A4 /* ZYQBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06251216E4999000302A4 /* ZYQBadgeController.m */; };
 		F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06254216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m */; };
 		F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */; };
+		F7CD860E2180C1B7001AECFD /* ZYQQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD860D2180C1B7001AECFD /* ZYQQRCodeController.m */; };
+		F7CD861F2180C4D9001AECFD /* ZYQBarcodeGenerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86102180C4D8001AECFD /* ZYQBarcodeGenerateController.m */; };
+		F7CD86202180C4D9001AECFD /* ZYQCodeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86112180C4D8001AECFD /* ZYQCodeDetailViewController.m */; };
+		F7CD86212180C4D9001AECFD /* ZYQCodeAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD86122180C4D8001AECFD /* ZYQCodeAlbumViewController.xib */; };
+		F7CD86222180C4D9001AECFD /* ZYQQRCodeGenerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86142180C4D8001AECFD /* ZYQQRCodeGenerateController.m */; };
+		F7CD86232180C4D9001AECFD /* ZYQCodeAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86172180C4D8001AECFD /* ZYQCodeAlbumViewController.m */; };
+		F7CD86242180C4D9001AECFD /* ZYQBarcodeGenerateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD86182180C4D8001AECFD /* ZYQBarcodeGenerateController.xib */; };
+		F7CD86252180C4D9001AECFD /* ZYQBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD861A2180C4D8001AECFD /* ZYQBarCodeViewController.m */; };
+		F7CD86262180C4D9001AECFD /* ZYQCodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD861C2180C4D9001AECFD /* ZYQCodeDetailViewController.xib */; };
+		F7CD86272180C4D9001AECFD /* ZYQQRCodeScaningController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD861D2180C4D9001AECFD /* ZYQQRCodeScaningController.m */; };
+		F7CD86282180C4D9001AECFD /* ZYQQRCodeGenerateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD861E2180C4D9001AECFD /* ZYQQRCodeGenerateController.xib */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -446,6 +457,24 @@
 		F7A06254216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBadgeDeatilOneController.m; sourceTree = "<group>"; };
 		F7A06256216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBadgeDeatilTwoController.h; sourceTree = "<group>"; };
 		F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBadgeDeatilTwoController.m; sourceTree = "<group>"; };
+		F7CD860C2180C1B7001AECFD /* ZYQQRCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQQRCodeController.h; sourceTree = "<group>"; };
+		F7CD860D2180C1B7001AECFD /* ZYQQRCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQQRCodeController.m; sourceTree = "<group>"; };
+		F7CD860F2180C4D7001AECFD /* ZYQCodeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQCodeDetailViewController.h; sourceTree = "<group>"; };
+		F7CD86102180C4D8001AECFD /* ZYQBarcodeGenerateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQBarcodeGenerateController.m; sourceTree = "<group>"; };
+		F7CD86112180C4D8001AECFD /* ZYQCodeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQCodeDetailViewController.m; sourceTree = "<group>"; };
+		F7CD86122180C4D8001AECFD /* ZYQCodeAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQCodeAlbumViewController.xib; sourceTree = "<group>"; };
+		F7CD86132180C4D8001AECFD /* ZYQQRCodeGenerateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQQRCodeGenerateController.h; sourceTree = "<group>"; };
+		F7CD86142180C4D8001AECFD /* ZYQQRCodeGenerateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQQRCodeGenerateController.m; sourceTree = "<group>"; };
+		F7CD86152180C4D8001AECFD /* ZYQBarcodeGenerateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQBarcodeGenerateController.h; sourceTree = "<group>"; };
+		F7CD86162180C4D8001AECFD /* ZYQCodeAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQCodeAlbumViewController.h; sourceTree = "<group>"; };
+		F7CD86172180C4D8001AECFD /* ZYQCodeAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQCodeAlbumViewController.m; sourceTree = "<group>"; };
+		F7CD86182180C4D8001AECFD /* ZYQBarcodeGenerateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQBarcodeGenerateController.xib; sourceTree = "<group>"; };
+		F7CD86192180C4D8001AECFD /* ZYQBarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQBarCodeViewController.h; sourceTree = "<group>"; };
+		F7CD861A2180C4D8001AECFD /* ZYQBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQBarCodeViewController.m; sourceTree = "<group>"; };
+		F7CD861B2180C4D8001AECFD /* ZYQQRCodeScaningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQQRCodeScaningController.h; sourceTree = "<group>"; };
+		F7CD861C2180C4D9001AECFD /* ZYQCodeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQCodeDetailViewController.xib; sourceTree = "<group>"; };
+		F7CD861D2180C4D9001AECFD /* ZYQQRCodeScaningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQQRCodeScaningController.m; sourceTree = "<group>"; };
+		F7CD861E2180C4D9001AECFD /* ZYQQRCodeGenerateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQQRCodeGenerateController.xib; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1347,6 +1376,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD860B2180C19A001AECFD /* QRCode */,
 				F71BC4A2217C6CAA000F931C /* file */,
 				F71BC480217C2607000F931C /* encryptionAndDecryption */,
 				F72ED573216F9AA000E63F99 /* runTime */,
@@ -1436,6 +1466,31 @@
 				F7A06257216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m */,
 			);
 			path = badge;
+			sourceTree = "<group>";
+		};
+		F7CD860B2180C19A001AECFD /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD86152180C4D8001AECFD /* ZYQBarcodeGenerateController.h */,
+				F7CD86102180C4D8001AECFD /* ZYQBarcodeGenerateController.m */,
+				F7CD86182180C4D8001AECFD /* ZYQBarcodeGenerateController.xib */,
+				F7CD86192180C4D8001AECFD /* ZYQBarCodeViewController.h */,
+				F7CD861A2180C4D8001AECFD /* ZYQBarCodeViewController.m */,
+				F7CD86162180C4D8001AECFD /* ZYQCodeAlbumViewController.h */,
+				F7CD86172180C4D8001AECFD /* ZYQCodeAlbumViewController.m */,
+				F7CD86122180C4D8001AECFD /* ZYQCodeAlbumViewController.xib */,
+				F7CD860F2180C4D7001AECFD /* ZYQCodeDetailViewController.h */,
+				F7CD86112180C4D8001AECFD /* ZYQCodeDetailViewController.m */,
+				F7CD861C2180C4D9001AECFD /* ZYQCodeDetailViewController.xib */,
+				F7CD86132180C4D8001AECFD /* ZYQQRCodeGenerateController.h */,
+				F7CD86142180C4D8001AECFD /* ZYQQRCodeGenerateController.m */,
+				F7CD861E2180C4D9001AECFD /* ZYQQRCodeGenerateController.xib */,
+				F7CD861B2180C4D8001AECFD /* ZYQQRCodeScaningController.h */,
+				F7CD861D2180C4D9001AECFD /* ZYQQRCodeScaningController.m */,
+				F7CD860C2180C1B7001AECFD /* ZYQQRCodeController.h */,
+				F7CD860D2180C1B7001AECFD /* ZYQQRCodeController.m */,
+			);
+			path = QRCode;
 			sourceTree = "<group>";
 		};
 		F7DC221B212F040500881809 = {
@@ -1636,6 +1691,7 @@
 				F71BC49B217C3652000F931C /* rsacert.der in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F71ACAA0217F5AA700E273FC /* fill.gif in Resources */,
+				F7CD86242180C4D9001AECFD /* ZYQBarcodeGenerateController.xib in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
 				F71BC4A6217C6D24000F931C /* ZYQFileViewController.xib in Resources */,
 				F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */,
@@ -1644,6 +1700,7 @@
 				F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */,
 				F72F816C215A6F32004CCE7E /* ZYQThreeCell.xib in Resources */,
 				F71ACA97217F55CD00E273FC /* 2.1.png in Resources */,
+				F7CD86282180C4D9001AECFD /* ZYQQRCodeGenerateController.xib in Resources */,
 				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
 				F72ED58C216F9BAF00E63F99 /* ZYQExchangeViewController.xib in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
@@ -1651,6 +1708,7 @@
 				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F71ACA99217F55CD00E273FC /* pickerColor.png in Resources */,
 				F71ACA70217E152A00E273FC /* ZYQOtherCollectionCell.xib in Resources */,
+				F7CD86212180C4D9001AECFD /* ZYQCodeAlbumViewController.xib in Resources */,
 				F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */,
 				F7A0624E216E41C2000302A4 /* ZYQFunctionCell.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
@@ -1662,6 +1720,7 @@
 				F71ACA95217F55CD00E273FC /* 6.1.png in Resources */,
 				F71ACA96217F55CD00E273FC /* 4.1.png in Resources */,
 				F71BC499217C3646000F931C /* p.p12 in Resources */,
+				F7CD86262180C4D9001AECFD /* ZYQCodeDetailViewController.xib in Resources */,
 				F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1698,6 +1757,7 @@
 				F72F81CB215A839C004CCE7E /* ZYQRefreshGifHeader.m in Sources */,
 				F70B3AF4214817C8000F8823 /* CALayer+ZYQXibConfiguration.m in Sources */,
 				F71ACA94217F55CD00E273FC /* MyimageView.m in Sources */,
+				F7CD86272180C4D9001AECFD /* ZYQQRCodeScaningController.m in Sources */,
 				F72F815F215A684E004CCE7E /* ZYQAFNController.m in Sources */,
 				F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */,
 				F72F81AB215A8394004CCE7E /* MJRefreshGifHeader.m in Sources */,
@@ -1711,6 +1771,7 @@
 				F71BC47D217C25DE000F931C /* ZYQBase64.m in Sources */,
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
 				F71ACA91217F55CD00E273FC /* ColorPickerView.m in Sources */,
+				F7CD860E2180C1B7001AECFD /* ZYQQRCodeController.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
 				F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */,
@@ -1734,9 +1795,11 @@
 				F71BC49F217C38ED000F931C /* ZYQFileManager.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
 				F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */,
+				F7CD86222180C4D9001AECFD /* ZYQQRCodeGenerateController.m in Sources */,
 				F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */,
 				F72F81A7215A8394004CCE7E /* MJRefreshAutoGifFooter.m in Sources */,
 				F7DC2253212F094000881809 /* ZYQNavController.m in Sources */,
+				F7CD861F2180C4D9001AECFD /* ZYQBarcodeGenerateController.m in Sources */,
 				F72ED586216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.m in Sources */,
 				F71ACAB6217F682E00E273FC /* ZYQQRCodeGenerateManager.m in Sources */,
 				F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */,
@@ -1759,12 +1822,14 @@
 				F7A06252216E4999000302A4 /* ZYQBadgeController.m in Sources */,
 				F73730A6215BBD1200E6EF9F /* ZYQRefreshModel.m in Sources */,
 				F72F8167215A6CAA004CCE7E /* ZYQThreeModel.m in Sources */,
+				F7CD86252180C4D9001AECFD /* ZYQBarCodeViewController.m in Sources */,
 				F71BC486217C2670000F931C /* ZYQEncryptionAndDecryptionController.m in Sources */,
 				F71BC48F217C2F80000F931C /* ZYQAESController.m in Sources */,
 				F71ACA9A217F55CD00E273FC /* UIImage+pixels.m in Sources */,
 				F71BC495217C322B000F931C /* ZYQRSAController.m in Sources */,
 				F71ACAB7217F682E00E273FC /* ZYQCodeHelperTool.m in Sources */,
 				F735458B2146BC3D006A3136 /* ZYQImageViewController.m in Sources */,
+				F7CD86202180C4D9001AECFD /* ZYQCodeDetailViewController.m in Sources */,
 				F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */,
 				F72ED579216F9AD900E63F99 /* ZYQRuntimeManager.m in Sources */,
 				F72F81A9215A8394004CCE7E /* MJRefreshNormalHeader.m in Sources */,
@@ -1778,6 +1843,7 @@
 				F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */,
 				F71BC47F217C25DE000F931C /* ZYQAES.m in Sources */,
 				F71ACA9E217F566800E273FC /* ZYQFillViewController.m in Sources */,
+				F7CD86232180C4D9001AECFD /* ZYQCodeAlbumViewController.m in Sources */,
 				F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */,
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
