@@ -30,7 +30,7 @@
                       @{@"title":@"三方",@"introduction":@"有关三方的封装和使用",@"image":@"", @"nextVc":@"ZYQThreeViewController"},
                       @{@"title":@"工具",@"introduction":@"项目中用到的工具类",@"image":@"", @"nextVc":@""},
                       @{@"title":@"功能",@"introduction":@"有关功能的封装",@"image":@"",@"nextVc":@"ZYQFunctionController"},
-                       @{@"title":@"动画",@"introduction":@"有关一些视图等动画效果",@"image":@"", @"nextVc":@""},
+                       @{@"title":@"动画",@"introduction":@"有关一些视图等动画效果",@"image":@"", @"nextVc":@"ZYQAnimationController"},
                       @{@"title":@"文章总结",@"introduction":@"经典的文章和博客",@"image":@"", @"nextVc":@""},
                       @{@"title":@"其他",@"introduction":@"其他方面的一些使用",@"image":@"", @"nextVc":@"ZYQOtherController"}];
     return data;

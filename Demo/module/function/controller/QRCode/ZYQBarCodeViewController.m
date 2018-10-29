@@ -26,8 +26,7 @@
 @implementation ZYQBarCodeViewController
 - (ZYQCodeScanningView *)scanningView {
     if (!_scanningView) {
-        _scanningView = [[ZYQCodeScanningView alloc]initWithFrame:self.view.frame];
-        _scanningView.center = self.view.center;
+        _scanningView = [[ZYQCodeScanningView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
 //        _scanningView.scanningImageName = @"scan_net.png";
 //        _scanningView.scnningType = ZYQScanningAnimationTypeGrid;
         _scanningView.scanSize = CGSizeMake(260, 80);

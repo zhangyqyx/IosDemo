@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.barcodeImage.image = [ZYQBarcodeGenerateManager ZYQ_generateBarcodeWithStr:@"18410286154" ];
-//    self.barcodeImage.image = [ZYQBarcodeGenerateManager ZYQ_generateBarcodeWithStr:@"18410286154" codeImageSize:CGSizeMake(240, 50)];
-    self.barcodeImage.image = [ZYQBarcodeGenerateManager ZYQ_generateBarcodeWithStr:@"www.baidu.com" codeImageSize:CGSizeMake(240, 50) red:0.5f green:0.3f blue:0.8f];
+    self.barcodeImage.image = [ZYQBarcodeGenerateManager ZYQ_generateBarcodeWithStr:@"18410286154" codeImageSize:CGSizeMake(240, 50)];
+//    self.barcodeImage.image = [ZYQBarcodeGenerateManager ZYQ_generateBarcodeWithStr:@"www.baidu.com" codeImageSize:CGSizeMake(240, 50) red:0.5f green:0.3f blue:0.8f];
 }
 
 

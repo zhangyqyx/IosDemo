@@ -167,6 +167,10 @@
 		F7CD86262180C4D9001AECFD /* ZYQCodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD861C2180C4D9001AECFD /* ZYQCodeDetailViewController.xib */; };
 		F7CD86272180C4D9001AECFD /* ZYQQRCodeScaningController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD861D2180C4D9001AECFD /* ZYQQRCodeScaningController.m */; };
 		F7CD86282180C4D9001AECFD /* ZYQQRCodeGenerateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CD861E2180C4D9001AECFD /* ZYQQRCodeGenerateController.xib */; };
+		F7CD8639218753F1001AECFD /* ZYQAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8638218753F1001AECFD /* ZYQAnimationController.m */; };
+		F7CD863F2187563C001AECFD /* ZYQAnimationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD863E2187563C001AECFD /* ZYQAnimationModel.m */; };
+		F7CD8644218761A3001AECFD /* ZYQViscousBadgeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */; };
+		F7CD864821876203001AECFD /* ZYQViscousBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -475,6 +479,14 @@
 		F7CD861C2180C4D9001AECFD /* ZYQCodeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQCodeDetailViewController.xib; sourceTree = "<group>"; };
 		F7CD861D2180C4D9001AECFD /* ZYQQRCodeScaningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQQRCodeScaningController.m; sourceTree = "<group>"; };
 		F7CD861E2180C4D9001AECFD /* ZYQQRCodeGenerateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQQRCodeGenerateController.xib; sourceTree = "<group>"; };
+		F7CD8637218753F1001AECFD /* ZYQAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAnimationController.h; sourceTree = "<group>"; };
+		F7CD8638218753F1001AECFD /* ZYQAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAnimationController.m; sourceTree = "<group>"; };
+		F7CD863D2187563C001AECFD /* ZYQAnimationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAnimationModel.h; sourceTree = "<group>"; };
+		F7CD863E2187563C001AECFD /* ZYQAnimationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAnimationModel.m; sourceTree = "<group>"; };
+		F7CD8642218761A3001AECFD /* ZYQViscousBadgeBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQViscousBadgeBtn.h; sourceTree = "<group>"; };
+		F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQViscousBadgeBtn.m; sourceTree = "<group>"; };
+		F7CD864621876203001AECFD /* ZYQViscousBadgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQViscousBadgeController.h; sourceTree = "<group>"; };
+		F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQViscousBadgeController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1126,6 +1138,7 @@
 		F735457C2146B298006A3136 /* packaging */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD86402187617A001AECFD /* animation */,
 				F71ACA7F217F55B400E273FC /* other */,
 				F72F813E215A66A2004CCE7E /* three */,
 				F72F813621495524004CCE7E /* function */,
@@ -1493,6 +1506,68 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
+		F7CD8636218751C5001AECFD /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD863C2187557D001AECFD /* view */,
+				F7CD863B21875577001AECFD /* model */,
+				F7CD863A21875570001AECFD /* controller */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		F7CD863A21875570001AECFD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD8645218761E5001AECFD /* viscousBadge */,
+				F7CD8637218753F1001AECFD /* ZYQAnimationController.h */,
+				F7CD8638218753F1001AECFD /* ZYQAnimationController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7CD863B21875577001AECFD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD863D2187563C001AECFD /* ZYQAnimationModel.h */,
+				F7CD863E2187563C001AECFD /* ZYQAnimationModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7CD863C2187557D001AECFD /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F7CD86402187617A001AECFD /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD864121876181001AECFD /* viscousBadge */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		F7CD864121876181001AECFD /* viscousBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD8642218761A3001AECFD /* ZYQViscousBadgeBtn.h */,
+				F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */,
+			);
+			path = viscousBadge;
+			sourceTree = "<group>";
+		};
+		F7CD8645218761E5001AECFD /* viscousBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD864621876203001AECFD /* ZYQViscousBadgeController.h */,
+				F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */,
+			);
+			path = viscousBadge;
+			sourceTree = "<group>";
+		};
 		F7DC221B212F040500881809 = {
 			isa = PBXGroup;
 			children = (
@@ -1577,6 +1652,7 @@
 		F7DC2246212F079300881809 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD8636218751C5001AECFD /* animation */,
 				F71ACA65217E10F800E273FC /* other */,
 				F7A06228216E39BB000302A4 /* function */,
 				F72F8157215A67E0004CCE7E /* three */,
@@ -1805,6 +1881,7 @@
 				F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */,
 				F71ACAB3217F682E00E273FC /* ZYQCodeAlbumManager.m in Sources */,
 				F72F814F215A674F004CCE7E /* AFHTTPSessionManager.m in Sources */,
+				F7CD8644218761A3001AECFD /* ZYQViscousBadgeBtn.m in Sources */,
 				F70B3ADF2148043E000F8823 /* ZYQColorViewController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
 				F72ED591216F9BED00E63F99 /* ZYQChangeModel.m in Sources */,
@@ -1848,15 +1925,18 @@
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
+				F7CD864821876203001AECFD /* ZYQViscousBadgeController.m in Sources */,
 				F71BC4AB217C78A6000F931C /* ZYQCreateBtn.m in Sources */,
 				F72ED58B216F9BAF00E63F99 /* ZYQExchangeViewController.m in Sources */,
 				F72F8164215A6B71004CCE7E /* ZYQThreeViewController.m in Sources */,
 				F72F81A4215A8394004CCE7E /* MJRefreshBackStateFooter.m in Sources */,
 				F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */,
+				F7CD863F2187563C001AECFD /* ZYQAnimationModel.m in Sources */,
 				F71BC47E217C25DE000F931C /* GTMBase64.m in Sources */,
 				F71ACA6F217E152A00E273FC /* ZYQOtherCollectionCell.m in Sources */,
 				F71ACA98217F55CD00E273FC /* LinkedListStack.m in Sources */,
 				F71ACA68217E112000E273FC /* ZYQOtherController.m in Sources */,
+				F7CD8639218753F1001AECFD /* ZYQAnimationController.m in Sources */,
 				F72F81CD215A839C004CCE7E /* ZYQRefreshCustomHeader.m in Sources */,
 				F70B3AE321480598000F8823 /* NSDate+ZYQDate.m in Sources */,
 				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
@@ -2004,6 +2084,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
@@ -2015,6 +2096,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TF.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2024,6 +2106,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
@@ -2035,6 +2118,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TF.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
