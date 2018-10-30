@@ -244,8 +244,10 @@
             if (self.scanningline.frame.origin.y >= - _scanBorderH) {
                 CGFloat scanContent_MaxY = - _scanBorderH + self.frame.size.height - 2 * _scanBorderY;
                 if (_scanningline.frame.origin.y >= scanContent_MaxY) {
+                    __weak __typeof(self)weakSelf = self;
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                        frame.origin.y = - _scanBorderH;
+                        __strong __typeof(weakSelf)strongSelf = weakSelf;
+                        frame.origin.y = - strongSelf->_scanBorderH;
                         self.scanningline.frame = frame;
                         flag = YES;
                     });

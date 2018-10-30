@@ -80,7 +80,7 @@
     
     PointNode *node = [self nodeAtOffset:topNodeOffset];
     
-    int thisNodeOffset = topNodeOffset;
+    long thisNodeOffset = topNodeOffset;
     
     // Remove this node from the queue
     topNodeOffset = node->nextNodeOffset;
@@ -99,12 +99,12 @@
 }
 
 #pragma mark - utility functions
-- (int)offsetOfNode:(PointNode *)node
+- (long)offsetOfNode:(PointNode *)node
 {
     return node - (PointNode *)nodeCache.mutableBytes;
 }
 
-- (PointNode *)nodeAtOffset:(int)offset
+- (PointNode *)nodeAtOffset:(long)offset
 {
     return (PointNode *)nodeCache.mutableBytes + offset;
 }
@@ -114,7 +114,7 @@
     if(freeNodeOffset < 0)
     {
         // Need to extend the size of the nodeCache
-        int currentSize = nodeCache.length / sizeof(PointNode);
+        long currentSize = nodeCache.length / sizeof(PointNode);
         [nodeCache increaseLengthBy:_cacheSizeIncrements * sizeof(PointNode)];
     
         // Set these new nodes to be the free ones
@@ -128,7 +128,7 @@
     return node;
 }
 
-- (void)initialiseNodesAtOffset:(int)offset count:(int)count
+- (void)initialiseNodesAtOffset:(long)offset count:(long)count
 {
     PointNode *node = (PointNode *)nodeCache.mutableBytes + offset;
     

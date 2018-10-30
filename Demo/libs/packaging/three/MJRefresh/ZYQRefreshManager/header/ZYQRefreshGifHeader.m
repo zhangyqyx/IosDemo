@@ -16,14 +16,18 @@
     [self setTitle:@"松开加载" forState:MJRefreshStatePulling];
     [self setTitle:@"上拉加载" forState:MJRefreshStateWillRefresh];
     [self setTitle:@"上拉加载" forState:MJRefreshStateIdle];
-    [self setImages:@[[UIImage imageNamed:@"refresh6"]] forState:MJRefreshStateIdle];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"ZYQRefreshManager.bundle/refresh6.png" ofType:nil]];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    [self setImages:@[[UIImage imageWithData:data]] forState:MJRefreshStateIdle];
     [self setImages:[self getRefreshImages] forState:MJRefreshStatePulling];
     [self setImages:[self getRefreshImages] forState:MJRefreshStateRefreshing];
 }
 - (NSArray *)getRefreshImages{
     NSMutableArray * images = [NSMutableArray array];
     for (int i = 0; i < 24; i++) {
-        UIImage * image = [UIImage imageNamed:[NSString stringWithFormat:@"refresh%d" , i]];
+        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:[NSString stringWithFormat:@"ZYQRefreshManager.bundle/refresh%d.png", i] ofType:nil]];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        UIImage * image = [UIImage imageWithData:data];
         [images addObject:image];
     }
     return images;

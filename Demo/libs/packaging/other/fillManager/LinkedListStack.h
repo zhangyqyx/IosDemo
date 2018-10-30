@@ -11,7 +11,7 @@
 
 typedef struct PointNode
 {
-    int nextNodeOffset;
+    long nextNodeOffset;
     
     int point;
     
@@ -21,8 +21,8 @@ typedef struct PointNode
 {
     NSMutableData *nodeCache;
     
-    int freeNodeOffset;
-    int topNodeOffset;
+    long freeNodeOffset;
+    long topNodeOffset;
     int _cacheSizeIncrements;
     
     int multiplier;

@@ -105,7 +105,7 @@
         return;
     }
     // 新的颜色  把新的颜色转换成容易储存的形式
-    int newRed, newGreen, newBlue, newAlpha;
+    int newRed=0, newGreen=0, newBlue=0, newAlpha = 1;
     const CGFloat *components = CGColorGetComponents(newColor.CGColor);
     if(CGColorGetNumberOfComponents(newColor.CGColor) == 2){
         newRed   = newGreen = newBlue = components[0] * 255;

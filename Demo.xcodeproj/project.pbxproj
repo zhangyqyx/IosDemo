@@ -171,6 +171,12 @@
 		F7CD863F2187563C001AECFD /* ZYQAnimationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD863E2187563C001AECFD /* ZYQAnimationModel.m */; };
 		F7CD8644218761A3001AECFD /* ZYQViscousBadgeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */; };
 		F7CD864821876203001AECFD /* ZYQViscousBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */; };
+		F7CD866621880870001AECFD /* ZYQViscousBadgeBtn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD866521880870001AECFD /* ZYQViscousBadgeBtn.bundle */; };
+		F7CD86A621882AFB001AECFD /* ZYQRefreshManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD86A521882AFB001AECFD /* ZYQRefreshManager.bundle */; };
+		F7CD86AA218836B2001AECFD /* ZYQTransitionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86A9218836B2001AECFD /* ZYQTransitionsController.m */; };
+		F7CD86B2218837A8001AECFD /* ZYQSystemAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86B1218837A8001AECFD /* ZYQSystemAnimationController.m */; };
+		F7CD86B521883929001AECFD /* ZYQTransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86B421883929001AECFD /* ZYQTransitionModel.m */; };
+		F7CD86B82188434F001AECFD /* ZYQSystemAnimationNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86B72188434E001AECFD /* ZYQSystemAnimationNextController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -487,6 +493,16 @@
 		F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQViscousBadgeBtn.m; sourceTree = "<group>"; };
 		F7CD864621876203001AECFD /* ZYQViscousBadgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQViscousBadgeController.h; sourceTree = "<group>"; };
 		F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQViscousBadgeController.m; sourceTree = "<group>"; };
+		F7CD866521880870001AECFD /* ZYQViscousBadgeBtn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQViscousBadgeBtn.bundle; sourceTree = "<group>"; };
+		F7CD86A521882AFB001AECFD /* ZYQRefreshManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQRefreshManager.bundle; sourceTree = "<group>"; };
+		F7CD86A8218836B2001AECFD /* ZYQTransitionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQTransitionsController.h; sourceTree = "<group>"; };
+		F7CD86A9218836B2001AECFD /* ZYQTransitionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQTransitionsController.m; sourceTree = "<group>"; };
+		F7CD86B0218837A8001AECFD /* ZYQSystemAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQSystemAnimationController.h; sourceTree = "<group>"; };
+		F7CD86B1218837A8001AECFD /* ZYQSystemAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQSystemAnimationController.m; sourceTree = "<group>"; };
+		F7CD86B321883929001AECFD /* ZYQTransitionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQTransitionModel.h; sourceTree = "<group>"; };
+		F7CD86B421883929001AECFD /* ZYQTransitionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQTransitionModel.m; sourceTree = "<group>"; };
+		F7CD86B62188434E001AECFD /* ZYQSystemAnimationNextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQSystemAnimationNextController.h; sourceTree = "<group>"; };
+		F7CD86B72188434E001AECFD /* ZYQSystemAnimationNextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQSystemAnimationNextController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1084,6 +1100,7 @@
 		F72F81B1215A839C004CCE7E /* ZYQRefreshManager */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD86A521882AFB001AECFD /* ZYQRefreshManager.bundle */,
 				F72F81B2215A839C004CCE7E /* footer */,
 				F72F81BD215A839C004CCE7E /* header */,
 			);
@@ -1094,14 +1111,14 @@
 			isa = PBXGroup;
 			children = (
 				F72F81B3215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.h */,
+				F72F81B9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m */,
 				F72F81B4215A839C004CCE7E /* ZYQRefreshCustomFooter.h */,
+				F72F81B8215A839C004CCE7E /* ZYQRefreshCustomFooter.m */,
+				F72F81BB215A839C004CCE7E /* ZYQRefreshGifFooter.h */,
 				F72F81B5215A839C004CCE7E /* ZYQRefreshGifFooter.m */,
+				F72F81BA215A839C004CCE7E /* ZYQRefreshCustomBackFooter.h */,
 				F72F81B6215A839C004CCE7E /* ZYQRefreshCustomBackFooter.m */,
 				F72F81B7215A839C004CCE7E /* ZYQRefreshNormalFooter.h */,
-				F72F81B8215A839C004CCE7E /* ZYQRefreshCustomFooter.m */,
-				F72F81B9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m */,
-				F72F81BA215A839C004CCE7E /* ZYQRefreshCustomBackFooter.h */,
-				F72F81BB215A839C004CCE7E /* ZYQRefreshGifFooter.h */,
 				F72F81BC215A839C004CCE7E /* ZYQRefreshNormalFooter.m */,
 			);
 			path = footer;
@@ -1111,12 +1128,12 @@
 			isa = PBXGroup;
 			children = (
 				F72F81BE215A839C004CCE7E /* ZYQRefreshCustomHeader.h */,
+				F72F81C3215A839C004CCE7E /* ZYQRefreshCustomHeader.m */,
 				F72F81BF215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.h */,
+				F72F81C2215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m */,
+				F72F81C4215A839C004CCE7E /* ZYQRefreshGifHeader.h */,
 				F72F81C0215A839C004CCE7E /* ZYQRefreshGifHeader.m */,
 				F72F81C1215A839C004CCE7E /* ZYQRefreshNormalHeader.h */,
-				F72F81C2215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m */,
-				F72F81C3215A839C004CCE7E /* ZYQRefreshCustomHeader.m */,
-				F72F81C4215A839C004CCE7E /* ZYQRefreshGifHeader.h */,
 				F72F81C5215A839C004CCE7E /* ZYQRefreshNormalHeader.m */,
 			);
 			path = header;
@@ -1519,6 +1536,7 @@
 		F7CD863A21875570001AECFD /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD86A721883683001AECFD /* transitionsAnimation */,
 				F7CD8645218761E5001AECFD /* viscousBadge */,
 				F7CD8637218753F1001AECFD /* ZYQAnimationController.h */,
 				F7CD8638218753F1001AECFD /* ZYQAnimationController.m */,
@@ -1529,6 +1547,7 @@
 		F7CD863B21875577001AECFD /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD86AB218836EF001AECFD /* transitionsAnimation */,
 				F7CD863D2187563C001AECFD /* ZYQAnimationModel.h */,
 				F7CD863E2187563C001AECFD /* ZYQAnimationModel.m */,
 			);
@@ -1555,6 +1574,7 @@
 			children = (
 				F7CD8642218761A3001AECFD /* ZYQViscousBadgeBtn.h */,
 				F7CD8643218761A3001AECFD /* ZYQViscousBadgeBtn.m */,
+				F7CD866521880870001AECFD /* ZYQViscousBadgeBtn.bundle */,
 			);
 			path = viscousBadge;
 			sourceTree = "<group>";
@@ -1566,6 +1586,36 @@
 				F7CD864721876203001AECFD /* ZYQViscousBadgeController.m */,
 			);
 			path = viscousBadge;
+			sourceTree = "<group>";
+		};
+		F7CD86A721883683001AECFD /* transitionsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD86AF2188378D001AECFD /* system */,
+				F7CD86A8218836B2001AECFD /* ZYQTransitionsController.h */,
+				F7CD86A9218836B2001AECFD /* ZYQTransitionsController.m */,
+			);
+			path = transitionsAnimation;
+			sourceTree = "<group>";
+		};
+		F7CD86AB218836EF001AECFD /* transitionsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD86B321883929001AECFD /* ZYQTransitionModel.h */,
+				F7CD86B421883929001AECFD /* ZYQTransitionModel.m */,
+			);
+			path = transitionsAnimation;
+			sourceTree = "<group>";
+		};
+		F7CD86AF2188378D001AECFD /* system */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD86B0218837A8001AECFD /* ZYQSystemAnimationController.h */,
+				F7CD86B1218837A8001AECFD /* ZYQSystemAnimationController.m */,
+				F7CD86B62188434E001AECFD /* ZYQSystemAnimationNextController.h */,
+				F7CD86B72188434E001AECFD /* ZYQSystemAnimationNextController.m */,
+			);
+			path = system;
 			sourceTree = "<group>";
 		};
 		F7DC221B212F040500881809 = {
@@ -1780,7 +1830,9 @@
 				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
 				F72ED58C216F9BAF00E63F99 /* ZYQExchangeViewController.xib in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
+				F7CD866621880870001AECFD /* ZYQViscousBadgeBtn.bundle in Resources */,
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
+				F7CD86A621882AFB001AECFD /* ZYQRefreshManager.bundle in Resources */,
 				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F71ACA99217F55CD00E273FC /* pickerColor.png in Resources */,
 				F71ACA70217E152A00E273FC /* ZYQOtherCollectionCell.xib in Resources */,
@@ -1813,6 +1865,7 @@
 				F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */,
 				F72F8153215A674F004CCE7E /* AFSecurityPolicy.m in Sources */,
 				F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */,
+				F7CD86B82188434F001AECFD /* ZYQSystemAnimationNextController.m in Sources */,
 				F73730AC215BC23500E6EF9F /* UIViewController+Example.m in Sources */,
 				F72F81A6215A8394004CCE7E /* MJRefreshAutoStateFooter.m in Sources */,
 				F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */,
@@ -1824,6 +1877,7 @@
 				F72ED58A216F9BAF00E63F99 /* ZYQArchiveViewController.m in Sources */,
 				F7A06241216E3A85000302A4 /* UIView+ZYQBadge.m in Sources */,
 				F70B3AE521480768000F8823 /* UIColor+ZYQDemoColor.m in Sources */,
+				F7CD86B2218837A8001AECFD /* ZYQSystemAnimationController.m in Sources */,
 				F70B3AE42148073C000F8823 /* UIColor+ZYQColor.m in Sources */,
 				F73545942146BE49006A3136 /* UIView+ZYQSetSize.m in Sources */,
 				F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */,
@@ -1868,6 +1922,7 @@
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
 				F70B3AEB2148085E000F8823 /* ZYQDateViewController.m in Sources */,
 				F71BC4A7217C6D24000F931C /* ZYQFileViewController.m in Sources */,
+				F7CD86B521883929001AECFD /* ZYQTransitionModel.m in Sources */,
 				F71BC49F217C38ED000F931C /* ZYQFileManager.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
 				F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */,
@@ -1941,6 +1996,7 @@
 				F70B3AE321480598000F8823 /* NSDate+ZYQDate.m in Sources */,
 				F73545902146BC70006A3136 /* UIImage+ZYQFunction.m in Sources */,
 				F71BC492217C3189000F931C /* ZYQBASE64Controller.m in Sources */,
+				F7CD86AA218836B2001AECFD /* ZYQTransitionsController.m in Sources */,
 				F71ACAB9217F682E00E273FC /* ZYQCodeScanManager.m in Sources */,
 				F72F81C7215A839C004CCE7E /* ZYQRefreshCustomBackFooter.m in Sources */,
 				F72F814E215A674F004CCE7E /* AFURLResponseSerialization.m in Sources */,

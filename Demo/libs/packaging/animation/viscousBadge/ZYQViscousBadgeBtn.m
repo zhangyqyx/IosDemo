@@ -155,9 +155,11 @@
 - (void)resumeLocation{
     [self.shapelayer removeFromSuperlayer];
     self.shapelayer = nil;
+    __weak __typeof(self)weakSelf = self;
     [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.2 initialSpringVelocity:0 options:UIViewAnimationOptionCurveLinear animations:^{
-        self.center = self.smallCircelView.center;
-        self.maxNumberLabel.center = self.smallCircelView.center;
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
+        strongSelf.center = strongSelf.smallCircelView.center;
+        strongSelf.maxNumberLabel.center = strongSelf.smallCircelView.center;
     } completion:^(BOOL finished) {
         //        _smallCircelView.hidden = false;
     }];
@@ -168,7 +170,11 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.bounds];
     NSMutableArray *images = [NSMutableArray array];
     for (int i = 0; i < 8; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d" , i + 1]];
+        
+        NSString *bundlePath = [[ NSBundle mainBundle] pathForResource:@"ZYQViscousBadgeBtn" ofType :@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        NSString *img_path = [bundle pathForResource:[NSString stringWithFormat:@"explosion%d" , i+1] ofType:@"jpg"];
+        UIImage *image = [UIImage imageWithContentsOfFile:img_path];
         [images addObject:image];
     }
     imageView.animationImages = images;

@@ -36,7 +36,9 @@
     
     
     // logo
-    UIImageView *logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo-1"]];
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"ZYQRefreshManager" ofType:@"bundle"];
+    NSString *image_path = [[NSBundle bundleWithPath:bundlePath] pathForResource:@"logo.png" ofType:nil];
+    UIImageView *logo = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:image_path]];
     logo.contentMode = UIViewContentModeScaleAspectFit;
     [self addSubview:logo];
     self.logo = logo;
