@@ -183,6 +183,7 @@
 		F7CD86C9218AED73001AECFD /* ZYQLikeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86C8218AED73001AECFD /* ZYQLikeBtn.m */; };
 		F7CD86CC218AF4D8001AECFD /* ZYQEmitterBtnController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86CB218AF4D8001AECFD /* ZYQEmitterBtnController.m */; };
 		F7CD8730218C208A001AECFD /* Emitter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD872F218C208A001AECFD /* Emitter.bundle */; };
+		F7CD8734218C3C7A001AECFD /* ZYQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8733218C3C7A001AECFD /* ZYQTool.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -520,6 +521,9 @@
 		F7CD86CA218AF4D8001AECFD /* ZYQEmitterBtnController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQEmitterBtnController.h; sourceTree = "<group>"; };
 		F7CD86CB218AF4D8001AECFD /* ZYQEmitterBtnController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQEmitterBtnController.m; sourceTree = "<group>"; };
 		F7CD872F218C208A001AECFD /* Emitter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emitter.bundle; sourceTree = "<group>"; };
+		F7CD8732218C3C7A001AECFD /* ZYQTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQTool.h; sourceTree = "<group>"; };
+		F7CD8733218C3C7A001AECFD /* ZYQTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQTool.m; sourceTree = "<group>"; };
+		F7CD8735218C3ED7001AECFD /* ZYQMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQMacroDefinition.h; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -896,6 +900,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD8736218C4396001AECFD /* search */,
 				F71ACAA3217F682000E273FC /* QRCode */,
 				F71BC49C217C38DE000F931C /* file */,
 				F71BC467217C25DE000F931C /* encryptionAndDecryption */,
@@ -1172,6 +1177,7 @@
 		F735457C2146B298006A3136 /* packaging */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD8731218C2435001AECFD /* tool */,
 				F7CD86402187617A001AECFD /* animation */,
 				F71ACA7F217F55B400E273FC /* other */,
 				F72F813E215A66A2004CCE7E /* three */,
@@ -1662,6 +1668,23 @@
 			path = emitter;
 			sourceTree = "<group>";
 		};
+		F7CD8731218C2435001AECFD /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD8732218C3C7A001AECFD /* ZYQTool.h */,
+				F7CD8733218C3C7A001AECFD /* ZYQTool.m */,
+				F7CD8735218C3ED7001AECFD /* ZYQMacroDefinition.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		F7CD8736218C4396001AECFD /* search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 		F7DC221B212F040500881809 = {
 			isa = PBXGroup;
 			children = (
@@ -1929,6 +1952,7 @@
 				F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */,
 				F72F81B0215A8394004CCE7E /* MJRefreshComponent.m in Sources */,
 				F72F81A1215A8394004CCE7E /* NSBundle+MJRefresh.m in Sources */,
+				F7CD8734218C3C7A001AECFD /* ZYQTool.m in Sources */,
 				F72F81CB215A839C004CCE7E /* ZYQRefreshGifHeader.m in Sources */,
 				F70B3AF4214817C8000F8823 /* CALayer+ZYQXibConfiguration.m in Sources */,
 				F71ACA94217F55CD00E273FC /* MyimageView.m in Sources */,
