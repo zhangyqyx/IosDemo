@@ -8,4 +8,5 @@
 
 #import <UIKit/UIKit.h>
 @interface UIImage (pixels)
+
 @end

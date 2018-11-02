@@ -24,6 +24,7 @@
 }
 - (void)createView {
     ZYQViscousBadgeBtn *btn = [[ZYQViscousBadgeBtn alloc] initWithFrame:CGRectMake(100, 100, 20, 20)];
+    btn.center = self.view.center;
     [btn setTitle:@"45" forState:UIControlStateNormal];
     btn.circleColor = [UIColor blueColor];
     btn.maxDistance = 100;
