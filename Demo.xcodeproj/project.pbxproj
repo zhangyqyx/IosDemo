@@ -184,6 +184,13 @@
 		F7CD86CC218AF4D8001AECFD /* ZYQEmitterBtnController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD86CB218AF4D8001AECFD /* ZYQEmitterBtnController.m */; };
 		F7CD8730218C208A001AECFD /* Emitter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD872F218C208A001AECFD /* Emitter.bundle */; };
 		F7CD8734218C3C7A001AECFD /* ZYQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8733218C3C7A001AECFD /* ZYQTool.m */; };
+		F7CD8744218C442D001AECFD /* TFSearchManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD8739218C442D001AECFD /* TFSearchManager.bundle */; };
+		F7CD8745218C442D001AECFD /* TFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD873A218C442D001AECFD /* TFSearchViewController.m */; };
+		F7CD8746218C442D001AECFD /* TFTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD873D218C442D001AECFD /* TFTagView.m */; };
+		F7CD8747218C442D001AECFD /* TagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CD8740218C442D001AECFD /* TagView.bundle */; };
+		F7CD8748218C442D001AECFD /* UIColor+TFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8741218C442D001AECFD /* UIColor+TFColor.m */; };
+		F7CD8749218C442D001AECFD /* UIView+TFSetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8743218C442D001AECFD /* UIView+TFSetSize.m */; };
+		F7CD874D218C482E001AECFD /* ZYQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD874C218C482E001AECFD /* ZYQSearchController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -524,6 +531,18 @@
 		F7CD8732218C3C7A001AECFD /* ZYQTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQTool.h; sourceTree = "<group>"; };
 		F7CD8733218C3C7A001AECFD /* ZYQTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQTool.m; sourceTree = "<group>"; };
 		F7CD8735218C3ED7001AECFD /* ZYQMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQMacroDefinition.h; sourceTree = "<group>"; };
+		F7CD8739218C442D001AECFD /* TFSearchManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TFSearchManager.bundle; sourceTree = "<group>"; };
+		F7CD873A218C442D001AECFD /* TFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSearchViewController.m; sourceTree = "<group>"; };
+		F7CD873B218C442D001AECFD /* TFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSearchViewController.h; sourceTree = "<group>"; };
+		F7CD873D218C442D001AECFD /* TFTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTagView.m; sourceTree = "<group>"; };
+		F7CD873E218C442D001AECFD /* UIColor+TFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TFColor.h"; sourceTree = "<group>"; };
+		F7CD873F218C442D001AECFD /* UIView+TFSetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFSetSize.h"; sourceTree = "<group>"; };
+		F7CD8740218C442D001AECFD /* TagView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TagView.bundle; sourceTree = "<group>"; };
+		F7CD8741218C442D001AECFD /* UIColor+TFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TFColor.m"; sourceTree = "<group>"; };
+		F7CD8742218C442D001AECFD /* TFTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTagView.h; sourceTree = "<group>"; };
+		F7CD8743218C442D001AECFD /* UIView+TFSetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFSetSize.m"; sourceTree = "<group>"; };
+		F7CD874B218C482E001AECFD /* ZYQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQSearchController.h; sourceTree = "<group>"; };
+		F7CD874C218C482E001AECFD /* ZYQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQSearchController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1429,6 +1448,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD874A218C47F7001AECFD /* search */,
 				F7CD860B2180C19A001AECFD /* QRCode */,
 				F71BC4A2217C6CAA000F931C /* file */,
 				F71BC480217C2607000F931C /* encryptionAndDecryption */,
@@ -1681,6 +1701,49 @@
 		F7CD8736218C4396001AECFD /* search */ = {
 			isa = PBXGroup;
 			children = (
+				F7CD8737218C442D001AECFD /* SearchManager */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		F7CD8737218C442D001AECFD /* SearchManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD8738218C442D001AECFD /* searchVC */,
+				F7CD873C218C442D001AECFD /* TagView */,
+			);
+			path = SearchManager;
+			sourceTree = "<group>";
+		};
+		F7CD8738218C442D001AECFD /* searchVC */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD873B218C442D001AECFD /* TFSearchViewController.h */,
+				F7CD873A218C442D001AECFD /* TFSearchViewController.m */,
+				F7CD8739218C442D001AECFD /* TFSearchManager.bundle */,
+			);
+			path = searchVC;
+			sourceTree = "<group>";
+		};
+		F7CD873C218C442D001AECFD /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD8742218C442D001AECFD /* TFTagView.h */,
+				F7CD873D218C442D001AECFD /* TFTagView.m */,
+				F7CD873E218C442D001AECFD /* UIColor+TFColor.h */,
+				F7CD8741218C442D001AECFD /* UIColor+TFColor.m */,
+				F7CD873F218C442D001AECFD /* UIView+TFSetSize.h */,
+				F7CD8743218C442D001AECFD /* UIView+TFSetSize.m */,
+				F7CD8740218C442D001AECFD /* TagView.bundle */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		F7CD874A218C47F7001AECFD /* search */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD874B218C482E001AECFD /* ZYQSearchController.h */,
+				F7CD874C218C482E001AECFD /* ZYQSearchController.m */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -1880,10 +1943,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71ACA93217F55CD00E273FC /* 1.1.png in Resources */,
+				F7CD8744218C442D001AECFD /* TFSearchManager.bundle in Resources */,
 				F70B3AEA2148085E000F8823 /* ZYQDateViewController.xib in Resources */,
 				F71BC49B217C3652000F931C /* rsacert.der in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F71ACAA0217F5AA700E273FC /* fill.gif in Resources */,
+				F7CD8747218C442D001AECFD /* TagView.bundle in Resources */,
 				F7CD86242180C4D9001AECFD /* ZYQBarcodeGenerateController.xib in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
 				F71BC4A6217C6D24000F931C /* ZYQFileViewController.xib in Resources */,
@@ -1931,6 +1996,7 @@
 				F72F81A0215A8394004CCE7E /* UIScrollView+MJExtension.m in Sources */,
 				F7A06240216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m in Sources */,
 				F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */,
+				F7CD8746218C442D001AECFD /* TFTagView.m in Sources */,
 				F72F8153215A674F004CCE7E /* AFSecurityPolicy.m in Sources */,
 				F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */,
 				F7CD86B82188434F001AECFD /* ZYQSystemAnimationNextController.m in Sources */,
@@ -1975,6 +2041,7 @@
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
 				F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */,
 				F72F81AC215A8394004CCE7E /* MJRefreshFooter.m in Sources */,
+				F7CD874D218C482E001AECFD /* ZYQSearchController.m in Sources */,
 				F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */,
 				F72F81A2215A8394004CCE7E /* UIView+MJExtension.m in Sources */,
 				F72F81AA215A8394004CCE7E /* MJRefreshStateHeader.m in Sources */,
@@ -2031,6 +2098,7 @@
 				F7CD86252180C4D9001AECFD /* ZYQBarCodeViewController.m in Sources */,
 				F71BC486217C2670000F931C /* ZYQEncryptionAndDecryptionController.m in Sources */,
 				F71BC48F217C2F80000F931C /* ZYQAESController.m in Sources */,
+				F7CD8748218C442D001AECFD /* UIColor+TFColor.m in Sources */,
 				F71ACA9A217F55CD00E273FC /* UIImage+pixels.m in Sources */,
 				F71BC495217C322B000F931C /* ZYQRSAController.m in Sources */,
 				F71ACAB7217F682E00E273FC /* ZYQCodeHelperTool.m in Sources */,
@@ -2052,6 +2120,7 @@
 				F7CD86232180C4D9001AECFD /* ZYQCodeAlbumViewController.m in Sources */,
 				F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */,
 				F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */,
+				F7CD8745218C442D001AECFD /* TFSearchViewController.m in Sources */,
 				F72F8156215A6758004CCE7E /* ZYQNetworkManager.m in Sources */,
 				F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */,
 				F7CD864821876203001AECFD /* ZYQViscousBadgeController.m in Sources */,
@@ -2063,6 +2132,7 @@
 				F7CD863F2187563C001AECFD /* ZYQAnimationModel.m in Sources */,
 				F71BC47E217C25DE000F931C /* GTMBase64.m in Sources */,
 				F71ACA6F217E152A00E273FC /* ZYQOtherCollectionCell.m in Sources */,
+				F7CD8749218C442D001AECFD /* UIView+TFSetSize.m in Sources */,
 				F71ACA98217F55CD00E273FC /* LinkedListStack.m in Sources */,
 				F71ACA68217E112000E273FC /* ZYQOtherController.m in Sources */,
 				F7CD8639218753F1001AECFD /* ZYQAnimationController.m in Sources */,

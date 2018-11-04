@@ -9,16 +9,15 @@
 #ifndef ZYQMacroDefinition_h
 #define ZYQMacroDefinition_h
 #pragma mark -- 手机判断
-#define kiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define kiPhoneXr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
-#define kiPhoneXs ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define kiPhoneXs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZYQ_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZYQ_iPhoneXr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZYQ_iPhoneXs ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZYQ_iPhoneXs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 #pragma mark -- 高度
 #define ZYQ_NavigationH     44
 #define ZYQ_iphoneXBAddH    34
-#define ZYQ_TopH            (ZYQ_iPhoneX == true ?(64 + 24):(64))
-#define ZYQ_StatusBarH      (ZYQ_iPhoneX == true ?(20 + 24):(20))
-
+#define ZYQ_TopH            ((ZYQ_iPhoneX == YES || ZYQ_iPhoneXr==YES || ZYQ_iPhoneXr==YES ||ZYQ_iPhoneXs_Max==YES)?(64 + 24):(64))
+#define ZYQ_StatusBarH      ((ZYQ_iPhoneX == YES || ZYQ_iPhoneXr==YES || ZYQ_iPhoneXr==YES || ZYQ_iPhoneXs_Max == YES)?(20 + 24):(20))
 
 #define ZYQ_ScreenWidth     ([UIScreen mainScreen].bounds.size.width)
 #define ZYQ_ScreenHeight    ([UIScreen mainScreen].bounds.size.height)
