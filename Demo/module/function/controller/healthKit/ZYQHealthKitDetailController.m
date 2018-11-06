@@ -98,8 +98,8 @@
     CGFloat num =  [self.whriteTextField.text floatValue];
     if (num <= 0) return;
     //必须都加入收缩压和舒张压，健康数据才会有显示，但是提前最好判断一下数值范围
-    [ZYQHealthManager ZYQ_saveHealthKitDataType:self.quantityType startDate:startDate endDate:endDate number:num success:^(bool isSuccess, NSError *error) {
-        NSLog(@"%d" ,isSuccess);
+    [ZYQHealthManager ZYQ_saveHealthKitDataType:self.quantityType startDate:startDate endDate:endDate number:num success:^(BOOL isSuccess, NSError *error) {
+         NSLog(@"%d" ,isSuccess);
     }];
 }
 

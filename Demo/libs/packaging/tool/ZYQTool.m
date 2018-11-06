@@ -359,9 +359,7 @@
 
 #pragma mark - json转换成字典
 + (NSDictionary *)ZYQ_dictionaryWithJsonString:(NSString *)jsonString{
-    if ([self ZYQ_isBlankString:jsonString]) {
-        return nil;
-    }
+    if ([self ZYQ_isBlankString:jsonString]) return nil;
     NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     NSError *err;
     NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData

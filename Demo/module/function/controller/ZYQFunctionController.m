@@ -34,7 +34,7 @@
 #pragma mark - 设置UI
 - (void)setupUI {
     self.navigationItem.title = @"功能封装";
-    UITableView *tabelView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, ZYQ_ScreenWidth, ZYQ_ScreenHeight - ZYQ_TopH) style:UITableViewStylePlain];
+    UITableView *tabelView = [[UITableView alloc] initWithFrame:CGRectMake(0,0, ZYQ_ScreenWidth, ZYQ_ScreenHeight - ZYQ_TopH) style:UITableViewStylePlain];
     tabelView.dataSource = self;
     tabelView.delegate = self;
     tabelView.backgroundColor = kViewLightBgColor;

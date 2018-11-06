@@ -24,8 +24,10 @@
 
 @end
 @implementation MyimageView
--(instancetype)initWithFrame:(CGRect)frame{
-    if ([super initWithFrame:frame]) {
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
         self.userInteractionEnabled = YES;
         self.multipleTouchEnabled = YES;
     }

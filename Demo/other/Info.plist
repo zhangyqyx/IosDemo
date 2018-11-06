@@ -8,6 +8,48 @@
 	<string>IosDemo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>demoIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>demoIcon20*20</string>
+					<string>demoIcon29*29</string>
+					<string>demoIcon60*60</string>
+					<string>demoIcon1024*1024</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>health</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>health20*20</string>
+					<string>health29*29</string>
+					<string>health60*60</string>
+					<string>health1024*1024</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>kcbIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>kcbIcon20*20</string>
+					<string>kcbIcon29*29</string>
+					<string>kcbIcon60*60</string>
+					<string>kcbIcon1024*1024</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

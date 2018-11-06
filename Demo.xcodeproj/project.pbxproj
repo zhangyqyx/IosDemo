@@ -191,6 +191,37 @@
 		F7CD8748218C442D001AECFD /* UIColor+TFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8741218C442D001AECFD /* UIColor+TFColor.m */; };
 		F7CD8749218C442D001AECFD /* UIView+TFSetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD8743218C442D001AECFD /* UIView+TFSetSize.m */; };
 		F7CD874D218C482E001AECFD /* ZYQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD874C218C482E001AECFD /* ZYQSearchController.m */; };
+		F7D883AF219008B70089BA09 /* ZYQToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D883AE219008B70089BA09 /* ZYQToolController.m */; };
+		F7D883B121900CE90089BA09 /* ZYQFoundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D883B021900CE90089BA09 /* ZYQFoundation+Log.m */; };
+		F7D88435219082ED0089BA09 /* demoIcon20*20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88418219082ED0089BA09 /* demoIcon20*20@2x.png */; };
+		F7D88436219082ED0089BA09 /* demoIcon20*20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88419219082ED0089BA09 /* demoIcon20*20@3x.png */; };
+		F7D88437219082ED0089BA09 /* demoIcon29*29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841A219082ED0089BA09 /* demoIcon29*29@2x.png */; };
+		F7D88438219082ED0089BA09 /* demoIcon40*40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841B219082ED0089BA09 /* demoIcon40*40@3x.png */; };
+		F7D88439219082ED0089BA09 /* demoIcon60*60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841C219082ED0089BA09 /* demoIcon60*60@2x.png */; };
+		F7D8843A219082ED0089BA09 /* demoIcon60*60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841D219082ED0089BA09 /* demoIcon60*60@3x.png */; };
+		F7D8843B219082ED0089BA09 /* demoIcon40*40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841E219082ED0089BA09 /* demoIcon40*40@2x.png */; };
+		F7D8843C219082ED0089BA09 /* demoIcon29*29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8841F219082ED0089BA09 /* demoIcon29*29@3x.png */; };
+		F7D8843D219082ED0089BA09 /* demoIcon1024*1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88420219082ED0089BA09 /* demoIcon1024*1024.png */; };
+		F7D8843E219082ED0089BA09 /* health60*60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88422219082ED0089BA09 /* health60*60@3x.png */; };
+		F7D8843F219082ED0089BA09 /* health40*40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88423219082ED0089BA09 /* health40*40@2x.png */; };
+		F7D88440219082ED0089BA09 /* health29*29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88424219082ED0089BA09 /* health29*29@3x.png */; };
+		F7D88441219082ED0089BA09 /* health29*29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88425219082ED0089BA09 /* health29*29@2x.png */; };
+		F7D88442219082ED0089BA09 /* health40*40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88426219082ED0089BA09 /* health40*40@3x.png */; };
+		F7D88443219082ED0089BA09 /* health60*60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88427219082ED0089BA09 /* health60*60@2x.png */; };
+		F7D88444219082ED0089BA09 /* health20*20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88428219082ED0089BA09 /* health20*20@3x.png */; };
+		F7D88445219082ED0089BA09 /* health20*20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88429219082ED0089BA09 /* health20*20@2x.png */; };
+		F7D88446219082ED0089BA09 /* health1024*1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8842A219082ED0089BA09 /* health1024*1024.png */; };
+		F7D88447219082ED0089BA09 /* kcbIcon20*20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8842C219082ED0089BA09 /* kcbIcon20*20@3x.png */; };
+		F7D88448219082ED0089BA09 /* kcbIcon20*20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8842D219082ED0089BA09 /* kcbIcon20*20@2x.png */; };
+		F7D88449219082ED0089BA09 /* kcbIcon1024*1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8842E219082ED0089BA09 /* kcbIcon1024*1024.png */; };
+		F7D8844A219082ED0089BA09 /* kcbIcon40*40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8842F219082ED0089BA09 /* kcbIcon40*40@2x.png */; };
+		F7D8844B219082ED0089BA09 /* kcbIcon29*29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88430219082ED0089BA09 /* kcbIcon29*29@3x.png */; };
+		F7D8844C219082ED0089BA09 /* kcbIcon60*60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88431219082ED0089BA09 /* kcbIcon60*60@3x.png */; };
+		F7D8844D219082ED0089BA09 /* kcbIcon60*60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88432219082ED0089BA09 /* kcbIcon60*60@2x.png */; };
+		F7D8844E219082ED0089BA09 /* kcbIcon29*29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88433219082ED0089BA09 /* kcbIcon29*29@2x.png */; };
+		F7D8844F219082ED0089BA09 /* kcbIcon40*40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88434219082ED0089BA09 /* kcbIcon40*40@3x.png */; };
+		F7D88452219082FA0089BA09 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D88450219082FA0089BA09 /* UIViewController+Present.m */; };
+		F7D88456219083800089BA09 /* ZYQChangeAppIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D88455219083800089BA09 /* ZYQChangeAppIconController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -543,6 +574,40 @@
 		F7CD8743218C442D001AECFD /* UIView+TFSetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFSetSize.m"; sourceTree = "<group>"; };
 		F7CD874B218C482E001AECFD /* ZYQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQSearchController.h; sourceTree = "<group>"; };
 		F7CD874C218C482E001AECFD /* ZYQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQSearchController.m; sourceTree = "<group>"; };
+		F7D883AD219008B70089BA09 /* ZYQToolController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQToolController.h; sourceTree = "<group>"; };
+		F7D883AE219008B70089BA09 /* ZYQToolController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQToolController.m; sourceTree = "<group>"; };
+		F7D883B021900CE90089BA09 /* ZYQFoundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYQFoundation+Log.m"; sourceTree = "<group>"; };
+		F7D88418219082ED0089BA09 /* demoIcon20*20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon20*20@2x.png"; sourceTree = "<group>"; };
+		F7D88419219082ED0089BA09 /* demoIcon20*20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon20*20@3x.png"; sourceTree = "<group>"; };
+		F7D8841A219082ED0089BA09 /* demoIcon29*29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon29*29@2x.png"; sourceTree = "<group>"; };
+		F7D8841B219082ED0089BA09 /* demoIcon40*40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon40*40@3x.png"; sourceTree = "<group>"; };
+		F7D8841C219082ED0089BA09 /* demoIcon60*60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon60*60@2x.png"; sourceTree = "<group>"; };
+		F7D8841D219082ED0089BA09 /* demoIcon60*60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon60*60@3x.png"; sourceTree = "<group>"; };
+		F7D8841E219082ED0089BA09 /* demoIcon40*40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon40*40@2x.png"; sourceTree = "<group>"; };
+		F7D8841F219082ED0089BA09 /* demoIcon29*29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon29*29@3x.png"; sourceTree = "<group>"; };
+		F7D88420219082ED0089BA09 /* demoIcon1024*1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoIcon1024*1024.png"; sourceTree = "<group>"; };
+		F7D88422219082ED0089BA09 /* health60*60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health60*60@3x.png"; sourceTree = "<group>"; };
+		F7D88423219082ED0089BA09 /* health40*40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health40*40@2x.png"; sourceTree = "<group>"; };
+		F7D88424219082ED0089BA09 /* health29*29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health29*29@3x.png"; sourceTree = "<group>"; };
+		F7D88425219082ED0089BA09 /* health29*29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health29*29@2x.png"; sourceTree = "<group>"; };
+		F7D88426219082ED0089BA09 /* health40*40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health40*40@3x.png"; sourceTree = "<group>"; };
+		F7D88427219082ED0089BA09 /* health60*60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health60*60@2x.png"; sourceTree = "<group>"; };
+		F7D88428219082ED0089BA09 /* health20*20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health20*20@3x.png"; sourceTree = "<group>"; };
+		F7D88429219082ED0089BA09 /* health20*20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health20*20@2x.png"; sourceTree = "<group>"; };
+		F7D8842A219082ED0089BA09 /* health1024*1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health1024*1024.png"; sourceTree = "<group>"; };
+		F7D8842C219082ED0089BA09 /* kcbIcon20*20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon20*20@3x.png"; sourceTree = "<group>"; };
+		F7D8842D219082ED0089BA09 /* kcbIcon20*20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon20*20@2x.png"; sourceTree = "<group>"; };
+		F7D8842E219082ED0089BA09 /* kcbIcon1024*1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon1024*1024.png"; sourceTree = "<group>"; };
+		F7D8842F219082ED0089BA09 /* kcbIcon40*40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon40*40@2x.png"; sourceTree = "<group>"; };
+		F7D88430219082ED0089BA09 /* kcbIcon29*29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon29*29@3x.png"; sourceTree = "<group>"; };
+		F7D88431219082ED0089BA09 /* kcbIcon60*60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon60*60@3x.png"; sourceTree = "<group>"; };
+		F7D88432219082ED0089BA09 /* kcbIcon60*60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon60*60@2x.png"; sourceTree = "<group>"; };
+		F7D88433219082ED0089BA09 /* kcbIcon29*29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon29*29@2x.png"; sourceTree = "<group>"; };
+		F7D88434219082ED0089BA09 /* kcbIcon40*40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kcbIcon40*40@3x.png"; sourceTree = "<group>"; };
+		F7D88450219082FA0089BA09 /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
+		F7D88451219082FA0089BA09 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		F7D88454219083800089BA09 /* ZYQChangeAppIconController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQChangeAppIconController.h; sourceTree = "<group>"; };
+		F7D88455219083800089BA09 /* ZYQChangeAppIconController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQChangeAppIconController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -919,6 +984,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F7D884152190829C0089BA09 /* changeAppIcon */,
 				F7CD8736218C4396001AECFD /* search */,
 				F71ACAA3217F682000E273FC /* QRCode */,
 				F71BC49C217C38DE000F931C /* file */,
@@ -1196,8 +1262,8 @@
 		F735457C2146B298006A3136 /* packaging */ = {
 			isa = PBXGroup;
 			children = (
-				F7CD8731218C2435001AECFD /* tool */,
 				F7CD86402187617A001AECFD /* animation */,
+				F7CD8731218C2435001AECFD /* tool */,
 				F71ACA7F217F55B400E273FC /* other */,
 				F72F813E215A66A2004CCE7E /* three */,
 				F72F813621495524004CCE7E /* function */,
@@ -1448,6 +1514,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D884532190834F0089BA09 /* changeAppIcon */,
 				F7CD874A218C47F7001AECFD /* search */,
 				F7CD860B2180C19A001AECFD /* QRCode */,
 				F71BC4A2217C6CAA000F931C /* file */,
@@ -1694,6 +1761,7 @@
 				F7CD8732218C3C7A001AECFD /* ZYQTool.h */,
 				F7CD8733218C3C7A001AECFD /* ZYQTool.m */,
 				F7CD8735218C3ED7001AECFD /* ZYQMacroDefinition.h */,
+				F7D883B021900CE90089BA09 /* ZYQFoundation+Log.m */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -1746,6 +1814,116 @@
 				F7CD874C218C482E001AECFD /* ZYQSearchController.m */,
 			);
 			path = search;
+			sourceTree = "<group>";
+		};
+		F7D883AC219008450089BA09 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				F7D883B421900D580089BA09 /* model */,
+				F7D883B321900D520089BA09 /* view */,
+				F7D883B221900D440089BA09 /* controller */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		F7D883B221900D440089BA09 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7D883AD219008B70089BA09 /* ZYQToolController.h */,
+				F7D883AE219008B70089BA09 /* ZYQToolController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7D883B321900D520089BA09 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F7D883B421900D580089BA09 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7D884152190829C0089BA09 /* changeAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F7D88451219082FA0089BA09 /* UIViewController+Present.h */,
+				F7D88450219082FA0089BA09 /* UIViewController+Present.m */,
+				F7D88416219082ED0089BA09 /* appIcons */,
+			);
+			path = changeAppIcon;
+			sourceTree = "<group>";
+		};
+		F7D88416219082ED0089BA09 /* appIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F7D88417219082ED0089BA09 /* demo */,
+				F7D88421219082ED0089BA09 /* health */,
+				F7D8842B219082ED0089BA09 /* kcb */,
+			);
+			path = appIcons;
+			sourceTree = "<group>";
+		};
+		F7D88417219082ED0089BA09 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				F7D88418219082ED0089BA09 /* demoIcon20*20@2x.png */,
+				F7D88419219082ED0089BA09 /* demoIcon20*20@3x.png */,
+				F7D8841A219082ED0089BA09 /* demoIcon29*29@2x.png */,
+				F7D8841B219082ED0089BA09 /* demoIcon40*40@3x.png */,
+				F7D8841C219082ED0089BA09 /* demoIcon60*60@2x.png */,
+				F7D8841D219082ED0089BA09 /* demoIcon60*60@3x.png */,
+				F7D8841E219082ED0089BA09 /* demoIcon40*40@2x.png */,
+				F7D8841F219082ED0089BA09 /* demoIcon29*29@3x.png */,
+				F7D88420219082ED0089BA09 /* demoIcon1024*1024.png */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		F7D88421219082ED0089BA09 /* health */ = {
+			isa = PBXGroup;
+			children = (
+				F7D88422219082ED0089BA09 /* health60*60@3x.png */,
+				F7D88423219082ED0089BA09 /* health40*40@2x.png */,
+				F7D88424219082ED0089BA09 /* health29*29@3x.png */,
+				F7D88425219082ED0089BA09 /* health29*29@2x.png */,
+				F7D88426219082ED0089BA09 /* health40*40@3x.png */,
+				F7D88427219082ED0089BA09 /* health60*60@2x.png */,
+				F7D88428219082ED0089BA09 /* health20*20@3x.png */,
+				F7D88429219082ED0089BA09 /* health20*20@2x.png */,
+				F7D8842A219082ED0089BA09 /* health1024*1024.png */,
+			);
+			path = health;
+			sourceTree = "<group>";
+		};
+		F7D8842B219082ED0089BA09 /* kcb */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8842C219082ED0089BA09 /* kcbIcon20*20@3x.png */,
+				F7D8842D219082ED0089BA09 /* kcbIcon20*20@2x.png */,
+				F7D8842E219082ED0089BA09 /* kcbIcon1024*1024.png */,
+				F7D8842F219082ED0089BA09 /* kcbIcon40*40@2x.png */,
+				F7D88430219082ED0089BA09 /* kcbIcon29*29@3x.png */,
+				F7D88431219082ED0089BA09 /* kcbIcon60*60@3x.png */,
+				F7D88432219082ED0089BA09 /* kcbIcon60*60@2x.png */,
+				F7D88433219082ED0089BA09 /* kcbIcon29*29@2x.png */,
+				F7D88434219082ED0089BA09 /* kcbIcon40*40@3x.png */,
+			);
+			path = kcb;
+			sourceTree = "<group>";
+		};
+		F7D884532190834F0089BA09 /* changeAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F7D88454219083800089BA09 /* ZYQChangeAppIconController.h */,
+				F7D88455219083800089BA09 /* ZYQChangeAppIconController.m */,
+			);
+			path = changeAppIcon;
 			sourceTree = "<group>";
 		};
 		F7DC221B212F040500881809 = {
@@ -1832,6 +2010,7 @@
 		F7DC2246212F079300881809 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				F7D883AC219008450089BA09 /* tool */,
 				F7CD8636218751C5001AECFD /* animation */,
 				F71ACA65217E10F800E273FC /* other */,
 				F7A06228216E39BB000302A4 /* function */,
@@ -1944,45 +2123,72 @@
 			files = (
 				F71ACA93217F55CD00E273FC /* 1.1.png in Resources */,
 				F7CD8744218C442D001AECFD /* TFSearchManager.bundle in Resources */,
+				F7D88448219082ED0089BA09 /* kcbIcon20*20@2x.png in Resources */,
 				F70B3AEA2148085E000F8823 /* ZYQDateViewController.xib in Resources */,
 				F71BC49B217C3652000F931C /* rsacert.der in Resources */,
 				F7DC2234212F040700881809 /* LaunchScreen.storyboard in Resources */,
 				F71ACAA0217F5AA700E273FC /* fill.gif in Resources */,
 				F7CD8747218C442D001AECFD /* TagView.bundle in Resources */,
+				F7D88445219082ED0089BA09 /* health20*20@2x.png in Resources */,
+				F7D88435219082ED0089BA09 /* demoIcon20*20@2x.png in Resources */,
+				F7D8843A219082ED0089BA09 /* demoIcon60*60@3x.png in Resources */,
 				F7CD86242180C4D9001AECFD /* ZYQBarcodeGenerateController.xib in Resources */,
 				F7DC2231212F040700881809 /* Assets.xcassets in Resources */,
+				F7D88443219082ED0089BA09 /* health60*60@2x.png in Resources */,
+				F7D88440219082ED0089BA09 /* health29*29@3x.png in Resources */,
 				F71BC4A6217C6D24000F931C /* ZYQFileViewController.xib in Resources */,
+				F7D8844A219082ED0089BA09 /* kcbIcon40*40@2x.png in Resources */,
 				F72ED587216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.xib in Resources */,
 				F71ACA92217F55CD00E273FC /* 3.1.png in Resources */,
+				F7D8843D219082ED0089BA09 /* demoIcon1024*1024.png in Resources */,
 				F71ACA90217F55CD00E273FC /* 5.1.png in Resources */,
 				F735458C2146BC3D006A3136 /* ZYQImageViewController.xib in Resources */,
 				F7CD8730218C208A001AECFD /* Emitter.bundle in Resources */,
+				F7D88449219082ED0089BA09 /* kcbIcon1024*1024.png in Resources */,
+				F7D88441219082ED0089BA09 /* health29*29@2x.png in Resources */,
+				F7D8843B219082ED0089BA09 /* demoIcon40*40@2x.png in Resources */,
 				F72F816C215A6F32004CCE7E /* ZYQThreeCell.xib in Resources */,
 				F71ACA97217F55CD00E273FC /* 2.1.png in Resources */,
+				F7D8843E219082ED0089BA09 /* health60*60@3x.png in Resources */,
 				F7CD86282180C4D9001AECFD /* ZYQQRCodeGenerateController.xib in Resources */,
 				F73545862146B68E006A3136 /* ZYQCategoryCell.xib in Resources */,
 				F72ED58C216F9BAF00E63F99 /* ZYQExchangeViewController.xib in Resources */,
+				F7D88436219082ED0089BA09 /* demoIcon20*20@3x.png in Resources */,
 				F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */,
 				F7CD866621880870001AECFD /* ZYQViscousBadgeBtn.bundle in Resources */,
+				F7D8844D219082ED0089BA09 /* kcbIcon60*60@2x.png in Resources */,
+				F7D8844C219082ED0089BA09 /* kcbIcon60*60@3x.png in Resources */,
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
 				F7CD86A621882AFB001AECFD /* ZYQRefreshManager.bundle in Resources */,
+				F7D88444219082ED0089BA09 /* health20*20@3x.png in Resources */,
 				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
+				F7D8843F219082ED0089BA09 /* health40*40@2x.png in Resources */,
+				F7D8844E219082ED0089BA09 /* kcbIcon29*29@2x.png in Resources */,
 				F71ACA99217F55CD00E273FC /* pickerColor.png in Resources */,
 				F71ACA70217E152A00E273FC /* ZYQOtherCollectionCell.xib in Resources */,
+				F7D8844B219082ED0089BA09 /* kcbIcon29*29@3x.png in Resources */,
 				F7CD86212180C4D9001AECFD /* ZYQCodeAlbumViewController.xib in Resources */,
+				F7D88446219082ED0089BA09 /* health1024*1024.png in Resources */,
+				F7D8844F219082ED0089BA09 /* kcbIcon40*40@3x.png in Resources */,
 				F70B3AF121480F2E000F8823 /* ZYQViewController.xib in Resources */,
 				F7A0624E216E41C2000302A4 /* ZYQFunctionCell.xib in Resources */,
 				F7DC222F212F040600881809 /* Main.storyboard in Resources */,
 				F72ED58D216F9BAF00E63F99 /* ZYQDictChangeModelViewController.xib in Resources */,
 				F70B3ADE2148043E000F8823 /* ZYQColorViewController.xib in Resources */,
+				F7D88439219082ED0089BA09 /* demoIcon60*60@2x.png in Resources */,
+				F7D88437219082ED0089BA09 /* demoIcon29*29@2x.png in Resources */,
+				F7D8843C219082ED0089BA09 /* demoIcon29*29@3x.png in Resources */,
 				F72ED589216F9BAF00E63F99 /* ZYQArchiveViewController.xib in Resources */,
 				F71ACACB217F6B3300E273FC /* ZYQQRCode.bundle in Resources */,
 				F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */,
+				F7D88442219082ED0089BA09 /* health40*40@3x.png in Resources */,
 				F71ACA95217F55CD00E273FC /* 6.1.png in Resources */,
 				F71ACA96217F55CD00E273FC /* 4.1.png in Resources */,
 				F71BC499217C3646000F931C /* p.p12 in Resources */,
+				F7D88447219082ED0089BA09 /* kcbIcon20*20@3x.png in Resources */,
 				F7CD86262180C4D9001AECFD /* ZYQCodeDetailViewController.xib in Resources */,
 				F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */,
+				F7D88438219082ED0089BA09 /* demoIcon40*40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1993,6 +2199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D883B121900CE90089BA09 /* ZYQFoundation+Log.m in Sources */,
 				F72F81A0215A8394004CCE7E /* UIScrollView+MJExtension.m in Sources */,
 				F7A06240216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m in Sources */,
 				F73730A9215BBE0800E6EF9F /* ZYQRefreshDetailController.m in Sources */,
@@ -2040,6 +2247,7 @@
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
 				F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */,
+				F7D88452219082FA0089BA09 /* UIViewController+Present.m in Sources */,
 				F72F81AC215A8394004CCE7E /* MJRefreshFooter.m in Sources */,
 				F7CD874D218C482E001AECFD /* ZYQSearchController.m in Sources */,
 				F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */,
@@ -2053,9 +2261,11 @@
 				F71BC47C217C25DE000F931C /* ZYQRSA.m in Sources */,
 				F7A06246216E3F21000302A4 /* ZYQBaseModel.m in Sources */,
 				F7CD86C02188A7D4001AECFD /* ZYQEmitterAnimationController.m in Sources */,
+				F7D88456219083800089BA09 /* ZYQChangeAppIconController.m in Sources */,
 				F71ACAB8217F682E00E273FC /* ZYQCodeScanningView.m in Sources */,
 				F7CD86C3218940E7001AECFD /* ZYQEmitterShowController.m in Sources */,
 				F71ACAB5217F682E00E273FC /* ZYQBarcodeGenerateManager.m in Sources */,
+				F7D883AF219008B70089BA09 /* ZYQToolController.m in Sources */,
 				F7CD86BD2188A137001AECFD /* ZYQEmitterView.m in Sources */,
 				F7A06258216E4B4A000302A4 /* ZYQBadgeDeatilTwoController.m in Sources */,
 				F72F81CC215A839C004CCE7E /* ZYQRefreshCustomTitleHeader.m in Sources */,
