@@ -26,7 +26,8 @@
 + (NSArray *)createData {
     NSArray *data = @[@{@"title":@"QQ粘贴效果动画",@"introduction":@"类似QQ消息粘贴的效果", @"nextVc":@"ZYQViscousBadgeController"},
                       @{@"title":@"转场动画",@"introduction":@"页面之间跳转的一些动画效果", @"nextVc":@"ZYQTransitionsController"},
-                      @{@"title":@"粒子动画",@"introduction":@"使用CAEmitterLayer做出的一些粒子动效", @"nextVc":@"ZYQEmitterAnimationController"}];
+                      @{@"title":@"粒子动画",@"introduction":@"使用CAEmitterLayer做出的一些粒子动效", @"nextVc":@"ZYQEmitterAnimationController"},
+                      @{@"title":@"填充动画",@"introduction":@"一些填充效果的动画", @"nextVc":@"ZYQFillAnimationController"}];
     return data;
 }
 

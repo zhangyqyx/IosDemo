@@ -144,6 +144,9 @@
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
+		F792F54321A64B9D00983D2A /* ZYQDripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54221A64B9D00983D2A /* ZYQDripView.m */; };
+		F792F54621A66EEB00983D2A /* ZYQWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */; };
+		F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */; };
 		F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */; };
 		F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */; };
 		F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06233216E3A85000302A4 /* UITabBarItem+ZYQBadge.m */; };
@@ -487,6 +490,12 @@
 		F76489872140116A0020F56C /* UIColor+ZYQDemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQDemoColor.m"; sourceTree = "<group>"; };
 		F764898A214019FA0020F56C /* ZYQCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryViewController.h; sourceTree = "<group>"; };
 		F764898B214019FA0020F56C /* ZYQCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryViewController.m; sourceTree = "<group>"; };
+		F792F54121A64B9D00983D2A /* ZYQDripView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQDripView.h; sourceTree = "<group>"; };
+		F792F54221A64B9D00983D2A /* ZYQDripView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQDripView.m; sourceTree = "<group>"; };
+		F792F54421A66EEB00983D2A /* ZYQWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQWaterWaveView.h; sourceTree = "<group>"; };
+		F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQWaterWaveView.m; sourceTree = "<group>"; };
+		F792F54821A68C9E00983D2A /* ZYQFillAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFillAnimationController.h; sourceTree = "<group>"; };
+		F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFillAnimationController.m; sourceTree = "<group>"; };
 		F7A0622D216E3A68000302A4 /* ZYQFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFunctionController.h; sourceTree = "<group>"; };
 		F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFunctionController.m; sourceTree = "<group>"; };
 		F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZYQBadge.m"; sourceTree = "<group>"; };
@@ -1481,6 +1490,26 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		F792F54021A5257900983D2A /* WaterDrip */ = {
+			isa = PBXGroup;
+			children = (
+				F792F54121A64B9D00983D2A /* ZYQDripView.h */,
+				F792F54221A64B9D00983D2A /* ZYQDripView.m */,
+				F792F54421A66EEB00983D2A /* ZYQWaterWaveView.h */,
+				F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */,
+			);
+			path = WaterDrip;
+			sourceTree = "<group>";
+		};
+		F792F54721A68C7C00983D2A /* fillAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F792F54821A68C9E00983D2A /* ZYQFillAnimationController.h */,
+				F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */,
+			);
+			path = fillAnimation;
+			sourceTree = "<group>";
+		};
 		F7A06228216E39BB000302A4 /* function */ = {
 			isa = PBXGroup;
 			children = (
@@ -1646,6 +1675,7 @@
 		F7CD863A21875570001AECFD /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F792F54721A68C7C00983D2A /* fillAnimation */,
 				F7CD86B921889951001AECFD /* emitterAnimation */,
 				F7CD86A721883683001AECFD /* transitionsAnimation */,
 				F7CD8645218761E5001AECFD /* viscousBadge */,
@@ -1675,6 +1705,7 @@
 		F7CD86402187617A001AECFD /* animation */ = {
 			isa = PBXGroup;
 			children = (
+				F792F54021A5257900983D2A /* WaterDrip */,
 				F7CD86BA2188A109001AECFD /* emitter */,
 				F7CD864121876181001AECFD /* viscousBadge */,
 			);
@@ -2213,6 +2244,7 @@
 				F72F81AD215A8394004CCE7E /* MJRefreshHeader.m in Sources */,
 				F71ACA73217E169400E273FC /* ZYQOtherModel.m in Sources */,
 				F72F81CA215A839C004CCE7E /* ZYQRefreshNormalFooter.m in Sources */,
+				F792F54321A64B9D00983D2A /* ZYQDripView.m in Sources */,
 				F71BC489217C2B2D000F931C /* ZYQHASHController.m in Sources */,
 				F72F8150215A674F004CCE7E /* AFURLSessionManager.m in Sources */,
 				F72ED58A216F9BAF00E63F99 /* ZYQArchiveViewController.m in Sources */,
@@ -2240,6 +2272,7 @@
 				F72F81AF215A8394004CCE7E /* MJRefreshAutoFooter.m in Sources */,
 				F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */,
 				F7DC224F212F084800881809 /* ZYQHomeModel.m in Sources */,
+				F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */,
 				F71BC47D217C25DE000F931C /* ZYQBase64.m in Sources */,
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
 				F71ACA91217F55CD00E273FC /* ColorPickerView.m in Sources */,
@@ -2285,6 +2318,7 @@
 				F72ED586216F9BAF00E63F99 /* ZYQIvarAndMethodViewController.m in Sources */,
 				F71ACAB6217F682E00E273FC /* ZYQQRCodeGenerateManager.m in Sources */,
 				F7A0624D216E41C2000302A4 /* ZYQFunctionCell.m in Sources */,
+				F792F54621A66EEB00983D2A /* ZYQWaterWaveView.m in Sources */,
 				F71ACAB3217F682E00E273FC /* ZYQCodeAlbumManager.m in Sources */,
 				F72F814F215A674F004CCE7E /* AFHTTPSessionManager.m in Sources */,
 				F7CD8644218761A3001AECFD /* ZYQViscousBadgeBtn.m in Sources */,
