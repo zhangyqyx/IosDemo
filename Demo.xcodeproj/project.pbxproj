@@ -147,6 +147,8 @@
 		F792F54321A64B9D00983D2A /* ZYQDripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54221A64B9D00983D2A /* ZYQDripView.m */; };
 		F792F54621A66EEB00983D2A /* ZYQWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */; };
 		F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */; };
+		F792F54D21AB845300983D2A /* UIView+ZYQHollowMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54C21AB845300983D2A /* UIView+ZYQHollowMask.m */; };
+		F792F55021AB87F200983D2A /* ZYQMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54F21AB87F200983D2A /* ZYQMaskViewController.m */; };
 		F7A0622F216E3A68000302A4 /* ZYQFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */; };
 		F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */; };
 		F7A0623F216E3A85000302A4 /* UITabBarItem+ZYQBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A06233216E3A85000302A4 /* UITabBarItem+ZYQBadge.m */; };
@@ -496,6 +498,10 @@
 		F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQWaterWaveView.m; sourceTree = "<group>"; };
 		F792F54821A68C9E00983D2A /* ZYQFillAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFillAnimationController.h; sourceTree = "<group>"; };
 		F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFillAnimationController.m; sourceTree = "<group>"; };
+		F792F54B21AB845300983D2A /* UIView+ZYQHollowMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYQHollowMask.h"; sourceTree = "<group>"; };
+		F792F54C21AB845300983D2A /* UIView+ZYQHollowMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYQHollowMask.m"; sourceTree = "<group>"; };
+		F792F54E21AB87F200983D2A /* ZYQMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQMaskViewController.h; sourceTree = "<group>"; };
+		F792F54F21AB87F200983D2A /* ZYQMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQMaskViewController.m; sourceTree = "<group>"; };
 		F7A0622D216E3A68000302A4 /* ZYQFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQFunctionController.h; sourceTree = "<group>"; };
 		F7A0622E216E3A68000302A4 /* ZYQFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQFunctionController.m; sourceTree = "<group>"; };
 		F7A06232216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZYQBadge.m"; sourceTree = "<group>"; };
@@ -693,6 +699,8 @@
 				F70B3AEF21480F2E000F8823 /* ZYQViewController.xib */,
 				F72F813B214AA445004CCE7E /* ZYQarrow.h */,
 				F72F813C214AA445004CCE7E /* ZYQarrow.m */,
+				F792F54E21AB87F200983D2A /* ZYQMaskViewController.h */,
+				F792F54F21AB87F200983D2A /* ZYQMaskViewController.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1327,6 +1335,8 @@
 			children = (
 				F73545922146BE49006A3136 /* UIView+ZYQSetSize.h */,
 				F73545932146BE49006A3136 /* UIView+ZYQSetSize.m */,
+				F792F54B21AB845300983D2A /* UIView+ZYQHollowMask.h */,
+				F792F54C21AB845300983D2A /* UIView+ZYQHollowMask.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2263,6 +2273,7 @@
 				F71ACA94217F55CD00E273FC /* MyimageView.m in Sources */,
 				F7CD86272180C4D9001AECFD /* ZYQQRCodeScaningController.m in Sources */,
 				F72F815F215A684E004CCE7E /* ZYQAFNController.m in Sources */,
+				F792F55021AB87F200983D2A /* ZYQMaskViewController.m in Sources */,
 				F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */,
 				F72F81AB215A8394004CCE7E /* MJRefreshGifHeader.m in Sources */,
 				F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */,
@@ -2279,6 +2290,7 @@
 				F7CD860E2180C1B7001AECFD /* ZYQQRCodeController.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
 				F73730C4215BC74100E6EF9F /* MBProgressHUD.m in Sources */,
+				F792F54D21AB845300983D2A /* UIView+ZYQHollowMask.m in Sources */,
 				F7A06255216E4B0B000302A4 /* ZYQBadgeDeatilOneController.m in Sources */,
 				F7D88452219082FA0089BA09 /* UIViewController+Present.m in Sources */,
 				F72F81AC215A8394004CCE7E /* MJRefreshFooter.m in Sources */,

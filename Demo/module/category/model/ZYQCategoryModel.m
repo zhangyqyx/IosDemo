@@ -25,6 +25,7 @@
 }
 + (NSArray *)createData {
     NSArray *data = @[@{@"titleName":@"视图",@"introduction":@"视图快速获取frame",@"pushVc":@"ZYQViewController"},
+                      @{@"titleName":@"视图",@"introduction":@"视图设置遮罩效果",@"pushVc":@"ZYQMaskViewController"},
                       @{@"titleName":@"图片",@"introduction":@"有关image的一些操作",@"pushVc":@"ZYQImageViewController"},
                       @{@"titleName":@"颜色",@"introduction":@"有关color的一些操作",@"pushVc":@"ZYQColorViewController"},
                       @{@"titleName":@"时间",@"introduction":@"有关NSDate的一些操作",@"pushVc":@"ZYQDateViewController"}];
