@@ -144,6 +144,10 @@
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
+		F76D7BD921B52D6200E85200 /* UIViewController+ZYQTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BD721B52D6100E85200 /* UIViewController+ZYQTransitionAnimation.m */; };
+		F76D7BDA21B52D6200E85200 /* ZYQTransitonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BD821B52D6100E85200 /* ZYQTransitonAnimation.m */; };
+		F76D7BDE21B52DCB00E85200 /* ZYQCircularAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BDD21B52DCB00E85200 /* ZYQCircularAnimationController.m */; };
+		F76D7BE121B52F4400E85200 /* ZYQCircularAnimationNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BE021B52F4400E85200 /* ZYQCircularAnimationNextController.m */; };
 		F792F54321A64B9D00983D2A /* ZYQDripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54221A64B9D00983D2A /* ZYQDripView.m */; };
 		F792F54621A66EEB00983D2A /* ZYQWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */; };
 		F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */; };
@@ -492,6 +496,14 @@
 		F76489872140116A0020F56C /* UIColor+ZYQDemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYQDemoColor.m"; sourceTree = "<group>"; };
 		F764898A214019FA0020F56C /* ZYQCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCategoryViewController.h; sourceTree = "<group>"; };
 		F764898B214019FA0020F56C /* ZYQCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCategoryViewController.m; sourceTree = "<group>"; };
+		F76D7BD521B52D6100E85200 /* UIViewController+ZYQTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZYQTransitionAnimation.h"; sourceTree = "<group>"; };
+		F76D7BD621B52D6100E85200 /* ZYQTransitonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQTransitonAnimation.h; sourceTree = "<group>"; };
+		F76D7BD721B52D6100E85200 /* UIViewController+ZYQTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZYQTransitionAnimation.m"; sourceTree = "<group>"; };
+		F76D7BD821B52D6100E85200 /* ZYQTransitonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQTransitonAnimation.m; sourceTree = "<group>"; };
+		F76D7BDC21B52DCB00E85200 /* ZYQCircularAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCircularAnimationController.h; sourceTree = "<group>"; };
+		F76D7BDD21B52DCB00E85200 /* ZYQCircularAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCircularAnimationController.m; sourceTree = "<group>"; };
+		F76D7BDF21B52F4400E85200 /* ZYQCircularAnimationNextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCircularAnimationNextController.h; sourceTree = "<group>"; };
+		F76D7BE021B52F4400E85200 /* ZYQCircularAnimationNextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCircularAnimationNextController.m; sourceTree = "<group>"; };
 		F792F54121A64B9D00983D2A /* ZYQDripView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQDripView.h; sourceTree = "<group>"; };
 		F792F54221A64B9D00983D2A /* ZYQDripView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQDripView.m; sourceTree = "<group>"; };
 		F792F54421A66EEB00983D2A /* ZYQWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQWaterWaveView.h; sourceTree = "<group>"; };
@@ -1500,6 +1512,28 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		F76D7BD421B52C6E00E85200 /* transitionsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F76D7BD621B52D6100E85200 /* ZYQTransitonAnimation.h */,
+				F76D7BD821B52D6100E85200 /* ZYQTransitonAnimation.m */,
+				F76D7BD521B52D6100E85200 /* UIViewController+ZYQTransitionAnimation.h */,
+				F76D7BD721B52D6100E85200 /* UIViewController+ZYQTransitionAnimation.m */,
+			);
+			path = transitionsAnimation;
+			sourceTree = "<group>";
+		};
+		F76D7BDB21B52D9000E85200 /* circular */ = {
+			isa = PBXGroup;
+			children = (
+				F76D7BDC21B52DCB00E85200 /* ZYQCircularAnimationController.h */,
+				F76D7BDD21B52DCB00E85200 /* ZYQCircularAnimationController.m */,
+				F76D7BDF21B52F4400E85200 /* ZYQCircularAnimationNextController.h */,
+				F76D7BE021B52F4400E85200 /* ZYQCircularAnimationNextController.m */,
+			);
+			path = circular;
+			sourceTree = "<group>";
+		};
 		F792F54021A5257900983D2A /* WaterDrip */ = {
 			isa = PBXGroup;
 			children = (
@@ -1715,6 +1749,7 @@
 		F7CD86402187617A001AECFD /* animation */ = {
 			isa = PBXGroup;
 			children = (
+				F76D7BD421B52C6E00E85200 /* transitionsAnimation */,
 				F792F54021A5257900983D2A /* WaterDrip */,
 				F7CD86BA2188A109001AECFD /* emitter */,
 				F7CD864121876181001AECFD /* viscousBadge */,
@@ -1744,6 +1779,7 @@
 		F7CD86A721883683001AECFD /* transitionsAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				F76D7BDB21B52D9000E85200 /* circular */,
 				F7CD86AF2188378D001AECFD /* system */,
 				F7CD86A8218836B2001AECFD /* ZYQTransitionsController.h */,
 				F7CD86A9218836B2001AECFD /* ZYQTransitionsController.m */,
@@ -2273,12 +2309,14 @@
 				F71ACA94217F55CD00E273FC /* MyimageView.m in Sources */,
 				F7CD86272180C4D9001AECFD /* ZYQQRCodeScaningController.m in Sources */,
 				F72F815F215A684E004CCE7E /* ZYQAFNController.m in Sources */,
+				F76D7BDA21B52D6200E85200 /* ZYQTransitonAnimation.m in Sources */,
 				F792F55021AB87F200983D2A /* ZYQMaskViewController.m in Sources */,
 				F70B3AF021480F2E000F8823 /* ZYQViewController.m in Sources */,
 				F72F81AB215A8394004CCE7E /* MJRefreshGifHeader.m in Sources */,
 				F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */,
 				F7DC224C212F082F00881809 /* ZYQHomeController.m in Sources */,
 				F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */,
+				F76D7BD921B52D6200E85200 /* UIViewController+ZYQTransitionAnimation.m in Sources */,
 				F72F819D215A8394004CCE7E /* UIScrollView+MJRefresh.m in Sources */,
 				F72F81AF215A8394004CCE7E /* MJRefreshAutoFooter.m in Sources */,
 				F7DC2244212F071500881809 /* ZYQBaseController.m in Sources */,
@@ -2321,6 +2359,7 @@
 				F7CD86CC218AF4D8001AECFD /* ZYQEmitterBtnController.m in Sources */,
 				F72F81CE215A839C004CCE7E /* ZYQRefreshNormalHeader.m in Sources */,
 				F7CD86C9218AED73001AECFD /* ZYQLikeBtn.m in Sources */,
+				F76D7BE121B52F4400E85200 /* ZYQCircularAnimationNextController.m in Sources */,
 				F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */,
 				F7CD86222180C4D9001AECFD /* ZYQQRCodeGenerateController.m in Sources */,
 				F72F813A21495558004CCE7E /* ZYQPopOver.m in Sources */,
@@ -2338,6 +2377,7 @@
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
 				F72ED591216F9BED00E63F99 /* ZYQChangeModel.m in Sources */,
 				F72F8152215A674F004CCE7E /* AFNetworkReachabilityManager.m in Sources */,
+				F76D7BDE21B52DCB00E85200 /* ZYQCircularAnimationController.m in Sources */,
 				F72F81D2215A8761004CCE7E /* ZYQRefreshController.m in Sources */,
 				F72F816B215A6F32004CCE7E /* ZYQThreeCell.m in Sources */,
 				F71BC47A217C25DE000F931C /* ZYQDES.m in Sources */,

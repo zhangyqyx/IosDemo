@@ -6,8 +6,8 @@
 //  Copyright © 2018年 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
 //
 
-#import "ZYQViewController.h"
+#import "ZYQBaseController.h"
 
-@interface ZYQOtherController : ZYQViewController
+@interface ZYQOtherController : ZYQBaseController
 
 @end

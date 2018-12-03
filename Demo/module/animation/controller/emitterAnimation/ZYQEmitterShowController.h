@@ -6,11 +6,11 @@
 //  Copyright © 2018年 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
 //
 
-#import "ZYQViewController.h"
+#import "ZYQBaseController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZYQEmitterShowController : ZYQViewController
+@interface ZYQEmitterShowController : ZYQBaseController
 /** 类型 */
 @property(nonatomic , strong)NSString *type;
 

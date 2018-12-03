@@ -186,7 +186,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"%ld - %@", indexPath.row, self.datas[indexPath.row]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld - %@", (long)indexPath.row, self.datas[indexPath.row]];
     
     return cell;
 }

@@ -21,7 +21,8 @@
     return [mutArr copy];
 }
 + (NSArray *)createData {
-    NSArray *data = @[@{@"title":@"系统默认支持的一些转场动画", @"nextVc":@"ZYQSystemAnimationController"}];
+    NSArray *data = @[@{@"title":@"系统默认支持的一些转场动画", @"nextVc":@"ZYQSystemAnimationController"},
+                      @{@"title":@"自定义的圆形转场动画", @"nextVc":@"ZYQCircularAnimationController"}];
     return data;
 }
 @end

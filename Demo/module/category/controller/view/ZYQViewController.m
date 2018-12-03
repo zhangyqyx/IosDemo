@@ -29,7 +29,7 @@
 #pragma mark - 按钮点击
 
 - (IBAction)getValue:(UIButton *)sender {
-    NSLog(@"tag值：%ld" ,sender.tag);
+    NSLog(@"tag值：%ld" ,(long)sender.tag);
     switch (sender.tag) {
         case 201:
          [self addLabelWithFrame:CGRectMake(self.currentView.ZYQ_viewX - 60, self.currentView.ZYQ_viewY -10, 120, 21) title:[NSString stringWithFormat:@"{x , y}-%@" , NSStringFromCGPoint(self.currentView.ZYQ_viewOrign)]];

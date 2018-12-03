@@ -1,8 +1,8 @@
 //
-//  ZYQAnimationController.h
+//  ZYQCircularAnimationNextController.h
 //  Demo
 //
-//  Created by ༺ོ࿆强ོ࿆ ༻ on 2018/10/29.
+//  Created by ༺ོ࿆强ོ࿆ ༻ on 2018/12/3.
 //  Copyright © 2018年 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZYQAnimationController : ZYQBaseController
+@interface ZYQCircularAnimationNextController : ZYQBaseController
 
 @end
 

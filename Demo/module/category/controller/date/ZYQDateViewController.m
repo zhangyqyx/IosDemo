@@ -34,7 +34,7 @@
     NSUInteger day      = [self.date ZYQ_day];//  [NSDate ZYQ_day:self.date];
     NSUInteger mounth   = [self.date ZYQ_month];//  [NSDate ZYQ_month:self.date];
     NSUInteger year     = [self.date ZYQ_year];//  [NSDate ZYQ_year:self.date];
-    self.showView.text = [NSString stringWithFormat:@"当前时间：\n%lu年\n%lu月\n%lu日\n%lu时\n%lu分\n%lu秒\n" , year,mounth,day,hour,minute,second];
+    self.showView.text = [NSString stringWithFormat:@"当前时间：\n%lu年\n%lu月\n%lu日\n%lu时\n%lu分\n%lu秒\n" , (unsigned long)year,(unsigned long)mounth,(unsigned long)day,(unsigned long)hour,(unsigned long)minute,(unsigned long)second];
     
 }
 //获取当前时间

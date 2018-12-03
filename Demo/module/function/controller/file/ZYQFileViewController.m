@@ -127,7 +127,7 @@
    NSDate *date  = [ZYQFileManager ZYQ_getDirectoryOrFileCreatDateWithPath:self.filePath];
    NSDate *changeDate = [ZYQFileManager ZYQ_getDirectoryOrFileChangeDateWithPath:self.filePath];
    NSString * str = [ZYQFileManager ZYQ_getDirectoryOrFileOwnerWithPath:self.filePath];
-    self.showView.text = [NSString stringWithFormat:@"文件大小:%ld\n 文件创建时间:%@\n 文件修改时间:%@\n 文件所有者:%@\n" ,size, date,changeDate,str];
+    self.showView.text = [NSString stringWithFormat:@"文件大小:%ld\n 文件创建时间:%@\n 文件修改时间:%@\n 文件所有者:%@\n" ,(long)size, date,changeDate,str];
 }
 
 @end
