@@ -51,7 +51,7 @@
     cusAnimation.animationType = ZYQCircularAnimationType;
     self.ZYQ_pushTranstion = cusAnimation;
     self.ZYQ_popTransition = cusAnimation;
-    [self.navigationController pushViewController:customVc animated:false];
+    [self.navigationController pushViewController:customVc animated:true];
 }
 
 

@@ -73,9 +73,6 @@ static NSString *ZYQDismissTranstionKey  = @"ZYQDismissTranstionKey";
         return nil;
     }
 }
-- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    NSLog(@"1234");
-}
 
 #pragma mark -- present和dismiss动画
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
