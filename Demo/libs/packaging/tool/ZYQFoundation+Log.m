@@ -29,12 +29,12 @@
 
 - (NSString *)descriptionWithLocale:(id)locale {
     NSString *result = [self convertToJsonString];
-    if (!result) return [self descriptionWithLocale:locale];
+    if (!result) return [self debugDescription];
     return result;
 }
 - (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     NSString *result = [self convertToJsonString];
-    if (!result) return [self descriptionWithLocale:locale indent:level];
+    if (!result) return [self debugDescription];
     return result;
 }
 
@@ -45,12 +45,16 @@
 
 - (NSString *)descriptionWithLocale:(id)locale {
     NSString *result = [self convertToJsonString];
-    if (!result) return [self descriptionWithLocale:locale];
+    if (!result){
+      return [self debugDescription];
+    }
     return result;
 }
 - (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     NSString *result = [self convertToJsonString];
-    if (!result) return [self descriptionWithLocale:locale indent:level];
+    if (!result){
+        return [self debugDescription];
+    }
     return result;
 }
 
