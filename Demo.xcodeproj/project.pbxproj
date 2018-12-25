@@ -231,6 +231,9 @@
 		F7D8844F219082ED0089BA09 /* kcbIcon40*40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D88434219082ED0089BA09 /* kcbIcon40*40@3x.png */; };
 		F7D88452219082FA0089BA09 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D88450219082FA0089BA09 /* UIViewController+Present.m */; };
 		F7D88456219083800089BA09 /* ZYQChangeAppIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D88455219083800089BA09 /* ZYQChangeAppIconController.m */; };
+		F7D9E40921D1BC8600BC6584 /* ZYQSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D9E40321D1BC8600BC6584 /* ZYQSphereView.m */; };
+		F7D9E40A21D1BC8600BC6584 /* ZYQSphereModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D9E40821D1BC8600BC6584 /* ZYQSphereModel.m */; };
+		F7D9E40E21D1BD1E00BC6584 /* ZYQSphereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D9E40D21D1BD1E00BC6584 /* ZYQSphereViewController.m */; };
 		F7DC2229212F040600881809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC2228212F040600881809 /* AppDelegate.m */; };
 		F7DC222F212F040600881809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC222D212F040600881809 /* Main.storyboard */; };
 		F7DC2231212F040700881809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC2230212F040700881809 /* Assets.xcassets */; };
@@ -635,6 +638,14 @@
 		F7D88451219082FA0089BA09 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
 		F7D88454219083800089BA09 /* ZYQChangeAppIconController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQChangeAppIconController.h; sourceTree = "<group>"; };
 		F7D88455219083800089BA09 /* ZYQChangeAppIconController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQChangeAppIconController.m; sourceTree = "<group>"; };
+		F7D9E40321D1BC8600BC6584 /* ZYQSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQSphereView.m; sourceTree = "<group>"; };
+		F7D9E40421D1BC8600BC6584 /* ZYQSphereModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQSphereModel.h; sourceTree = "<group>"; };
+		F7D9E40521D1BC8600BC6584 /* ZYQSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQSphereView.h; sourceTree = "<group>"; };
+		F7D9E40621D1BC8600BC6584 /* ZYQMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQMatrix.h; sourceTree = "<group>"; };
+		F7D9E40721D1BC8600BC6584 /* ZYQPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQPoint.h; sourceTree = "<group>"; };
+		F7D9E40821D1BC8600BC6584 /* ZYQSphereModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQSphereModel.m; sourceTree = "<group>"; };
+		F7D9E40C21D1BD1E00BC6584 /* ZYQSphereViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQSphereViewController.h; sourceTree = "<group>"; };
+		F7D9E40D21D1BD1E00BC6584 /* ZYQSphereViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQSphereViewController.m; sourceTree = "<group>"; };
 		F7DC2224212F040600881809 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC2227212F040600881809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7DC2228212F040600881809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1013,6 +1024,7 @@
 		F72F813621495524004CCE7E /* function */ = {
 			isa = PBXGroup;
 			children = (
+				F7D9E40221D1BC8600BC6584 /* sphereView */,
 				F7D884152190829C0089BA09 /* changeAppIcon */,
 				F7CD8736218C4396001AECFD /* search */,
 				F71ACAA3217F682000E273FC /* QRCode */,
@@ -1587,6 +1599,7 @@
 		F7A0622B216E39E1000302A4 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D9E40B21D1BCE000BC6584 /* sphereView */,
 				F7D884532190834F0089BA09 /* changeAppIcon */,
 				F7CD874A218C47F7001AECFD /* search */,
 				F7CD860B2180C19A001AECFD /* QRCode */,
@@ -2003,6 +2016,28 @@
 			path = changeAppIcon;
 			sourceTree = "<group>";
 		};
+		F7D9E40221D1BC8600BC6584 /* sphereView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9E40621D1BC8600BC6584 /* ZYQMatrix.h */,
+				F7D9E40721D1BC8600BC6584 /* ZYQPoint.h */,
+				F7D9E40421D1BC8600BC6584 /* ZYQSphereModel.h */,
+				F7D9E40821D1BC8600BC6584 /* ZYQSphereModel.m */,
+				F7D9E40521D1BC8600BC6584 /* ZYQSphereView.h */,
+				F7D9E40321D1BC8600BC6584 /* ZYQSphereView.m */,
+			);
+			path = sphereView;
+			sourceTree = "<group>";
+		};
+		F7D9E40B21D1BCE000BC6584 /* sphereView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9E40C21D1BD1E00BC6584 /* ZYQSphereViewController.h */,
+				F7D9E40D21D1BD1E00BC6584 /* ZYQSphereViewController.m */,
+			);
+			path = sphereView;
+			sourceTree = "<group>";
+		};
 		F7DC221B212F040500881809 = {
 			isa = PBXGroup;
 			children = (
@@ -2276,6 +2311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D9E40921D1BC8600BC6584 /* ZYQSphereView.m in Sources */,
 				F7D883B121900CE90089BA09 /* ZYQFoundation+Log.m in Sources */,
 				F72F81A0215A8394004CCE7E /* UIScrollView+MJExtension.m in Sources */,
 				F7A06240216E3A85000302A4 /* CAAnimation+ZYQBadgeAnimation.m in Sources */,
@@ -2324,6 +2360,7 @@
 				F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */,
 				F71BC47D217C25DE000F931C /* ZYQBase64.m in Sources */,
 				F72F81C9215A839C004CCE7E /* ZYQRefreshCustomTitleFooter.m in Sources */,
+				F7D9E40E21D1BD1E00BC6584 /* ZYQSphereViewController.m in Sources */,
 				F71ACA91217F55CD00E273FC /* ColorPickerView.m in Sources */,
 				F7CD860E2180C1B7001AECFD /* ZYQQRCodeController.m in Sources */,
 				F72F81AE215A8394004CCE7E /* MJRefreshBackFooter.m in Sources */,
@@ -2336,6 +2373,7 @@
 				F7A0623E216E3A85000302A4 /* UIBarButtonItem+ZYQBadge.m in Sources */,
 				F72F81A2215A8394004CCE7E /* UIView+MJExtension.m in Sources */,
 				F72F81AA215A8394004CCE7E /* MJRefreshStateHeader.m in Sources */,
+				F7D9E40A21D1BC8600BC6584 /* ZYQSphereModel.m in Sources */,
 				F73545852146B68E006A3136 /* ZYQCategoryCell.m in Sources */,
 				F72F81A5215A8394004CCE7E /* MJRefreshBackNormalFooter.m in Sources */,
 				F73545802146B3AE006A3136 /* ZYQCategoryModel.m in Sources */,
