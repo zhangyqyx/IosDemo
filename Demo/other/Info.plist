@@ -67,9 +67,9 @@
 	<key>NSCameraUsageDescription</key>
 	<string>需要访问您的相机以便于扫描二维信息</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>允许读取健康数据</string>
+	<string>share</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>允许写入健康数据</string>
+	<string>update</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>需要访问您的相册以便于保存图片信息</string>
 	<key>NSPhotoLibraryUsageDescription</key>

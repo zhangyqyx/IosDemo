@@ -62,7 +62,6 @@
 		F72ED55F216F8C6900E63F99 /* ZYQHealthKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED55E216F8C6900E63F99 /* ZYQHealthKitController.m */; };
 		F72ED562216F8C8600E63F99 /* ZYQHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED560216F8C8500E63F99 /* ZYQHealthManager.m */; };
 		F72ED566216F8CE900E63F99 /* NSDate+HKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */; };
-		F72ED56A216F90F500E63F99 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72ED569216F90F500E63F99 /* HealthKit.framework */; };
 		F72ED56D216F916B00E63F99 /* ZYQHealthKitDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED56C216F916B00E63F99 /* ZYQHealthKitDetailController.m */; };
 		F72ED571216F91BD00E63F99 /* ZYQHealthKitDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72ED570216F91BD00E63F99 /* ZYQHealthKitDetailController.xib */; };
 		F72ED576216F9AC200E63F99 /* ZYQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72ED575216F9AC200E63F99 /* ZYQRuntimeController.m */; };
@@ -132,7 +131,6 @@
 		F73730AC215BC23500E6EF9F /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730AB215BC23500E6EF9F /* UIViewController+Example.m */; };
 		F73730BE215BC74100E6EF9F /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730AF215BC74000E6EF9F /* FLAnimatedImage.m */; };
 		F73730BF215BC74100E6EF9F /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B0215BC74000E6EF9F /* FLAnimatedImageView.m */; };
-		F73730C0215BC74100E6EF9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F73730B3215BC74000E6EF9F /* Info.plist */; };
 		F73730C1215BC74100E6EF9F /* ZYQProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B5215BC74000E6EF9F /* ZYQProgressHUD.m */; };
 		F73730C2215BC74100E6EF9F /* ZYQMusicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730B9215BC74000E6EF9F /* ZYQMusicAnimation.m */; };
 		F73730C3215BC74100E6EF9F /* ZYQHUDProgress.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F73730BA215BC74000E6EF9F /* ZYQHUDProgress.bundle */; };
@@ -141,6 +139,7 @@
 		F73730CC215BC8EC00E6EF9F /* ZYQHUDProgressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CB215BC8EC00E6EF9F /* ZYQHUDProgressModel.m */; };
 		F73730CF215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */; };
 		F73730D3215FC5D800E6EF9F /* ZYQAFNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F73730D2215FC5D800E6EF9F /* ZYQAFNModel.m */; };
+		F74EC98521D2323800164B59 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74EC98421D2323800164B59 /* HealthKit.framework */; };
 		F764897F214009490020F56C /* ZYQHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */; };
 		F7648980214009490020F56C /* ZYQHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */; };
 		F764898C214019FA0020F56C /* ZYQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764898B214019FA0020F56C /* ZYQCategoryViewController.m */; };
@@ -341,7 +340,6 @@
 		F72ED564216F8CE900E63F99 /* NSDate+HKDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HKDate.h"; sourceTree = "<group>"; };
 		F72ED565216F8CE900E63F99 /* NSDate+HKDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HKDate.m"; sourceTree = "<group>"; };
 		F72ED567216F90F400E63F99 /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
-		F72ED569216F90F500E63F99 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		F72ED56B216F916B00E63F99 /* ZYQHealthKitDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHealthKitDetailController.h; sourceTree = "<group>"; };
 		F72ED56C216F916B00E63F99 /* ZYQHealthKitDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHealthKitDetailController.m; sourceTree = "<group>"; };
 		F72ED570216F91BD00E63F99 /* ZYQHealthKitDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQHealthKitDetailController.xib; sourceTree = "<group>"; };
@@ -490,6 +488,8 @@
 		F73730CE215BC97C00E6EF9F /* ZYQProgressHUDDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQProgressHUDDetailController.m; sourceTree = "<group>"; };
 		F73730D1215FC5D800E6EF9F /* ZYQAFNModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQAFNModel.h; sourceTree = "<group>"; };
 		F73730D2215FC5D800E6EF9F /* ZYQAFNModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQAFNModel.m; sourceTree = "<group>"; };
+		F74EC98421D2323800164B59 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F74EC98621D233D700164B59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F764897C214009490020F56C /* ZYQHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		F764897D214009490020F56C /* ZYQHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		F764897E214009490020F56C /* ZYQHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYQHomeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -652,7 +652,6 @@
 		F7DC222E212F040600881809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7DC2230212F040700881809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7DC2233212F040700881809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7DC2235212F040700881809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DC2236212F040700881809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7DC2242212F071500881809 /* ZYQBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQBaseController.h; sourceTree = "<group>"; };
 		F7DC2243212F071500881809 /* ZYQBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQBaseController.m; sourceTree = "<group>"; };
@@ -669,7 +668,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72ED56A216F90F500E63F99 /* HealthKit.framework in Frameworks */,
+				F74EC98521D2323800164B59 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,7 +976,7 @@
 		F72ED568216F90F500E63F99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F72ED569216F90F500E63F99 /* HealthKit.framework */,
+				F74EC98421D2323800164B59 /* HealthKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2077,10 +2076,10 @@
 			children = (
 				F7DC2227212F040600881809 /* AppDelegate.h */,
 				F7DC2228212F040600881809 /* AppDelegate.m */,
+				F74EC98621D233D700164B59 /* Info.plist */,
 				F7DC222D212F040600881809 /* Main.storyboard */,
 				F7DC2230212F040700881809 /* Assets.xcassets */,
 				F7DC2232212F040700881809 /* LaunchScreen.storyboard */,
-				F7DC2235212F040700881809 /* Info.plist */,
 				F7DC2236212F040700881809 /* main.m */,
 			);
 			path = other;
@@ -2273,7 +2272,6 @@
 				F72F819F215A8394004CCE7E /* MJRefresh.bundle in Resources */,
 				F7CD86A621882AFB001AECFD /* ZYQRefreshManager.bundle in Resources */,
 				F7D88444219082ED0089BA09 /* health20*20@3x.png in Resources */,
-				F73730C0215BC74100E6EF9F /* Info.plist in Resources */,
 				F7D8843F219082ED0089BA09 /* health40*40@2x.png in Resources */,
 				F7D8844E219082ED0089BA09 /* kcbIcon29*29@2x.png in Resources */,
 				F71ACA99217F55CD00E273FC /* pickerColor.png in Resources */,
@@ -2623,7 +2621,7 @@
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2645,7 +2643,7 @@
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/macro/MacroDefinition.h";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
