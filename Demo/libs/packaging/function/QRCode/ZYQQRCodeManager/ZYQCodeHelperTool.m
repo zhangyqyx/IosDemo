@@ -23,6 +23,7 @@
         }
         
     }
+ 
 }
 
 + (void)ZYQ_closeFlashlight {
