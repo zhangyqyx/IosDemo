@@ -147,6 +147,7 @@
 		F76D7BDA21B52D6200E85200 /* ZYQTransitonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BD821B52D6100E85200 /* ZYQTransitonAnimation.m */; };
 		F76D7BDE21B52DCB00E85200 /* ZYQCircularAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BDD21B52DCB00E85200 /* ZYQCircularAnimationController.m */; };
 		F76D7BE121B52F4400E85200 /* ZYQCircularAnimationNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D7BE021B52F4400E85200 /* ZYQCircularAnimationNextController.m */; };
+		F779AFC6221E866A007644ED /* NSBundle+ZYQBundleResource.m in Sources */ = {isa = PBXBuildFile; fileRef = F779AFC5221E866A007644ED /* NSBundle+ZYQBundleResource.m */; };
 		F792F54321A64B9D00983D2A /* ZYQDripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54221A64B9D00983D2A /* ZYQDripView.m */; };
 		F792F54621A66EEB00983D2A /* ZYQWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54521A66EEB00983D2A /* ZYQWaterWaveView.m */; };
 		F792F54A21A68C9E00983D2A /* ZYQFillAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F792F54921A68C9E00983D2A /* ZYQFillAnimationController.m */; };
@@ -507,6 +508,8 @@
 		F76D7BDD21B52DCB00E85200 /* ZYQCircularAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCircularAnimationController.m; sourceTree = "<group>"; };
 		F76D7BDF21B52F4400E85200 /* ZYQCircularAnimationNextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQCircularAnimationNextController.h; sourceTree = "<group>"; };
 		F76D7BE021B52F4400E85200 /* ZYQCircularAnimationNextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQCircularAnimationNextController.m; sourceTree = "<group>"; };
+		F779AFC4221E866A007644ED /* NSBundle+ZYQBundleResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZYQBundleResource.h"; sourceTree = "<group>"; };
+		F779AFC5221E866A007644ED /* NSBundle+ZYQBundleResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZYQBundleResource.m"; sourceTree = "<group>"; };
 		F792F54121A64B9D00983D2A /* ZYQDripView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQDripView.h; sourceTree = "<group>"; };
 		F792F54221A64B9D00983D2A /* ZYQDripView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQDripView.m; sourceTree = "<group>"; };
 		F792F54421A66EEB00983D2A /* ZYQWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQWaterWaveView.h; sourceTree = "<group>"; };
@@ -1840,6 +1843,8 @@
 				F7CD86BC2188A137001AECFD /* ZYQEmitterView.m */,
 				F7CD86C7218AED73001AECFD /* ZYQLikeBtn.h */,
 				F7CD86C8218AED73001AECFD /* ZYQLikeBtn.m */,
+				F779AFC4221E866A007644ED /* NSBundle+ZYQBundleResource.h */,
+				F779AFC5221E866A007644ED /* NSBundle+ZYQBundleResource.m */,
 			);
 			path = emitter;
 			sourceTree = "<group>";
@@ -2412,6 +2417,7 @@
 				F70B3ADF2148043E000F8823 /* ZYQColorViewController.m in Sources */,
 				F7DC2229212F040600881809 /* AppDelegate.m in Sources */,
 				F72ED591216F9BED00E63F99 /* ZYQChangeModel.m in Sources */,
+				F779AFC6221E866A007644ED /* NSBundle+ZYQBundleResource.m in Sources */,
 				F72F8152215A674F004CCE7E /* AFNetworkReachabilityManager.m in Sources */,
 				F76D7BDE21B52DCB00E85200 /* ZYQCircularAnimationController.m in Sources */,
 				F72F81D2215A8761004CCE7E /* ZYQRefreshController.m in Sources */,

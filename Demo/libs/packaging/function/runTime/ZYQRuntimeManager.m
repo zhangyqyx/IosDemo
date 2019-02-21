@@ -30,7 +30,7 @@ static id archiveModel;
 + (NSArray *)ZYQ_getAllIvarWithClass:(Class )className {
     NSMutableArray *ivarNames = [NSMutableArray array];
     unsigned int count = 0;
-    //获取所有方法
+    //获取所有属性
     Ivar *ivarList = class_copyIvarList(className, &count);
     for (int i = 0; i < count; i++) {
         Ivar var = ivarList[i];
