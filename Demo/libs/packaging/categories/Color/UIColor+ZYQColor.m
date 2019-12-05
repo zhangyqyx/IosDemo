@@ -96,7 +96,7 @@
         return [UIColor clearColor];
     }
     
-    if ([colorString hasPrefix:@"0X"]) {
+    if ([colorString hasPrefix:@"0X"] ||[colorString hasPrefix:@"0x"]) {
         colorString = [colorString substringFromIndex:2];
     }
     

@@ -75,7 +75,7 @@
 
 /**
  通过一个16进制的字符串转换成颜色
- @param hexColor 16进制字符串 是 #00ff0b 或者 00ff0b 这种格式
+ @param hexColor 16进制字符串 是"#123456"、 @"0X123456"、@"0x123456"、 @"123456"这种格式
  @return 颜色
  */
 + (nullable instancetype)ZYQ_getColor:(nullable NSString *)hexColor;
@@ -83,7 +83,7 @@
 /**
   通过一个16进制的字符串转换成颜色
 
- @param hexColor  16进制字符串 是 #00ff0b  或者00ff0b 这种格式
+ @param hexColor  16进制字符串 是@"#123456"、 @"0X123456"、@"0x123456"、 @"123456"这种格式
  @param alpha 透明度值
  @return 颜色
  */

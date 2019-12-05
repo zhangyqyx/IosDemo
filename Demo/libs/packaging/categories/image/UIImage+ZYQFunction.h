@@ -127,4 +127,53 @@
                            withframe:(CGRect)frame;
 
 
+/**
+ 将两个图片生成一张图片
+
+ @param firstImage 第一张图片
+ @param secondImage 第二张图片
+ @return 生成的图片
+ */
++ (nonnull UIImage *)ZYQ_mergeImage:(nonnull UIImage *)firstImage
+                          withImage:(nonnull UIImage *)secondImage;
+
+
+
+//改变图片的颜色
+- (nonnull UIImage *)ZYQ_imageWithTintColor:(nonnull UIColor *)tintColor;
+
+//获得灰度图
+- (nonnull UIImage *)ZYQ_convertToGrayImage;
+
+#pragma mark - rotate
+
+//纠正图片的方向
+- (nonnull UIImage *)ZYQ_fixOrientation;
+
+//按给定的方向旋转图片
+- (nonnull UIImage *)ZYQ_rotate:(UIImageOrientation)orient;
+
+//垂直翻转
+- (nonnull UIImage *)ZYQ_flipVertical;
+
+//水平翻转
+- (nonnull UIImage *)ZYQ_flipHorizontal;
+
+//将图片旋转degrees角度
+- (nonnull UIImage *)ZYQ_imageRotatedByDegrees:(CGFloat)degrees;
+
+//将图片旋转radians弧度
+- (nonnull UIImage *)ZYQ_imageRotatedByRadians:(CGFloat)radians;
+
+#pragma mark - gif
+
+//用一个Gif生成UIImage，传入一个GIFData
++ (nonnull UIImage *)ZYQ_animatedImageWithAnimatedGIFData:(nonnull NSData *)data;
+
+//用一个Gif生成UIImage，传入一个GIF路径
++ (nonnull UIImage *)ZYQ_animatedImageWithAnimatedGIFURL:(nonnull NSURL *)url;
+
+
+
+
 @end
